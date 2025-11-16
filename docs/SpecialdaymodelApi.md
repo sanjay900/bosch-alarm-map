@@ -1,0 +1,192 @@
+# openapi_client.SpecialdaymodelApi
+
+All URIs are relative to *https://169.254.10.10*
+
+Method | HTTP request | Description
+------------- | ------------- | -------------
+[**get_specialdaymodel**](SpecialdaymodelApi.md#get_specialdaymodel) | **GET** /specialdaymodel/{SpecialDayModelID} | Get a special day model from the MAP system
+[**post_specialdaymodel**](SpecialdaymodelApi.md#post_specialdaymodel) | **POST** /specialdaymodel | Create modify or delete a special day Model on the MAP system
+
+
+# **get_specialdaymodel**
+> GetSpecialdaymodel200Response get_specialdaymodel(special_day_model_id)
+
+Get a special day model from the MAP system
+
+This function returns all parameters of a defined specialday model.
+
+### Example
+
+
+```python
+import openapi_client
+from openapi_client.models.get_specialdaymodel200_response import GetSpecialdaymodel200Response
+from openapi_client.rest import ApiException
+from pprint import pprint
+
+# Defining the host is optional and defaults to https://169.254.10.10
+# See configuration.py for a list of all supported configuration parameters.
+configuration = openapi_client.Configuration(
+    host = "https://169.254.10.10"
+)
+
+# The client must configure the authentication and authorization parameters
+# in accordance with the API server security policy.
+# Examples for each auth method are provided below, use the example that
+# satisfies your auth use case.
+
+# Enter a context with an instance of the API client
+with openapi_client.ApiClient(configuration) as api_client:
+    # Create an instance of the API class
+    api_instance = openapi_client.SpecialdaymodelApi(api_client)
+    special_day_model_id = '24-Hour' # str | unique name of a Special day model
+
+    try:
+        # Get a special day model from the MAP system
+        api_response = api_instance.get_specialdaymodel(special_day_model_id)
+        print("The response of SpecialdaymodelApi->get_specialdaymodel:\n")
+        pprint(api_response)
+    except Exception as e:
+        print("Exception when calling SpecialdaymodelApi->get_specialdaymodel: %s\n" % e)
+```
+
+
+
+### Parameters
+
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **special_day_model_id** | **str**| unique name of a Special day model | 
+
+### Return type
+
+[**GetSpecialdaymodel200Response**](GetSpecialdaymodel200Response.md)
+
+### Authorization
+
+[clientCert](../README.md#clientCert)
+
+### HTTP request headers
+
+ - **Content-Type**: Not defined
+ - **Accept**: application/json
+
+### HTTP response details
+
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+**200** | Successful operation |  -  |
+**401** | Unauthorized &lt;br&gt; This response code indicates that the client does not have the appropriate access rights to execute the requested action on the server. It indicates that an authorization needs to be done for the request.  |  -  |
+**403** | Required license not found. Server response indicates missing license type.  |  -  |
+**404** | Not found. The request URL with the specified parameter was not found.  |  -  |
+**500** | Internal Server Error  |  -  |
+**503** | Service Unavailable &lt;br&gt; This response code indicates that the server is in a temporary overload condition and thus unable to serve the request. The client can retry the request at a later point in time.  |  -  |
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **post_specialdaymodel**
+> SpecialDayModelSyncID post_specialdaymodel(post_specialdaymodel_request)
+
+Create modify or delete a special day Model on the MAP system
+
+This function is used to create, modify or delete a specialday model on a MAP system from the REST-API interface. It has the same functionalities like the RPS for MAP. This URL is designed to be used from a system, that controls remotely the user and system parameters of several MAP systems. <br>
+To use the functions, every POST request needs a valid specialDayModelSyncID. The initial specialDayModelSyncID can be get from the commands GET /syncstatus or GET /specialdaymodellist. After a successful operation, you get a new valid specialDayModelSyncID back. It is recommended to use this ID, if you want to create, modify or delete several specialday models.<br>
+The specialday model is used to define customized specific holidays. <br>
+A specialday model is created as a one time event or as a cyclically occurring holiday.
+A specialday model can be used from an area and time model. Do not delete the specialday model if it has a dependency to an area and time model.
+
+### Create time model
+
+To create a new specialday model on a MAP system, the client must ensure that the key value *specialDayModelID* is not already used on the system. Further a valid specialDayModelSyncID is required.
+The following examples show how to create a specialday models:
+  - createSpecialDayModelMonthlyRepeat
+  - createSpecialDayModelNoRepeat
+  - createSpecialDayModelEasterBased
+  - createSpecialDayModelRepeatUntil
+  - createSpecialDayModelCostum
+
+### Modify time model
+
+To modify an existing specialday model on a MAP system, the client needs a valid specialDayModelSyncID.
+The example *modifyTimeModel* shows how to modify a time model.
+
+### Delete time model
+
+To delete an existing specialday model on a MAP system, the client needs also a valid specialDayModelSyncID.
+The example *deleteTimeModel* shows how to delete a time model:.
+
+
+### Example
+
+
+```python
+import openapi_client
+from openapi_client.models.post_specialdaymodel_request import PostSpecialdaymodelRequest
+from openapi_client.models.special_day_model_sync_id import SpecialDayModelSyncID
+from openapi_client.rest import ApiException
+from pprint import pprint
+
+# Defining the host is optional and defaults to https://169.254.10.10
+# See configuration.py for a list of all supported configuration parameters.
+configuration = openapi_client.Configuration(
+    host = "https://169.254.10.10"
+)
+
+# The client must configure the authentication and authorization parameters
+# in accordance with the API server security policy.
+# Examples for each auth method are provided below, use the example that
+# satisfies your auth use case.
+
+# Enter a context with an instance of the API client
+with openapi_client.ApiClient(configuration) as api_client:
+    # Create an instance of the API class
+    api_instance = openapi_client.SpecialdaymodelApi(api_client)
+    post_specialdaymodel_request = {"@cmd":"CREATE","specialDayModelID":"Onetime holiday","dayModelID":"24-Hour","priority":55,"nextOccurrence":"2022-8-23","repeatPolicy":"monthly","specialDayModelSyncID":265} # PostSpecialdaymodelRequest | 
+
+    try:
+        # Create modify or delete a special day Model on the MAP system
+        api_response = api_instance.post_specialdaymodel(post_specialdaymodel_request)
+        print("The response of SpecialdaymodelApi->post_specialdaymodel:\n")
+        pprint(api_response)
+    except Exception as e:
+        print("Exception when calling SpecialdaymodelApi->post_specialdaymodel: %s\n" % e)
+```
+
+
+
+### Parameters
+
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **post_specialdaymodel_request** | [**PostSpecialdaymodelRequest**](PostSpecialdaymodelRequest.md)|  | 
+
+### Return type
+
+[**SpecialDayModelSyncID**](SpecialDayModelSyncID.md)
+
+### Authorization
+
+[clientCert](../README.md#clientCert)
+
+### HTTP request headers
+
+ - **Content-Type**: application/json
+ - **Accept**: application/json
+
+### HTTP response details
+
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+**201** | Created. The request succeeded, and resource was either created, modified or deleted. |  -  |
+**400** | Bad Request |  -  |
+**401** | Unauthorized &lt;br&gt; This response code indicates that the client does not have the appropriate access rights to execute the requested action on the server. It indicates that an authorization needs to be done for the request.  |  -  |
+**403** | Required license not found. Server response indicates missing license type.  |  -  |
+**404** | Not found. The request URL with the specified parameter was not found.  |  -  |
+**409** | Conflict |  -  |
+**500** | Internal Server Error  |  -  |
+**503** | Service Unavailable &lt;br&gt; This response code indicates that the server is in a temporary overload condition and thus unable to serve the request. The client can retry the request at a later point in time.  |  -  |
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
