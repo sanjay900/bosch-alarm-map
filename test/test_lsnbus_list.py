@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.lsnbus_list import LsnbusList
+from bosch_alarm_map.models.lsnbus_list import LsnbusList
 
 class TestLsnbusList(unittest.TestCase):
     """LsnbusList unit test stubs"""

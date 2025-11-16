@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.desc_main_resources_inner import DescMainResourcesInner
+from bosch_alarm_map.models.desc_main_resources_inner import DescMainResourcesInner
 
 class TestDescMainResourcesInner(unittest.TestCase):
     """DescMainResourcesInner unit test stubs"""

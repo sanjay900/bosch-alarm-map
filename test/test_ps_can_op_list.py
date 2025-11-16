@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.ps_can_op_list import PsCanOpList
+from bosch_alarm_map.models.ps_can_op_list import PsCanOpList
 
 class TestPsCanOpList(unittest.TestCase):
     """PsCanOpList unit test stubs"""

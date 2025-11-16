@@ -20,9 +20,9 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictBool
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.arming_info_why_not_ready_to_arm import ArmingInfoWhyNotReadyToArm
-from openapi_client.models.arming_info_why_not_ready_to_disarm import ArmingInfoWhyNotReadyToDisarm
-from openapi_client.models.arming_info_why_not_ready_to_force_arm import ArmingInfoWhyNotReadyToForceArm
+from bosch_alarm_map.models.arming_info_why_not_ready_to_arm import ArmingInfoWhyNotReadyToArm
+from bosch_alarm_map.models.arming_info_why_not_ready_to_disarm import ArmingInfoWhyNotReadyToDisarm
+from bosch_alarm_map.models.arming_info_why_not_ready_to_force_arm import ArmingInfoWhyNotReadyToForceArm
 from typing import Optional, Set
 from typing_extensions import Self
 

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.create_sub import CreateSub
+from bosch_alarm_map.models.create_sub import CreateSub
 
 class TestCreateSub(unittest.TestCase):
     """CreateSub unit test stubs"""

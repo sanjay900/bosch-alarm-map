@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.api.permissionmodellist_api import PermissionmodellistApi
+from bosch_alarm_map.api.permissionmodellist_api import PermissionmodellistApi
 
 
 class TestPermissionmodellistApi(unittest.TestCase):

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.api.history_api import HistoryApi
+from bosch_alarm_map.api.history_api import HistoryApi
 
 
 class TestHistoryApi(unittest.TestCase):

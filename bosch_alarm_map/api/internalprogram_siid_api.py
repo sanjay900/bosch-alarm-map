@@ -19,13 +19,13 @@ from typing_extensions import Annotated
 
 from pydantic import Field, StrictStr
 from typing_extensions import Annotated
-from openapi_client.models.internal_program import InternalProgram
-from openapi_client.models.ip_arming_info import IpArmingInfo
-from openapi_client.models.post_interprogram_siid_request import PostInterprogramSIIDRequest
+from bosch_alarm_map.models.internal_program import InternalProgram
+from bosch_alarm_map.models.ip_arming_info import IpArmingInfo
+from bosch_alarm_map.models.post_interprogram_siid_request import PostInterprogramSIIDRequest
 
-from openapi_client.api_client import ApiClient, RequestSerialized
-from openapi_client.api_response import ApiResponse
-from openapi_client.rest import RESTResponseType
+from bosch_alarm_map.api_client import ApiClient, RequestSerialized
+from bosch_alarm_map.api_response import ApiResponse
+from bosch_alarm_map.rest import RESTResponseType
 
 
 class InternalprogramSIIDApi:

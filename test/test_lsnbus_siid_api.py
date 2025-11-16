@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.api.lsnbus_siid_api import LsnbusSIIDApi
+from bosch_alarm_map.api.lsnbus_siid_api import LsnbusSIIDApi
 
 
 class TestLsnbusSIIDApi(unittest.TestCase):

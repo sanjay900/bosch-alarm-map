@@ -21,7 +21,7 @@ import json
 from pydantic import BaseModel, ConfigDict, Field
 from typing import Any, ClassVar, Dict, List, Optional
 from typing_extensions import Annotated
-from openapi_client.models.time_model_list_all_of_list_inner import TimeModelListAllOfListInner
+from bosch_alarm_map.models.time_model_list_all_of_list_inner import TimeModelListAllOfListInner
 from typing import Optional, Set
 from typing_extensions import Self
 

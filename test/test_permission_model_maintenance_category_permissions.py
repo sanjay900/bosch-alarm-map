@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.permission_model_maintenance_category_permissions import PermissionModelMaintenanceCategoryPermissions
+from bosch_alarm_map.models.permission_model_maintenance_category_permissions import PermissionModelMaintenanceCategoryPermissions
 
 class TestPermissionModelMaintenanceCategoryPermissions(unittest.TestCase):
     """PermissionModelMaintenanceCategoryPermissions unit test stubs"""

@@ -18,12 +18,12 @@ from typing import Any, Dict, List, Optional, Tuple, Union
 from typing_extensions import Annotated
 
 from typing import Optional
-from openapi_client.models.time_model_list import TimeModelList
-from openapi_client.models.time_modellist_post import TimeModellistPost
+from bosch_alarm_map.models.time_model_list import TimeModelList
+from bosch_alarm_map.models.time_modellist_post import TimeModellistPost
 
-from openapi_client.api_client import ApiClient, RequestSerialized
-from openapi_client.api_response import ApiResponse
-from openapi_client.rest import RESTResponseType
+from bosch_alarm_map.api_client import ApiClient, RequestSerialized
+from bosch_alarm_map.api_response import ApiResponse
+from bosch_alarm_map.rest import RESTResponseType
 
 
 class TimemodellistApi:

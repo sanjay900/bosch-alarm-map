@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.panel import Panel
+from bosch_alarm_map.models.panel import Panel
 
 class TestPanel(unittest.TestCase):
     """Panel unit test stubs"""

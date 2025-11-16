@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.coupler_list import CouplerList
+from bosch_alarm_map.models.coupler_list import CouplerList
 
 class TestCouplerList(unittest.TestCase):
     """CouplerList unit test stubs"""

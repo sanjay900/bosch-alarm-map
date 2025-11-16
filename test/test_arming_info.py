@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.arming_info import ArmingInfo
+from bosch_alarm_map.models.arming_info import ArmingInfo
 
 class TestArmingInfo(unittest.TestCase):
     """ArmingInfo unit test stubs"""

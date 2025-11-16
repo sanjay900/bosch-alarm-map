@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.lsn_walktest_category_property import LSNWalktestCategoryProperty
+from bosch_alarm_map.models.lsn_walktest_category_property import LSNWalktestCategoryProperty
 
 class TestLSNWalktestCategoryProperty(unittest.TestCase):
     """LSNWalktestCategoryProperty unit test stubs"""

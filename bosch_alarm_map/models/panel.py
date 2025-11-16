@@ -20,12 +20,12 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictBool, StrictStr, field_validator
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.panel_cpu_usage import PanelCpuUsage
-from openapi_client.models.panel_disk import PanelDisk
-from openapi_client.models.panel_last_restart_reason import PanelLastRestartReason
-from openapi_client.models.panel_meminfo import PanelMeminfo
-from openapi_client.models.panel_oii_sessions import PanelOIISessions
-from openapi_client.models.panel_panel import PanelPanel
+from bosch_alarm_map.models.panel_cpu_usage import PanelCpuUsage
+from bosch_alarm_map.models.panel_disk import PanelDisk
+from bosch_alarm_map.models.panel_last_restart_reason import PanelLastRestartReason
+from bosch_alarm_map.models.panel_meminfo import PanelMeminfo
+from bosch_alarm_map.models.panel_oii_sessions import PanelOIISessions
+from bosch_alarm_map.models.panel_panel import PanelPanel
 from typing import Optional, Set
 from typing_extensions import Self
 

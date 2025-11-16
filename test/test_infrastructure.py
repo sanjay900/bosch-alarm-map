@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.infrastructure import Infrastructure
+from bosch_alarm_map.models.infrastructure import Infrastructure
 
 class TestInfrastructure(unittest.TestCase):
     """Infrastructure unit test stubs"""

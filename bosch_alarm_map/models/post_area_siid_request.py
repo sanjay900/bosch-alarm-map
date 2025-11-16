@@ -18,14 +18,14 @@ import json
 import pprint
 from pydantic import BaseModel, ConfigDict, Field, StrictStr, ValidationError, field_validator
 from typing import Any, List, Optional
-from openapi_client.models.area_arm import AreaArm
-from openapi_client.models.area_disarm import AreaDisarm
-from openapi_client.models.bell_test_start import BellTestStart
-from openapi_client.models.chime_mode_start_stop import ChimeModeStartStop
-from openapi_client.models.getarming_info import GetarmingInfo
-from openapi_client.models.motion_detector_test_start_stop import MotionDetectorTestStartStop
-from openapi_client.models.walktest_start import WalktestStart
-from openapi_client.models.walktest_stop import WalktestStop
+from bosch_alarm_map.models.area_arm import AreaArm
+from bosch_alarm_map.models.area_disarm import AreaDisarm
+from bosch_alarm_map.models.bell_test_start import BellTestStart
+from bosch_alarm_map.models.chime_mode_start_stop import ChimeModeStartStop
+from bosch_alarm_map.models.getarming_info import GetarmingInfo
+from bosch_alarm_map.models.motion_detector_test_start_stop import MotionDetectorTestStartStop
+from bosch_alarm_map.models.walktest_start import WalktestStart
+from bosch_alarm_map.models.walktest_stop import WalktestStop
 from pydantic import StrictStr, Field
 from typing import Union, List, Set, Optional, Dict
 from typing_extensions import Literal, Self

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.post_permisionmodel_request import PostPermisionmodelRequest
+from bosch_alarm_map.models.post_permisionmodel_request import PostPermisionmodelRequest
 
 class TestPostPermisionmodelRequest(unittest.TestCase):
     """PostPermisionmodelRequest unit test stubs"""

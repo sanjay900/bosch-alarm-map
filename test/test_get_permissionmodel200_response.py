@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.get_permissionmodel200_response import GetPermissionmodel200Response
+from bosch_alarm_map.models.get_permissionmodel200_response import GetPermissionmodel200Response
 
 class TestGetPermissionmodel200Response(unittest.TestCase):
     """GetPermissionmodel200Response unit test stubs"""

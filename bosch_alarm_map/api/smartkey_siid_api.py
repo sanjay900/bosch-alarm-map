@@ -18,12 +18,12 @@ from typing import Any, Dict, List, Optional, Tuple, Union
 from typing_extensions import Annotated
 
 from pydantic import StrictStr
-from openapi_client.models.post_batteries_request import PostBatteriesRequest
-from openapi_client.models.smartkey import Smartkey
+from bosch_alarm_map.models.post_batteries_request import PostBatteriesRequest
+from bosch_alarm_map.models.smartkey import Smartkey
 
-from openapi_client.api_client import ApiClient, RequestSerialized
-from openapi_client.api_response import ApiResponse
-from openapi_client.rest import RESTResponseType
+from bosch_alarm_map.api_client import ApiClient, RequestSerialized
+from bosch_alarm_map.api_response import ApiResponse
+from bosch_alarm_map.rest import RESTResponseType
 
 
 class SmartkeySIIDApi:

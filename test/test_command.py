@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.command import Command
+from bosch_alarm_map.models.command import Command
 
 class TestCommand(unittest.TestCase):
     """Command unit test stubs"""

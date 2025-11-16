@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.api.ntp_api import NtpApi
+from bosch_alarm_map.api.ntp_api import NtpApi
 
 
 class TestNtpApi(unittest.TestCase):

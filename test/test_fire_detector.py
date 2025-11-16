@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.fire_detector import FireDetector
+from bosch_alarm_map.models.fire_detector import FireDetector
 
 class TestFireDetector(unittest.TestCase):
     """FireDetector unit test stubs"""

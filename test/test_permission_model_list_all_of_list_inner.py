@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.permission_model_list_all_of_list_inner import PermissionModelListAllOfListInner
+from bosch_alarm_map.models.permission_model_list_all_of_list_inner import PermissionModelListAllOfListInner
 
 class TestPermissionModelListAllOfListInner(unittest.TestCase):
     """PermissionModelListAllOfListInner unit test stubs"""

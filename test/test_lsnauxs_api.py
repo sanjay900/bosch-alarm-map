@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.api.lsnauxs_api import LsnauxsApi
+from bosch_alarm_map.api.lsnauxs_api import LsnauxsApi
 
 
 class TestLsnauxsApi(unittest.TestCase):

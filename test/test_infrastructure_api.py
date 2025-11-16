@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.api.infrastructure_api import InfrastructureApi
+from bosch_alarm_map.api.infrastructure_api import InfrastructureApi
 
 
 class TestInfrastructureApi(unittest.TestCase):

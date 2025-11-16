@@ -19,12 +19,12 @@ from typing_extensions import Annotated
 
 from pydantic import StrictStr
 from typing import Optional
-from openapi_client.models.device_enable_disable import DeviceEnableDisable
-from openapi_client.models.get_supervised_conns_siid200_response import GetSupervisedConnsSIID200Response
+from bosch_alarm_map.models.device_enable_disable import DeviceEnableDisable
+from bosch_alarm_map.models.get_supervised_conns_siid200_response import GetSupervisedConnsSIID200Response
 
-from openapi_client.api_client import ApiClient, RequestSerialized
-from openapi_client.api_response import ApiResponse
-from openapi_client.rest import RESTResponseType
+from bosch_alarm_map.api_client import ApiClient, RequestSerialized
+from bosch_alarm_map.api_response import ApiResponse
+from bosch_alarm_map.rest import RESTResponseType
 
 
 class SupervisedConnsSIIDApi:

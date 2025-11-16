@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.batterycharger_list import BatterychargerList
+from bosch_alarm_map.models.batterycharger_list import BatterychargerList
 
 class TestBatterychargerList(unittest.TestCase):
     """BatterychargerList unit test stubs"""

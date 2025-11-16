@@ -19,13 +19,13 @@ from typing_extensions import Annotated
 
 from pydantic import Field, StrictStr
 from typing_extensions import Annotated
-from openapi_client.models.fetch_events import FetchEvents
-from openapi_client.models.fetched_events import FetchedEvents
-from openapi_client.models.sub import Sub
+from bosch_alarm_map.models.fetch_events import FetchEvents
+from bosch_alarm_map.models.fetched_events import FetchedEvents
+from bosch_alarm_map.models.sub import Sub
 
-from openapi_client.api_client import ApiClient, RequestSerialized
-from openapi_client.api_response import ApiResponse
-from openapi_client.rest import RESTResponseType
+from bosch_alarm_map.api_client import ApiClient, RequestSerialized
+from bosch_alarm_map.api_response import ApiResponse
+from bosch_alarm_map.rest import RESTResponseType
 
 
 class SubSIIDApi:

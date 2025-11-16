@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.api.point_siid_api import PointSIIDApi
+from bosch_alarm_map.api.point_siid_api import PointSIIDApi
 
 
 class TestPointSIIDApi(unittest.TestCase):

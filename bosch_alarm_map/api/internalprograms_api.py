@@ -17,12 +17,12 @@ from pydantic import validate_call, Field, StrictFloat, StrictStr, StrictInt
 from typing import Any, Dict, List, Optional, Tuple, Union
 from typing_extensions import Annotated
 
-from openapi_client.models.device_activate_deactivate import DeviceActivateDeactivate
-from openapi_client.models.internal_program_list import InternalProgramList
+from bosch_alarm_map.models.device_activate_deactivate import DeviceActivateDeactivate
+from bosch_alarm_map.models.internal_program_list import InternalProgramList
 
-from openapi_client.api_client import ApiClient, RequestSerialized
-from openapi_client.api_response import ApiResponse
-from openapi_client.rest import RESTResponseType
+from bosch_alarm_map.api_client import ApiClient, RequestSerialized
+from bosch_alarm_map.api_response import ApiResponse
+from bosch_alarm_map.rest import RESTResponseType
 
 
 class InternalprogramsApi:

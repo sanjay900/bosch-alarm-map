@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.arming_info_why_not_ready_to_disarm import ArmingInfoWhyNotReadyToDisarm
+from bosch_alarm_map.models.arming_info_why_not_ready_to_disarm import ArmingInfoWhyNotReadyToDisarm
 
 class TestArmingInfoWhyNotReadyToDisarm(unittest.TestCase):
     """ArmingInfoWhyNotReadyToDisarm unit test stubs"""

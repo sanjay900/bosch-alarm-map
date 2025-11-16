@@ -20,7 +20,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictStr
 from typing import Any, ClassVar, Dict, List
-from openapi_client.models.lsngw_loop_configuration_devices_inner import LSNGWLoopConfigurationDevicesInner
+from bosch_alarm_map.models.lsngw_loop_configuration_devices_inner import LSNGWLoopConfigurationDevicesInner
 from typing import Optional, Set
 from typing_extensions import Self
 

@@ -20,7 +20,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictBool, StrictStr, field_validator
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.lsn_walktest_category_property import LSNWalktestCategoryProperty
+from bosch_alarm_map.models.lsn_walktest_category_property import LSNWalktestCategoryProperty
 from typing import Optional, Set
 from typing_extensions import Self
 

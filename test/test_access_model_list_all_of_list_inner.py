@@ -1,4 +1,4 @@
-# coding: utf-8
+    # coding: utf-8
 
 """
     REST-API_basic
@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.access_model_list_all_of_list_inner import AccessModelListAllOfListInner
+from bosch_alarm_map.models.access_model_list_all_of_list_inner import AccessModelListAllOfListInner
 
 class TestAccessModelListAllOfListInner(unittest.TestCase):
     """AccessModelListAllOfListInner unit test stubs"""

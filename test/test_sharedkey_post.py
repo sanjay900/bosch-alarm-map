@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.sharedkey_post import SharedkeyPost
+from bosch_alarm_map.models.sharedkey_post import SharedkeyPost
 
 class TestSharedkeyPost(unittest.TestCase):
     """SharedkeyPost unit test stubs"""

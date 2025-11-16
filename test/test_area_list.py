@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.area_list import AreaList
+from bosch_alarm_map.models.area_list import AreaList
 
 class TestAreaList(unittest.TestCase):
     """AreaList unit test stubs"""

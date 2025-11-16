@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.desc import Desc
+from bosch_alarm_map.models.desc import Desc
 
 class TestDesc(unittest.TestCase):
     """Desc unit test stubs"""

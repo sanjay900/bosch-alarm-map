@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.mumusergroup_sync_id import MumusergroupSyncID
+from bosch_alarm_map.models.mumusergroup_sync_id import MumusergroupSyncID
 
 class TestMumusergroupSyncID(unittest.TestCase):
     """MumusergroupSyncID unit test stubs"""

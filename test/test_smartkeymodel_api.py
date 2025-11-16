@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.api.smartkeymodel_api import SmartkeymodelApi
+from bosch_alarm_map.api.smartkeymodel_api import SmartkeymodelApi
 
 
 class TestSmartkeymodelApi(unittest.TestCase):

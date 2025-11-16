@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.keypad import Keypad
+from bosch_alarm_map.models.keypad import Keypad
 
 class TestKeypad(unittest.TestCase):
     """Keypad unit test stubs"""

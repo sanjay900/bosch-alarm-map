@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.special_day_model import SpecialDayModel
+from bosch_alarm_map.models.special_day_model import SpecialDayModel
 
 class TestSpecialDayModel(unittest.TestCase):
     """SpecialDayModel unit test stubs"""

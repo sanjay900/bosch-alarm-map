@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.lsnnd100_configuration_any_of import LSNND100ConfigurationAnyOf
+from bosch_alarm_map.models.lsnnd100_configuration_any_of import LSNND100ConfigurationAnyOf
 
 class TestLSNND100ConfigurationAnyOf(unittest.TestCase):
     """LSNND100ConfigurationAnyOf unit test stubs"""

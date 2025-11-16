@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.smartkey_model_list import SmartkeyModelList
+from bosch_alarm_map.models.smartkey_model_list import SmartkeyModelList
 
 class TestSmartkeyModelList(unittest.TestCase):
     """SmartkeyModelList unit test stubs"""

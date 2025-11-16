@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.api.lsn_gateways_api import LsnGatewaysApi
+from bosch_alarm_map.api.lsn_gateways_api import LsnGatewaysApi
 
 
 class TestLsnGatewaysApi(unittest.TestCase):

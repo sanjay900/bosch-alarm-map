@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.mumusergroup_mixarray import MumusergroupMixarray
+from bosch_alarm_map.models.mumusergroup_mixarray import MumusergroupMixarray
 
 class TestMumusergroupMixarray(unittest.TestCase):
     """MumusergroupMixarray unit test stubs"""

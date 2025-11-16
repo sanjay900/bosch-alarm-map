@@ -18,12 +18,12 @@ from typing import Any, Dict, List, Optional, Tuple, Union
 from typing_extensions import Annotated
 
 from typing import Optional
-from openapi_client.models.special_day_model_list import SpecialDayModelList
-from openapi_client.models.special_day_modellist_post import SpecialDayModellistPost
+from bosch_alarm_map.models.special_day_model_list import SpecialDayModelList
+from bosch_alarm_map.models.special_day_modellist_post import SpecialDayModellistPost
 
-from openapi_client.api_client import ApiClient, RequestSerialized
-from openapi_client.api_response import ApiResponse
-from openapi_client.rest import RESTResponseType
+from bosch_alarm_map.api_client import ApiClient, RequestSerialized
+from bosch_alarm_map.api_response import ApiResponse
+from bosch_alarm_map.rest import RESTResponseType
 
 
 class SpecialdaymodellistApi:

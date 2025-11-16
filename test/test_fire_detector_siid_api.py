@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.api.fire_detector_siid_api import FireDetectorSIIDApi
+from bosch_alarm_map.api.fire_detector_siid_api import FireDetectorSIIDApi
 
 
 class TestFireDetectorSIIDApi(unittest.TestCase):

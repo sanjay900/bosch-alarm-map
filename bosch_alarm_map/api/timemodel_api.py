@@ -19,13 +19,13 @@ from typing_extensions import Annotated
 
 from pydantic import Field, StrictStr
 from typing_extensions import Annotated
-from openapi_client.models.get_timemodel200_response import GetTimemodel200Response
-from openapi_client.models.post_timemodel_request import PostTimemodelRequest
-from openapi_client.models.time_model_sync_id import TimeModelSyncID
+from bosch_alarm_map.models.get_timemodel200_response import GetTimemodel200Response
+from bosch_alarm_map.models.post_timemodel_request import PostTimemodelRequest
+from bosch_alarm_map.models.time_model_sync_id import TimeModelSyncID
 
-from openapi_client.api_client import ApiClient, RequestSerialized
-from openapi_client.api_response import ApiResponse
-from openapi_client.rest import RESTResponseType
+from bosch_alarm_map.api_client import ApiClient, RequestSerialized
+from bosch_alarm_map.api_response import ApiResponse
+from bosch_alarm_map.rest import RESTResponseType
 
 
 class TimemodelApi:

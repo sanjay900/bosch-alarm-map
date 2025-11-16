@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.user_model_post import UserModelPost
+from bosch_alarm_map.models.user_model_post import UserModelPost
 
 class TestUserModelPost(unittest.TestCase):
     """UserModelPost unit test stubs"""

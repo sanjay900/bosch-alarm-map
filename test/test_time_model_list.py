@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.time_model_list import TimeModelList
+from bosch_alarm_map.models.time_model_list import TimeModelList
 
 class TestTimeModelList(unittest.TestCase):
     """TimeModelList unit test stubs"""

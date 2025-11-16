@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.groundfault import Groundfault
+from bosch_alarm_map.models.groundfault import Groundfault
 
 class TestGroundfault(unittest.TestCase):
     """Groundfault unit test stubs"""

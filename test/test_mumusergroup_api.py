@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.api.mumusergroup_api import MumusergroupApi
+from bosch_alarm_map.api.mumusergroup_api import MumusergroupApi
 
 
 class TestMumusergroupApi(unittest.TestCase):

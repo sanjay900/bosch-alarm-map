@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.device_on_off import DeviceOnOff
+from bosch_alarm_map.models.device_on_off import DeviceOnOff
 
 class TestDeviceOnOff(unittest.TestCase):
     """DeviceOnOff unit test stubs"""

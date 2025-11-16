@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.api.specialdaymodellist_api import SpecialdaymodellistApi
+from bosch_alarm_map.api.specialdaymodellist_api import SpecialdaymodellistApi
 
 
 class TestSpecialdaymodellistApi(unittest.TestCase):

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.config import Config
+from bosch_alarm_map.models.config import Config
 
 class TestConfig(unittest.TestCase):
     """Config unit test stubs"""

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.api.keyswitch_siid_api import KeyswitchSIIDApi
+from bosch_alarm_map.api.keyswitch_siid_api import KeyswitchSIIDApi
 
 
 class TestKeyswitchSIIDApi(unittest.TestCase):

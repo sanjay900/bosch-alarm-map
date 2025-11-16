@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.area_and_time_model_list import AreaAndTimeModelList
+from bosch_alarm_map.models.area_and_time_model_list import AreaAndTimeModelList
 
 class TestAreaAndTimeModelList(unittest.TestCase):
     """AreaAndTimeModelList unit test stubs"""

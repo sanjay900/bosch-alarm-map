@@ -19,13 +19,13 @@ from typing_extensions import Annotated
 
 from pydantic import Field, StrictStr
 from typing_extensions import Annotated
-from openapi_client.models.diagnose import Diagnose
-from openapi_client.models.diagnose_response import DiagnoseResponse
-from openapi_client.models.walktest import Walktest
+from bosch_alarm_map.models.diagnose import Diagnose
+from bosch_alarm_map.models.diagnose_response import DiagnoseResponse
+from bosch_alarm_map.models.walktest import Walktest
 
-from openapi_client.api_client import ApiClient, RequestSerialized
-from openapi_client.api_response import ApiResponse
-from openapi_client.rest import RESTResponseType
+from bosch_alarm_map.api_client import ApiClient, RequestSerialized
+from bosch_alarm_map.api_response import ApiResponse
+from bosch_alarm_map.rest import RESTResponseType
 
 
 class WalktestSIIDApi:

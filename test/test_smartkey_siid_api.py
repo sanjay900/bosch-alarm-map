@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.api.smartkey_siid_api import SmartkeySIIDApi
+from bosch_alarm_map.api.smartkey_siid_api import SmartkeySIIDApi
 
 
 class TestSmartkeySIIDApi(unittest.TestCase):

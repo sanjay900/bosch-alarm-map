@@ -17,13 +17,13 @@ from pydantic import validate_call, Field, StrictFloat, StrictStr, StrictInt
 from typing import Any, Dict, List, Optional, Tuple, Union
 from typing_extensions import Annotated
 
-from openapi_client.models.create_sub import CreateSub
-from openapi_client.models.created_sub import CreatedSub
-from openapi_client.models.sub_list import SubList
+from bosch_alarm_map.models.create_sub import CreateSub
+from bosch_alarm_map.models.created_sub import CreatedSub
+from bosch_alarm_map.models.sub_list import SubList
 
-from openapi_client.api_client import ApiClient, RequestSerialized
-from openapi_client.api_response import ApiResponse
-from openapi_client.rest import RESTResponseType
+from bosch_alarm_map.api_client import ApiClient, RequestSerialized
+from bosch_alarm_map.api_response import ApiResponse
+from bosch_alarm_map.rest import RESTResponseType
 
 
 class SubApi:

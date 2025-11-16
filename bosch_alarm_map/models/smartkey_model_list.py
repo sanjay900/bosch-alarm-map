@@ -21,7 +21,7 @@ import json
 from pydantic import BaseModel, ConfigDict, Field
 from typing import Any, ClassVar, Dict, List, Optional
 from typing_extensions import Annotated
-from openapi_client.models.smartkey_model_list_all_of_list_inner import SmartkeyModelListAllOfListInner
+from bosch_alarm_map.models.smartkey_model_list_all_of_list_inner import SmartkeyModelListAllOfListInner
 from typing import Optional, Set
 from typing_extensions import Self
 

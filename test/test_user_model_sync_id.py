@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.user_model_sync_id import UserModelSyncID
+from bosch_alarm_map.models.user_model_sync_id import UserModelSyncID
 
 class TestUserModelSyncID(unittest.TestCase):
     """UserModelSyncID unit test stubs"""

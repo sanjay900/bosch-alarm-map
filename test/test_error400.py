@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.error400 import Error400
+from bosch_alarm_map.models.error400 import Error400
 
 class TestError400(unittest.TestCase):
     """Error400 unit test stubs"""

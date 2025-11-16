@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.api.couplers_api import CouplersApi
+from bosch_alarm_map.api.couplers_api import CouplersApi
 
 
 class TestCouplersApi(unittest.TestCase):

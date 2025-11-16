@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.area_configuration import AreaConfiguration
+from bosch_alarm_map.models.area_configuration import AreaConfiguration
 
 class TestAreaConfiguration(unittest.TestCase):
     """AreaConfiguration unit test stubs"""

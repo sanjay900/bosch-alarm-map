@@ -20,7 +20,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictFloat, StrictInt
 from typing import Any, ClassVar, Dict, List, Optional, Union
-from openapi_client.models.panel_cpu_usage_averages import PanelCpuUsageAverages
+from bosch_alarm_map.models.panel_cpu_usage_averages import PanelCpuUsageAverages
 from typing import Optional, Set
 from typing_extensions import Self
 

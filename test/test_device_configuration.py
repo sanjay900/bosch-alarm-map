@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.device_configuration import DeviceConfiguration
+from bosch_alarm_map.models.device_configuration import DeviceConfiguration
 
 class TestDeviceConfiguration(unittest.TestCase):
     """DeviceConfiguration unit test stubs"""

@@ -1,4 +1,4 @@
-# coding: utf-8
+    # coding: utf-8
 
 """
     REST-API_basic
@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.api.accessmodel_api import AccessmodelApi
+from bosch_alarm_map.api.accessmodel_api import AccessmodelApi
 
 
 class TestAccessmodelApi(unittest.TestCase):

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.api.internalprograms_api import InternalprogramsApi
+from bosch_alarm_map.api.internalprograms_api import InternalprogramsApi
 
 
 class TestInternalprogramsApi(unittest.TestCase):

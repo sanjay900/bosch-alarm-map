@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.ntp_get import NtpGet
+from bosch_alarm_map.models.ntp_get import NtpGet
 
 class TestNtpGet(unittest.TestCase):
     """NtpGet unit test stubs"""

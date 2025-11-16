@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.api.supervised_conns_api import SupervisedConnsApi
+from bosch_alarm_map.api.supervised_conns_api import SupervisedConnsApi
 
 
 class TestSupervisedConnsApi(unittest.TestCase):

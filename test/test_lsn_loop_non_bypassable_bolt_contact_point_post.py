@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.lsn_loop_non_bypassable_bolt_contact_point_post import LSNLoopNonBypassableBoltContactPointPost
+from bosch_alarm_map.models.lsn_loop_non_bypassable_bolt_contact_point_post import LSNLoopNonBypassableBoltContactPointPost
 
 class TestLSNLoopNonBypassableBoltContactPointPost(unittest.TestCase):
     """LSNLoopNonBypassableBoltContactPointPost unit test stubs"""

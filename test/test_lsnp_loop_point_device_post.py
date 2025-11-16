@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.lsnp_loop_point_device_post import LSNPLoopPointDevicePost
+from bosch_alarm_map.models.lsnp_loop_point_device_post import LSNPLoopPointDevicePost
 
 class TestLSNPLoopPointDevicePost(unittest.TestCase):
     """LSNPLoopPointDevicePost unit test stubs"""

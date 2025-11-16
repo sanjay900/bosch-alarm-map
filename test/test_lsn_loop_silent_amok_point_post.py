@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.lsn_loop_silent_amok_point_post import LSNLoopSilentAmokPointPost
+from bosch_alarm_map.models.lsn_loop_silent_amok_point_post import LSNLoopSilentAmokPointPost
 
 class TestLSNLoopSilentAmokPointPost(unittest.TestCase):
     """LSNLoopSilentAmokPointPost unit test stubs"""

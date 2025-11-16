@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.user_basic_data import UserBasicData
+from bosch_alarm_map.models.user_basic_data import UserBasicData
 
 class TestUserBasicData(unittest.TestCase):
     """UserBasicData unit test stubs"""

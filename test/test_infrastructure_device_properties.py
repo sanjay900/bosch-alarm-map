@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.infrastructure_device_properties import InfrastructureDeviceProperties
+from bosch_alarm_map.models.infrastructure_device_properties import InfrastructureDeviceProperties
 
 class TestInfrastructureDeviceProperties(unittest.TestCase):
     """InfrastructureDeviceProperties unit test stubs"""

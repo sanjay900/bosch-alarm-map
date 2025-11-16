@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.api.ipchistory_api import IpchistoryApi
+from bosch_alarm_map.api.ipchistory_api import IpchistoryApi
 
 
 class TestIpchistoryApi(unittest.TestCase):

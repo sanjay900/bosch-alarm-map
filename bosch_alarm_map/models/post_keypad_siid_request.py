@@ -18,9 +18,9 @@ import json
 import pprint
 from pydantic import BaseModel, ConfigDict, Field, StrictStr, ValidationError, field_validator
 from typing import Any, List, Optional
-from openapi_client.models.device_activate_deactivate import DeviceActivateDeactivate
-from openapi_client.models.device_enable_disable import DeviceEnableDisable
-from openapi_client.models.device_fw_version import DeviceFwVersion
+from bosch_alarm_map.models.device_activate_deactivate import DeviceActivateDeactivate
+from bosch_alarm_map.models.device_enable_disable import DeviceEnableDisable
+from bosch_alarm_map.models.device_fw_version import DeviceFwVersion
 from pydantic import StrictStr, Field
 from typing import Union, List, Set, Optional, Dict
 from typing_extensions import Literal, Self

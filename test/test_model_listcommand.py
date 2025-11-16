@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.model_listcommand import ModelListcommand
+from bosch_alarm_map.models.model_listcommand import ModelListcommand
 
 class TestModelListcommand(unittest.TestCase):
     """ModelListcommand unit test stubs"""

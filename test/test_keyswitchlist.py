@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.keyswitchlist import Keyswitchlist
+from bosch_alarm_map.models.keyswitchlist import Keyswitchlist
 
 class TestKeyswitchlist(unittest.TestCase):
     """Keyswitchlist unit test stubs"""

@@ -18,8 +18,8 @@ import json
 import pprint
 from pydantic import BaseModel, ConfigDict, Field, StrictStr, ValidationError, field_validator
 from typing import Any, List, Optional
-from openapi_client.models.device_activate_deactivate import DeviceActivateDeactivate
-from openapi_client.models.internal_program_ip_arming_info import InternalProgramIpArmingInfo
+from bosch_alarm_map.models.device_activate_deactivate import DeviceActivateDeactivate
+from bosch_alarm_map.models.internal_program_ip_arming_info import InternalProgramIpArmingInfo
 from pydantic import StrictStr, Field
 from typing import Union, List, Set, Optional, Dict
 from typing_extensions import Literal, Self

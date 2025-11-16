@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.api.sub_api import SubApi
+from bosch_alarm_map.api.sub_api import SubApi
 
 
 class TestSubApi(unittest.TestCase):

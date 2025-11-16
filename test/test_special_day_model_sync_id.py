@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.special_day_model_sync_id import SpecialDayModelSyncID
+from bosch_alarm_map.models.special_day_model_sync_id import SpecialDayModelSyncID
 
 class TestSpecialDayModelSyncID(unittest.TestCase):
     """SpecialDayModelSyncID unit test stubs"""

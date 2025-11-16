@@ -21,9 +21,9 @@ import json
 from pydantic import BaseModel, ConfigDict, Field, StrictBool, StrictStr, field_validator
 from typing import Any, ClassVar, Dict, List, Optional
 from typing_extensions import Annotated
-from openapi_client.models.lsn_loop_failure_indication_property import LSNLoopFailureIndicationProperty
-from openapi_client.models.lsngw_loop_configuration import LSNGWLoopConfiguration
-from openapi_client.models.lsngwaux_configuration import LSNGWAUXConfiguration
+from bosch_alarm_map.models.lsn_loop_failure_indication_property import LSNLoopFailureIndicationProperty
+from bosch_alarm_map.models.lsngw_loop_configuration import LSNGWLoopConfiguration
+from bosch_alarm_map.models.lsngwaux_configuration import LSNGWAUXConfiguration
 from typing import Optional, Set
 from typing_extensions import Self
 

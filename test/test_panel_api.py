@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.api.panel_api import PanelApi
+from bosch_alarm_map.api.panel_api import PanelApi
 
 
 class TestPanelApi(unittest.TestCase):

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.permission_model_list import PermissionModelList
+from bosch_alarm_map.models.permission_model_list import PermissionModelList
 
 class TestPermissionModelList(unittest.TestCase):
     """PermissionModelList unit test stubs"""

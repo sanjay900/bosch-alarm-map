@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.statistics_get import StatisticsGet
+from bosch_alarm_map.models.statistics_get import StatisticsGet
 
 class TestStatisticsGet(unittest.TestCase):
     """StatisticsGet unit test stubs"""

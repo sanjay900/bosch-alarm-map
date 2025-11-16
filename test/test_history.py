@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.history import History
+from bosch_alarm_map.models.history import History
 
 class TestHistory(unittest.TestCase):
     """History unit test stubs"""

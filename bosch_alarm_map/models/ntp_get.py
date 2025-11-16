@@ -20,8 +20,8 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictInt, StrictStr
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.ntp_get_custom import NtpGetCustom
-from openapi_client.models.ntp_get_public import NtpGetPublic
+from bosch_alarm_map.models.ntp_get_custom import NtpGetCustom
+from bosch_alarm_map.models.ntp_get_public import NtpGetPublic
 from typing import Optional, Set
 from typing_extensions import Self
 

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.lsngw_configuration_create_post import LSNGWConfigurationCreatePost
+from bosch_alarm_map.models.lsngw_configuration_create_post import LSNGWConfigurationCreatePost
 
 class TestLSNGWConfigurationCreatePost(unittest.TestCase):
     """LSNGWConfigurationCreatePost unit test stubs"""

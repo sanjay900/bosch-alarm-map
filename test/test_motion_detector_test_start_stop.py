@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.motion_detector_test_start_stop import MotionDetectorTestStartStop
+from bosch_alarm_map.models.motion_detector_test_start_stop import MotionDetectorTestStartStop
 
 class TestMotionDetectorTestStartStop(unittest.TestCase):
     """MotionDetectorTestStartStop unit test stubs"""

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.api.smartkeymodellist_api import SmartkeymodellistApi
+from bosch_alarm_map.api.smartkeymodellist_api import SmartkeymodellistApi
 
 
 class TestSmartkeymodellistApi(unittest.TestCase):

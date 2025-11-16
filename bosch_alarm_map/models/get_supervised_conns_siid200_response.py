@@ -20,8 +20,8 @@ import pprint
 import re  # noqa: F401
 from pydantic import BaseModel, ConfigDict, Field, StrictStr, ValidationError, field_validator
 from typing import Optional
-from openapi_client.models.supervised_conns import SupervisedConns
-from openapi_client.models.supervised_ipc import SupervisedIPC
+from bosch_alarm_map.models.supervised_conns import SupervisedConns
+from bosch_alarm_map.models.supervised_ipc import SupervisedIPC
 from typing import Union, Any, List, Set, TYPE_CHECKING, Optional, Dict
 from typing_extensions import Literal, Self
 from pydantic import Field

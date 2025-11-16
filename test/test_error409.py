@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.error409 import Error409
+from bosch_alarm_map.models.error409 import Error409
 
 class TestError409(unittest.TestCase):
     """Error409 unit test stubs"""

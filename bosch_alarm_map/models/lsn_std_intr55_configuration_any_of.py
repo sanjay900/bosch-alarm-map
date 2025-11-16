@@ -21,8 +21,8 @@ import json
 from pydantic import BaseModel, ConfigDict, Field, StrictStr
 from typing import Any, ClassVar, Dict, List, Optional
 from typing_extensions import Annotated
-from openapi_client.models.lsn_antimask_sensitivity_property import LSNAntimaskSensitivityProperty
-from openapi_client.models.lsn_detector_sensitivity_property import LSNDetectorSensitivityProperty
+from bosch_alarm_map.models.lsn_antimask_sensitivity_property import LSNAntimaskSensitivityProperty
+from bosch_alarm_map.models.lsn_detector_sensitivity_property import LSNDetectorSensitivityProperty
 from typing import Optional, Set
 from typing_extensions import Self
 

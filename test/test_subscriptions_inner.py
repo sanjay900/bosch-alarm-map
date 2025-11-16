@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.subscriptions_inner import SubscriptionsInner
+from bosch_alarm_map.models.subscriptions_inner import SubscriptionsInner
 
 class TestSubscriptionsInner(unittest.TestCase):
     """SubscriptionsInner unit test stubs"""

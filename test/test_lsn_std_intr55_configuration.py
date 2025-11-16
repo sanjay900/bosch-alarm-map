@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.lsn_std_intr55_configuration import LSNStdIntr55Configuration
+from bosch_alarm_map.models.lsn_std_intr55_configuration import LSNStdIntr55Configuration
 
 class TestLSNStdIntr55Configuration(unittest.TestCase):
     """LSNStdIntr55Configuration unit test stubs"""

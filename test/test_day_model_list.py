@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.day_model_list import DayModelList
+from bosch_alarm_map.models.day_model_list import DayModelList
 
 class TestDayModelList(unittest.TestCase):
     """DayModelList unit test stubs"""

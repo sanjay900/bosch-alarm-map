@@ -19,13 +19,13 @@ from typing_extensions import Annotated
 
 from pydantic import Field, StrictStr
 from typing_extensions import Annotated
-from openapi_client.models.area import Area
-from openapi_client.models.area_post_responses import AreaPostResponses
-from openapi_client.models.post_area_siid_request import PostAreaSIIDRequest
+from bosch_alarm_map.models.area import Area
+from bosch_alarm_map.models.area_post_responses import AreaPostResponses
+from bosch_alarm_map.models.post_area_siid_request import PostAreaSIIDRequest
 
-from openapi_client.api_client import ApiClient, RequestSerialized
-from openapi_client.api_response import ApiResponse
-from openapi_client.rest import RESTResponseType
+from bosch_alarm_map.api_client import ApiClient, RequestSerialized
+from bosch_alarm_map.api_response import ApiResponse
+from bosch_alarm_map.rest import RESTResponseType
 
 
 class AreaSIIDApi:

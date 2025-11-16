@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.walktest import Walktest
+from bosch_alarm_map.models.walktest import Walktest
 
 class TestWalktest(unittest.TestCase):
     """Walktest unit test stubs"""

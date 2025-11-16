@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.inc import Inc
+from bosch_alarm_map.models.inc import Inc
 
 class TestInc(unittest.TestCase):
     """Inc unit test stubs"""

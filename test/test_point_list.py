@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.point_list import PointList
+from bosch_alarm_map.models.point_list import PointList
 
 class TestPointList(unittest.TestCase):
     """PointList unit test stubs"""

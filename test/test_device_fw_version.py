@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.device_fw_version import DeviceFwVersion
+from bosch_alarm_map.models.device_fw_version import DeviceFwVersion
 
 class TestDeviceFwVersion(unittest.TestCase):
     """DeviceFwVersion unit test stubs"""

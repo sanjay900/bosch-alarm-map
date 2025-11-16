@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.api.area_siid_api import AreaSIIDApi
+from bosch_alarm_map.api.area_siid_api import AreaSIIDApi
 
 
 class TestAreaSIIDApi(unittest.TestCase):

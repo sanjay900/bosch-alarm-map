@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.main_list import MainList
+from bosch_alarm_map.models.main_list import MainList
 
 class TestMainList(unittest.TestCase):
     """MainList unit test stubs"""

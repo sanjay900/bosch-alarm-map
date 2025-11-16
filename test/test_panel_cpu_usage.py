@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.panel_cpu_usage import PanelCpuUsage
+from bosch_alarm_map.models.panel_cpu_usage import PanelCpuUsage
 
 class TestPanelCpuUsage(unittest.TestCase):
     """PanelCpuUsage unit test stubs"""

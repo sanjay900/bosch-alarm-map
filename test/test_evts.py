@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.evts import Evts
+from bosch_alarm_map.models.evts import Evts
 
 class TestEvts(unittest.TestCase):
     """Evts unit test stubs"""

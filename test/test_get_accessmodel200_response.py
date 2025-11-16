@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.get_accessmodel200_response import GetAccessmodel200Response
+from bosch_alarm_map.models.get_accessmodel200_response import GetAccessmodel200Response
 
 class TestGetAccessmodel200Response(unittest.TestCase):
     """GetAccessmodel200Response unit test stubs"""

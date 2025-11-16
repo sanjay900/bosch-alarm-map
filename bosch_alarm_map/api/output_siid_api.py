@@ -19,12 +19,12 @@ from typing_extensions import Annotated
 
 from pydantic import Field, StrictStr
 from typing_extensions import Annotated
-from openapi_client.models.output import Output
-from openapi_client.models.post_outputs_request import PostOutputsRequest
+from bosch_alarm_map.models.output import Output
+from bosch_alarm_map.models.post_outputs_request import PostOutputsRequest
 
-from openapi_client.api_client import ApiClient, RequestSerialized
-from openapi_client.api_response import ApiResponse
-from openapi_client.rest import RESTResponseType
+from bosch_alarm_map.api_client import ApiClient, RequestSerialized
+from bosch_alarm_map.api_response import ApiResponse
+from bosch_alarm_map.rest import RESTResponseType
 
 
 class OutputSIIDApi:

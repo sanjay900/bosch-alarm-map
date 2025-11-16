@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.lsn_loop_retriggerable_bypassable_technical_point_post import LSNLoopRetriggerableBypassableTechnicalPointPost
+from bosch_alarm_map.models.lsn_loop_retriggerable_bypassable_technical_point_post import LSNLoopRetriggerableBypassableTechnicalPointPost
 
 class TestLSNLoopRetriggerableBypassableTechnicalPointPost(unittest.TestCase):
     """LSNLoopRetriggerableBypassableTechnicalPointPost unit test stubs"""

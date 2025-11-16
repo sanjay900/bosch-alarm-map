@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.api.points_api import PointsApi
+from bosch_alarm_map.api.points_api import PointsApi
 
 
 class TestPointsApi(unittest.TestCase):

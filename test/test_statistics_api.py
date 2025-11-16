@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.api.statistics_api import StatisticsApi
+from bosch_alarm_map.api.statistics_api import StatisticsApi
 
 
 class TestStatisticsApi(unittest.TestCase):

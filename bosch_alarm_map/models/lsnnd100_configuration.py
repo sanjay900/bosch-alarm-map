@@ -20,10 +20,10 @@ import pprint
 import re  # noqa: F401
 from pydantic import BaseModel, ConfigDict, Field, StrictStr, ValidationError, field_validator
 from typing import Optional
-from openapi_client.models.lsn_loop_non_silent_holdup_point_post import LSNLoopNonSilentHoldupPointPost
-from openapi_client.models.lsn_loop_silent_duress_point_post import LSNLoopSilentDuressPointPost
-from openapi_client.models.lsn_loop_silent_holdup_point_post import LSNLoopSilentHoldupPointPost
-from openapi_client.models.lsnnd100_configuration_any_of import LSNND100ConfigurationAnyOf
+from bosch_alarm_map.models.lsn_loop_non_silent_holdup_point_post import LSNLoopNonSilentHoldupPointPost
+from bosch_alarm_map.models.lsn_loop_silent_duress_point_post import LSNLoopSilentDuressPointPost
+from bosch_alarm_map.models.lsn_loop_silent_holdup_point_post import LSNLoopSilentHoldupPointPost
+from bosch_alarm_map.models.lsnnd100_configuration_any_of import LSNND100ConfigurationAnyOf
 from typing import Union, Any, List, Set, TYPE_CHECKING, Optional, Dict
 from typing_extensions import Literal, Self
 from pydantic import Field

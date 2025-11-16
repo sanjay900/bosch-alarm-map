@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.api.sub_siid_api import SubSIIDApi
+from bosch_alarm_map.api.sub_siid_api import SubSIIDApi
 
 
 class TestSubSIIDApi(unittest.TestCase):

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.postlsn_gateway_siid_request import PostlsnGatewaySIIDRequest
+from bosch_alarm_map.models.postlsn_gateway_siid_request import PostlsnGatewaySIIDRequest
 
 class TestPostlsnGatewaySIIDRequest(unittest.TestCase):
     """PostlsnGatewaySIIDRequest unit test stubs"""

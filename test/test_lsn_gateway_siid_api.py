@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.api.lsn_gateway_siid_api import LsnGatewaySIIDApi
+from bosch_alarm_map.api.lsn_gateway_siid_api import LsnGatewaySIIDApi
 
 
 class TestLsnGatewaySIIDApi(unittest.TestCase):

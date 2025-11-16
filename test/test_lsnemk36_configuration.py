@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.lsnemk36_configuration import LSNEMK36Configuration
+from bosch_alarm_map.models.lsnemk36_configuration import LSNEMK36Configuration
 
 class TestLSNEMK36Configuration(unittest.TestCase):
     """LSNEMK36Configuration unit test stubs"""

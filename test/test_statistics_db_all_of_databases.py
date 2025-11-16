@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.statistics_db_all_of_databases import StatisticsDbAllOfDatabases
+from bosch_alarm_map.models.statistics_db_all_of_databases import StatisticsDbAllOfDatabases
 
 class TestStatisticsDbAllOfDatabases(unittest.TestCase):
     """StatisticsDbAllOfDatabases unit test stubs"""

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.keyswitch import Keyswitch
+from bosch_alarm_map.models.keyswitch import Keyswitch
 
 class TestKeyswitch(unittest.TestCase):
     """Keyswitch unit test stubs"""

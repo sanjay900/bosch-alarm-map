@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.devices_list import DevicesList
+from bosch_alarm_map.models.devices_list import DevicesList
 
 class TestDevicesList(unittest.TestCase):
     """DevicesList unit test stubs"""

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.lsn_antimask_sensitivity_detection_range_property import LSNAntimaskSensitivityDetectionRangeProperty
+from bosch_alarm_map.models.lsn_antimask_sensitivity_detection_range_property import LSNAntimaskSensitivityDetectionRangeProperty
 
 class TestLSNAntimaskSensitivityDetectionRangeProperty(unittest.TestCase):
     """LSNAntimaskSensitivityDetectionRangeProperty unit test stubs"""

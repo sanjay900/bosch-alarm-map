@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.communicator import Communicator
+from bosch_alarm_map.models.communicator import Communicator
 
 class TestCommunicator(unittest.TestCase):
     """Communicator unit test stubs"""

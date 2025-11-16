@@ -19,13 +19,13 @@ from typing_extensions import Annotated
 
 from pydantic import Field, StrictStr
 from typing_extensions import Annotated
-from openapi_client.models.devicefirmware_version import DevicefirmwareVersion
-from openapi_client.models.keypad import Keypad
-from openapi_client.models.post_keypad_siid_request import PostKeypadSIIDRequest
+from bosch_alarm_map.models.devicefirmware_version import DevicefirmwareVersion
+from bosch_alarm_map.models.keypad import Keypad
+from bosch_alarm_map.models.post_keypad_siid_request import PostKeypadSIIDRequest
 
-from openapi_client.api_client import ApiClient, RequestSerialized
-from openapi_client.api_response import ApiResponse
-from openapi_client.rest import RESTResponseType
+from bosch_alarm_map.api_client import ApiClient, RequestSerialized
+from bosch_alarm_map.api_response import ApiResponse
+from bosch_alarm_map.rest import RESTResponseType
 
 
 class KeypadSIIDApi:

@@ -20,8 +20,8 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictBool, StrictStr
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.device_op_state import DeviceOpState
-from openapi_client.models.fire_detector_tested_sensors_inner import FireDetectorTestedSensorsInner
+from bosch_alarm_map.models.device_op_state import DeviceOpState
+from bosch_alarm_map.models.fire_detector_tested_sensors_inner import FireDetectorTestedSensorsInner
 from typing import Optional, Set
 from typing_extensions import Self
 

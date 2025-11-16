@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.special_day_model_list import SpecialDayModelList
+from bosch_alarm_map.models.special_day_model_list import SpecialDayModelList
 
 class TestSpecialDayModelList(unittest.TestCase):
     """SpecialDayModelList unit test stubs"""

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.api.coupler_siid_api import CouplerSIIDApi
+from bosch_alarm_map.api.coupler_siid_api import CouplerSIIDApi
 
 
 class TestCouplerSIIDApi(unittest.TestCase):

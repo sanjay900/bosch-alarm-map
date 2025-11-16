@@ -20,8 +20,8 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictInt
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.statistics_db_all_of_databases_path_to_database_counters import StatisticsDbAllOfDatabasesPathToDatabaseCounters
-from openapi_client.models.statistics_db_all_of_databases_path_to_database_handles import StatisticsDbAllOfDatabasesPathToDatabaseHandles
+from bosch_alarm_map.models.statistics_db_all_of_databases_path_to_database_counters import StatisticsDbAllOfDatabasesPathToDatabaseCounters
+from bosch_alarm_map.models.statistics_db_all_of_databases_path_to_database_handles import StatisticsDbAllOfDatabasesPathToDatabaseHandles
 from typing import Optional, Set
 from typing_extensions import Self
 

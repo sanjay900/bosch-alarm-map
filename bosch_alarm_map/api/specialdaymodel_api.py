@@ -19,13 +19,13 @@ from typing_extensions import Annotated
 
 from pydantic import Field, StrictStr
 from typing_extensions import Annotated
-from openapi_client.models.get_specialdaymodel200_response import GetSpecialdaymodel200Response
-from openapi_client.models.post_specialdaymodel_request import PostSpecialdaymodelRequest
-from openapi_client.models.special_day_model_sync_id import SpecialDayModelSyncID
+from bosch_alarm_map.models.get_specialdaymodel200_response import GetSpecialdaymodel200Response
+from bosch_alarm_map.models.post_specialdaymodel_request import PostSpecialdaymodelRequest
+from bosch_alarm_map.models.special_day_model_sync_id import SpecialDayModelSyncID
 
-from openapi_client.api_client import ApiClient, RequestSerialized
-from openapi_client.api_response import ApiResponse
-from openapi_client.rest import RESTResponseType
+from bosch_alarm_map.api_client import ApiClient, RequestSerialized
+from bosch_alarm_map.api_response import ApiResponse
+from bosch_alarm_map.rest import RESTResponseType
 
 
 class SpecialdaymodelApi:

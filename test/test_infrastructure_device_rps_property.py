@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.infrastructure_device_rps_property import InfrastructureDeviceRPSProperty
+from bosch_alarm_map.models.infrastructure_device_rps_property import InfrastructureDeviceRPSProperty
 
 class TestInfrastructureDeviceRPSProperty(unittest.TestCase):
     """InfrastructureDeviceRPSProperty unit test stubs"""

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.time_model_period_in_days_inner import TimeModelPeriodInDaysInner
+from bosch_alarm_map.models.time_model_period_in_days_inner import TimeModelPeriodInDaysInner
 
 class TestTimeModelPeriodInDaysInner(unittest.TestCase):
     """TimeModelPeriodInDaysInner unit test stubs"""

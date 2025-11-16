@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.syncstatus_allow_sending_user_dbif_armed import SyncstatusAllowSendingUserDBIfArmed
+from bosch_alarm_map.models.syncstatus_allow_sending_user_dbif_armed import SyncstatusAllowSendingUserDBIfArmed
 
 class TestSyncstatusAllowSendingUserDBIfArmed(unittest.TestCase):
     """SyncstatusAllowSendingUserDBIfArmed unit test stubs"""

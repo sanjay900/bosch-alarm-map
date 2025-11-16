@@ -21,7 +21,7 @@ import json
 from pydantic import BaseModel, ConfigDict, Field, StrictStr
 from typing import Any, ClassVar, Dict, List, Optional
 from typing_extensions import Annotated
-from openapi_client.models.lsn_walktest_trigger_frequency_property import LSNWalktestTriggerFrequencyProperty
+from bosch_alarm_map.models.lsn_walktest_trigger_frequency_property import LSNWalktestTriggerFrequencyProperty
 from typing import Optional, Set
 from typing_extensions import Self
 

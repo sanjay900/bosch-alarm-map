@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.lsn_loop_failure_indication_property import LSNLoopFailureIndicationProperty
+from bosch_alarm_map.models.lsn_loop_failure_indication_property import LSNLoopFailureIndicationProperty
 
 class TestLSNLoopFailureIndicationProperty(unittest.TestCase):
     """LSNLoopFailureIndicationProperty unit test stubs"""

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.printer import Printer
+from bosch_alarm_map.models.printer import Printer
 
 class TestPrinter(unittest.TestCase):
     """Printer unit test stubs"""

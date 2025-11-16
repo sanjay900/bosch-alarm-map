@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.area_post_responses import AreaPostResponses
+from bosch_alarm_map.models.area_post_responses import AreaPostResponses
 
 class TestAreaPostResponses(unittest.TestCase):
     """AreaPostResponses unit test stubs"""

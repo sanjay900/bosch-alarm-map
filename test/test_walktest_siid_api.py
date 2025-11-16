@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.api.walktest_siid_api import WalktestSIIDApi
+from bosch_alarm_map.api.walktest_siid_api import WalktestSIIDApi
 
 
 class TestWalktestSIIDApi(unittest.TestCase):

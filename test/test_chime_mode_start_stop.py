@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.chime_mode_start_stop import ChimeModeStartStop
+from bosch_alarm_map.models.chime_mode_start_stop import ChimeModeStartStop
 
 class TestChimeModeStartStop(unittest.TestCase):
     """ChimeModeStartStop unit test stubs"""

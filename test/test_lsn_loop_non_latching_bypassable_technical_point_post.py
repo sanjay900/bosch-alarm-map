@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.lsn_loop_non_latching_bypassable_technical_point_post import LSNLoopNonLatchingBypassableTechnicalPointPost
+from bosch_alarm_map.models.lsn_loop_non_latching_bypassable_technical_point_post import LSNLoopNonLatchingBypassableTechnicalPointPost
 
 class TestLSNLoopNonLatchingBypassableTechnicalPointPost(unittest.TestCase):
     """LSNLoopNonLatchingBypassableTechnicalPointPost unit test stubs"""

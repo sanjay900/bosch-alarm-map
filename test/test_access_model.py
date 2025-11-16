@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.access_model import AccessModel
+from bosch_alarm_map.models.access_model import AccessModel
 
 class TestAccessModel(unittest.TestCase):
     """AccessModel unit test stubs"""

@@ -20,8 +20,8 @@ import pprint
 import re  # noqa: F401
 from pydantic import BaseModel, ConfigDict, Field, StrictStr, ValidationError, field_validator
 from typing import Optional
-from openapi_client.models.lsngw_configuration_create_post import LSNGWConfigurationCreatePost
-from openapi_client.models.lsngw_configuration_delete_post import LSNGWConfigurationDeletePost
+from bosch_alarm_map.models.lsngw_configuration_create_post import LSNGWConfigurationCreatePost
+from bosch_alarm_map.models.lsngw_configuration_delete_post import LSNGWConfigurationDeletePost
 from typing import Union, Any, List, Set, TYPE_CHECKING, Optional, Dict
 from typing_extensions import Literal, Self
 from pydantic import Field

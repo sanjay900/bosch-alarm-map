@@ -20,9 +20,9 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictStr
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.area_configuration import AreaConfiguration
-from openapi_client.models.device_configuration import DeviceConfiguration
-from openapi_client.models.internal_programs_configuration import InternalProgramsConfiguration
+from bosch_alarm_map.models.area_configuration import AreaConfiguration
+from bosch_alarm_map.models.device_configuration import DeviceConfiguration
+from bosch_alarm_map.models.internal_programs_configuration import InternalProgramsConfiguration
 from typing import Optional, Set
 from typing_extensions import Self
 

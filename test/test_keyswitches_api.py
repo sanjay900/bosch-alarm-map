@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.api.keyswitches_api import KeyswitchesApi
+from bosch_alarm_map.api.keyswitches_api import KeyswitchesApi
 
 
 class TestKeyswitchesApi(unittest.TestCase):

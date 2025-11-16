@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.panel_disk import PanelDisk
+from bosch_alarm_map.models.panel_disk import PanelDisk
 
 class TestPanelDisk(unittest.TestCase):
     """PanelDisk unit test stubs"""

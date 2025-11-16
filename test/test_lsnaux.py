@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.lsnaux import Lsnaux
+from bosch_alarm_map.models.lsnaux import Lsnaux
 
 class TestLsnaux(unittest.TestCase):
     """Lsnaux unit test stubs"""

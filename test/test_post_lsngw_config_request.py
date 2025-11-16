@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.post_lsngw_config_request import PostLSNGWConfigRequest
+from bosch_alarm_map.models.post_lsngw_config_request import PostLSNGWConfigRequest
 
 class TestPostLSNGWConfigRequest(unittest.TestCase):
     """PostLSNGWConfigRequest unit test stubs"""

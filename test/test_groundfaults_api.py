@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.api.groundfaults_api import GroundfaultsApi
+from bosch_alarm_map.api.groundfaults_api import GroundfaultsApi
 
 
 class TestGroundfaultsApi(unittest.TestCase):

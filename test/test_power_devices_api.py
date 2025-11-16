@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.api.power_devices_api import PowerDevicesApi
+from bosch_alarm_map.api.power_devices_api import PowerDevicesApi
 
 
 class TestPowerDevicesApi(unittest.TestCase):
