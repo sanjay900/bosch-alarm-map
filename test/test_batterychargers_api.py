@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.api.batterychargers_api import BatterychargersApi
+from bosch_alarm_map.api.batterychargers_api import BatterychargersApi
 
 
 class TestBatterychargersApi(unittest.TestCase):

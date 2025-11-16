@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.lsnup370_t_configuration import LSNUP370TConfiguration
+from bosch_alarm_map.models.lsnup370_t_configuration import LSNUP370TConfiguration
 
 class TestLSNUP370TConfiguration(unittest.TestCase):
     """LSNUP370TConfiguration unit test stubs"""

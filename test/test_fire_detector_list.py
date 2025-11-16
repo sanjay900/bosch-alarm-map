@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.fire_detector_list import FireDetectorList
+from bosch_alarm_map.models.fire_detector_list import FireDetectorList
 
 class TestFireDetectorList(unittest.TestCase):
     """FireDetectorList unit test stubs"""

@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.special_day_model_list_all_of_list_inner import SpecialDayModelListAllOfListInner
+from bosch_alarm_map.models.special_day_model_list_all_of_list_inner import SpecialDayModelListAllOfListInner
 
 class TestSpecialDayModelListAllOfListInner(unittest.TestCase):
     """SpecialDayModelListAllOfListInner unit test stubs"""

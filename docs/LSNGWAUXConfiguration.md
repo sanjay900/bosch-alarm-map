@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from bosch-alarm-map.models.lsngwaux_configuration import LSNGWAUXConfiguration
+from bosch_alarm_map.models.lsngwaux_configuration import LSNGWAUXConfiguration
 
 # TODO update the JSON string below
 json = "{}"

@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.time_model import TimeModel
+from bosch_alarm_map.models.time_model import TimeModel
 
 class TestTimeModel(unittest.TestCase):
     """TimeModel unit test stubs"""

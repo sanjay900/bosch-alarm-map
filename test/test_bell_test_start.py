@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.bell_test_start import BellTestStart
+from bosch_alarm_map.models.bell_test_start import BellTestStart
 
 class TestBellTestStart(unittest.TestCase):
     """BellTestStart unit test stubs"""

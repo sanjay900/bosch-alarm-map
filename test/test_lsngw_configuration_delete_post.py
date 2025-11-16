@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.lsngw_configuration_delete_post import LSNGWConfigurationDeletePost
+from bosch_alarm_map.models.lsngw_configuration_delete_post import LSNGWConfigurationDeletePost
 
 class TestLSNGWConfigurationDeletePost(unittest.TestCase):
     """LSNGWConfigurationDeletePost unit test stubs"""

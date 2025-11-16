@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from bosch-alarm-map.models.chime_mode_start_stop import ChimeModeStartStop
+from bosch_alarm_map.models.chime_mode_start_stop import ChimeModeStartStop
 
 # TODO update the JSON string below
 json = "{}"

@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.day_model_list_all_of_list_inner import DayModelListAllOfListInner
+from bosch_alarm_map.models.day_model_list_all_of_list_inner import DayModelListAllOfListInner
 
 class TestDayModelListAllOfListInner(unittest.TestCase):
     """DayModelListAllOfListInner unit test stubs"""

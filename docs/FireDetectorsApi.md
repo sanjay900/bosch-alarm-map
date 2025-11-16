@@ -1,4 +1,4 @@
-# bosch-alarm-map.FireDetectorsApi
+# bosch_alarm_map.FireDetectorsApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -27,14 +27,14 @@ walktested, it will also contain attributes of bypass and walktest respectively.
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.fire_detector_list import FireDetectorList
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.fire_detector_list import FireDetectorList
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -44,9 +44,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.FireDetectorsApi(api_client)
+    api_instance = bosch_alarm_map.FireDetectorsApi(api_client)
 
     try:
         # List of fire detectors in the MAP system
@@ -108,14 +108,14 @@ walktested, it will also contain attributes of bypass and walktest respectively.
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.device_enable_disable import DeviceEnableDisable
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.device_enable_disable import DeviceEnableDisable
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -125,9 +125,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.FireDetectorsApi(api_client)
+    api_instance = bosch_alarm_map.FireDetectorsApi(api_client)
     device_enable_disable = {"@cmd":"ENABLE"} # DeviceEnableDisable | 
 
     try:

@@ -1,4 +1,4 @@
-# bosch-alarm-map.WalktestSIIDApi
+# bosch_alarm_map.WalktestSIIDApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -20,13 +20,13 @@ This operation stops the walktest in all related areas and points that are part 
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -36,9 +36,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.WalktestSIIDApi(api_client)
+    api_instance = bosch_alarm_map.WalktestSIIDApi(api_client)
     walktest_siid = '/274F1EC2086C40AB8601DF998431DA46' # str | Unique walktest SIID. You can get all existing walktest SIIDs with the command GET /walktests 
 
     try:
@@ -99,14 +99,14 @@ area list resource. Each walktest is referenced by a walktest list.
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.walktest import Walktest
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.walktest import Walktest
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -116,9 +116,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.WalktestSIIDApi(api_client)
+    api_instance = bosch_alarm_map.WalktestSIIDApi(api_client)
     walktest_siid = '/274F1EC2086C40AB8601DF998431DA46' # str | Unique walktest SIID. You can get all existing walktest SIIDs with the command GET /walktests 
 
     try:
@@ -180,15 +180,15 @@ a command allows to save bandwidth in most scenarios.)
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.diagnose import Diagnose
-from bosch-alarm-map.models.diagnose_response import DiagnoseResponse
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.diagnose import Diagnose
+from bosch_alarm_map.models.diagnose_response import DiagnoseResponse
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -198,11 +198,11 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.WalktestSIIDApi(api_client)
+    api_instance = bosch_alarm_map.WalktestSIIDApi(api_client)
     walktest_siid = '/274F1EC2086C40AB8601DF998431DA46' # str | Unique walktest SIID. You can get all existing walktest SIIDs with the command GET /walktests 
-    diagnose = bosch-alarm-map.Diagnose() # Diagnose | 
+    diagnose = bosch_alarm_map.Diagnose() # Diagnose | 
 
     try:
         # Walktest diagnose

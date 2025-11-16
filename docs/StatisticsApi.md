@@ -1,4 +1,4 @@
-# bosch-alarm-map.StatisticsApi
+# bosch_alarm_map.StatisticsApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -26,14 +26,14 @@ It is possible to partially get statistics for a specific module:
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.statistics_get import StatisticsGet
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.statistics_get import StatisticsGet
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -43,9 +43,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.StatisticsApi(api_client)
+    api_instance = bosch_alarm_map.StatisticsApi(api_client)
 
     try:
         # Get MAP internal statistics

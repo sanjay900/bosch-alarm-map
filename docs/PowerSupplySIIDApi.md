@@ -1,4 +1,4 @@
-# bosch-alarm-map.PowerSupplySIIDApi
+# bosch_alarm_map.PowerSupplySIIDApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -19,14 +19,14 @@ Get only the parameters of a specific power supply
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.power_supply import PowerSupply
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.power_supply import PowerSupply
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -36,9 +36,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.PowerSupplySIIDApi(api_client)
+    api_instance = bosch_alarm_map.PowerSupplySIIDApi(api_client)
     power_supply_siid = '/1.1.PowerSupply.13001.1' # str | Unique power supply SIID. You can get all power supplies IDs with the command GET /powerSupplies
 
     try:
@@ -96,15 +96,15 @@ Enable/disable, get firmware version
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.devicefirmware_version import DevicefirmwareVersion
-from bosch-alarm-map.models.postlsn_gateway_siid_request import PostlsnGatewaySIIDRequest
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.devicefirmware_version import DevicefirmwareVersion
+from bosch_alarm_map.models.postlsn_gateway_siid_request import PostlsnGatewaySIIDRequest
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -114,9 +114,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.PowerSupplySIIDApi(api_client)
+    api_instance = bosch_alarm_map.PowerSupplySIIDApi(api_client)
     power_supply_siid = '/1.1.PowerSupply.13001.1' # str | 
     postlsn_gateway_siid_request = {"@cmd":"ENABLE"} # PostlsnGatewaySIIDRequest | 
 

@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.arming_info_why_not_ready_to_arm import ArmingInfoWhyNotReadyToArm
+from bosch_alarm_map.models.arming_info_why_not_ready_to_arm import ArmingInfoWhyNotReadyToArm
 
 class TestArmingInfoWhyNotReadyToArm(unittest.TestCase):
     """ArmingInfoWhyNotReadyToArm unit test stubs"""

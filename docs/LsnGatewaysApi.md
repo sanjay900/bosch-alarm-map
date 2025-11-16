@@ -1,4 +1,4 @@
-# bosch-alarm-map.LsnGatewaysApi
+# bosch_alarm_map.LsnGatewaysApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -22,14 +22,14 @@ will contain attributes of device and disable.
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.lsn_gateway_list import LsnGatewayList
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.lsn_gateway_list import LsnGatewayList
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -39,9 +39,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.LsnGatewaysApi(api_client)
+    api_instance = bosch_alarm_map.LsnGatewaysApi(api_client)
 
     try:
         # List of LSN gateways in the MAP system
@@ -98,14 +98,14 @@ will contain attributes of device and disable.
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.device_enable_disable import DeviceEnableDisable
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.device_enable_disable import DeviceEnableDisable
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -115,9 +115,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.LsnGatewaysApi(api_client)
+    api_instance = bosch_alarm_map.LsnGatewaysApi(api_client)
     device_enable_disable = {"@cmd":"ENABLE"} # DeviceEnableDisable | 
 
     try:

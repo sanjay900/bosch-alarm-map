@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.panel_panel import PanelPanel
+from bosch_alarm_map.models.panel_panel import PanelPanel
 
 class TestPanelPanel(unittest.TestCase):
     """PanelPanel unit test stubs"""

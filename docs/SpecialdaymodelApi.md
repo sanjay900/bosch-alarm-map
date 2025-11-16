@@ -1,4 +1,4 @@
-# bosch-alarm-map.SpecialdaymodelApi
+# bosch_alarm_map.SpecialdaymodelApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -19,14 +19,14 @@ This function returns all parameters of a defined specialday model.
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.get_specialdaymodel200_response import GetSpecialdaymodel200Response
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.get_specialdaymodel200_response import GetSpecialdaymodel200Response
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -36,9 +36,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.SpecialdaymodelApi(api_client)
+    api_instance = bosch_alarm_map.SpecialdaymodelApi(api_client)
     special_day_model_id = '24-Hour' # str | unique name of a Special day model
 
     try:
@@ -121,15 +121,15 @@ The example *deleteTimeModel* shows how to delete a time model:.
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.post_specialdaymodel_request import PostSpecialdaymodelRequest
-from bosch-alarm-map.models.special_day_model_sync_id import SpecialDayModelSyncID
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.post_specialdaymodel_request import PostSpecialdaymodelRequest
+from bosch_alarm_map.models.special_day_model_sync_id import SpecialDayModelSyncID
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -139,9 +139,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.SpecialdaymodelApi(api_client)
+    api_instance = bosch_alarm_map.SpecialdaymodelApi(api_client)
     post_specialdaymodel_request = {"@cmd":"CREATE","specialDayModelID":"Onetime holiday","dayModelID":"24-Hour","priority":55,"nextOccurrence":"2022-8-23","repeatPolicy":"monthly","specialDayModelSyncID":265} # PostSpecialdaymodelRequest | 
 
     try:

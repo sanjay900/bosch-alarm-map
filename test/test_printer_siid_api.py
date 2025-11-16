@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.api.printer_siid_api import PrinterSIIDApi
+from bosch_alarm_map.api.printer_siid_api import PrinterSIIDApi
 
 
 class TestPrinterSIIDApi(unittest.TestCase):

@@ -15,7 +15,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from bosch-alarm-map.models.groundfault import Groundfault
+from bosch_alarm_map.models.groundfault import Groundfault
 
 # TODO update the JSON string below
 json = "{}"

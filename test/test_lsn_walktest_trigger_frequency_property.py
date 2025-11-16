@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.lsn_walktest_trigger_frequency_property import LSNWalktestTriggerFrequencyProperty
+from bosch_alarm_map.models.lsn_walktest_trigger_frequency_property import LSNWalktestTriggerFrequencyProperty
 
 class TestLSNWalktestTriggerFrequencyProperty(unittest.TestCase):
     """LSNWalktestTriggerFrequencyProperty unit test stubs"""

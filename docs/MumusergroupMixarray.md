@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from bosch-alarm-map.models.mumusergroup_mixarray import MumusergroupMixarray
+from bosch_alarm_map.models.mumusergroup_mixarray import MumusergroupMixarray
 
 # TODO update the JSON string below
 json = "{}"

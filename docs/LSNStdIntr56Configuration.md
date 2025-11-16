@@ -23,7 +23,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from bosch-alarm-map.models.lsn_std_intr56_configuration import LSNStdIntr56Configuration
+from bosch_alarm_map.models.lsn_std_intr56_configuration import LSNStdIntr56Configuration
 
 # TODO update the JSON string below
 json = "{}"

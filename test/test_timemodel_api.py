@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.api.timemodel_api import TimemodelApi
+from bosch_alarm_map.api.timemodel_api import TimemodelApi
 
 
 class TestTimemodelApi(unittest.TestCase):

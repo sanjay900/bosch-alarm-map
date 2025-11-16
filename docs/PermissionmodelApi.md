@@ -1,4 +1,4 @@
-# bosch-alarm-map.PermissionmodelApi
+# bosch_alarm_map.PermissionmodelApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -19,14 +19,14 @@ Get a model by ID
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.get_permissionmodel200_response import GetPermissionmodel200Response
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.get_permissionmodel200_response import GetPermissionmodel200Response
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -36,9 +36,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.PermissionmodelApi(api_client)
+    api_instance = bosch_alarm_map.PermissionmodelApi(api_client)
     permission_model_id = 'Installer Permission' # str | Unique permission model name
 
     try:
@@ -113,15 +113,15 @@ The example *deletePermissionModel* shows how to delete a permission model:
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.permission_model_sync_id import PermissionModelSyncID
-from bosch-alarm-map.models.post_permisionmodel_request import PostPermisionmodelRequest
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.permission_model_sync_id import PermissionModelSyncID
+from bosch_alarm_map.models.post_permisionmodel_request import PostPermisionmodelRequest
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -131,9 +131,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.PermissionmodelApi(api_client)
+    api_instance = bosch_alarm_map.PermissionmodelApi(api_client)
     post_permisionmodel_request = {"@cmd":"CREATE","permissionModelID":"Installer Permission","armCategoryPermissions":{"mayArmArea":true,"mayArmWithActiveTamper":true,"mayDisarmArea":true,"mayDisarmOnlyFromAlarm":true,"mayBypassDetector":true,"mayForceBypassDetectorsInArea":true,"mayUnBypassDetector":true,"mayUnBypassforciblybypassedDetectorsInAr":true,"maySwitchInternalProgramOn/Off":true},"EventCategoryPermissions":{"mayClearInternalAlarm":true,"mayClearExternalAlarm":true,"mayClearTamper":true,"mayClearTrouble":true,"mayClearBatteryTrouble":true,"maySilence":true,"mayClearMainPowerFailure":true,"mayClearATS":true},"maintenanceCategoryPermissions":{"mayAdjustControlCenterVolume/Backlight":true,"mayChangeOutputState":true,"maySetDateTime":true,"mayTestBell":true,"mayTestMotionDetectors":true,"mayWalkTestAutomaticPoints":true,"mayWalkTestPoints":true,"mayChangeNetworkSetting":true},"operationsCategoryPermissions":{"mayDisableDevice":true,"mayEnableDevice":true,"mayTurnChimeOn/Off":true,"mayChangeSchedule":true,"mayEditBlockingTime":true},"remoteServiceCategoryPermissions":{"mayAuthorizeManufacturerUser":true,"mayAuthorizeRPSUser":true},"statusCategoryPermissions":{"mayViewAreaStatus":true,"mayViewDeviceStatus":true,"mayViewDuressAlarm":true,"mayViewAlarmCount":true,"mayViewEventMemory":true,"mayViewControlPanelHistory":true,"mayPrintControlPanelHistory":true,"mayViewControlPanelVersion":true},"userCategoryPermissions":{"mayAddUser":true,"mayDeleteUser":true,"mayChangeUserPasscode":true},"permissionModelSyncID":156} # PostPermisionmodelRequest | 
 
     try:

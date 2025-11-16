@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.area_post_responses import AreaPostResponses
+from bosch_alarm_map.models.area_post_responses import AreaPostResponses
 
 class TestAreaPostResponses(unittest.TestCase):
     """AreaPostResponses unit test stubs"""
@@ -53,11 +53,11 @@ class TestAreaPostResponses(unittest.TestCase):
                     ''
                     ],
                 ready_to_force_arm = True,
-                why_not_ready_to_arm = bosch-alarm-map.models.arming_info_why_not_ready_to_arm.armingInfo_whyNotReadyToArm(
+                why_not_ready_to_arm = bosch_alarm_map.models.arming_info_why_not_ready_to_arm.armingInfo_whyNotReadyToArm(
                     bypassable_faulted_devices = [
                         ''
                         ], ),
-                why_not_ready_to_force_arm = bosch-alarm-map.models.arming_info_why_not_ready_to_force_arm.armingInfo_whyNotReadyToForceArm(
+                why_not_ready_to_force_arm = bosch_alarm_map.models.arming_info_why_not_ready_to_force_arm.armingInfo_whyNotReadyToForceArm(
                     non_bypassable_faulted_devices = [
                         ''
                         ], 
@@ -79,7 +79,7 @@ class TestAreaPostResponses(unittest.TestCase):
                         ], 
                     pending_incidents_in_area = True, 
                     area_in_walktest = True, ),
-                why_not_ready_to_disarm = bosch-alarm-map.models.arming_info_why_not_ready_to_disarm.armingInfo_whyNotReadyToDisarm(
+                why_not_ready_to_disarm = bosch_alarm_map.models.arming_info_why_not_ready_to_disarm.armingInfo_whyNotReadyToDisarm(
                     related_areas_not_ready_to_disarm = [
                         ''
                         ], 

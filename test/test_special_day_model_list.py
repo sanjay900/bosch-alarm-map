@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.special_day_model_list import SpecialDayModelList
+from bosch_alarm_map.models.special_day_model_list import SpecialDayModelList
 
 class TestSpecialDayModelList(unittest.TestCase):
     """SpecialDayModelList unit test stubs"""
@@ -38,7 +38,7 @@ class TestSpecialDayModelList(unittest.TestCase):
             return SpecialDayModelList(
                 special_day_model_sync_id = 324,
                 list = [
-                    bosch-alarm-map.models.special_day_model_list_all_of_list_inner.SpecialDayModelList_allOf_list_inner()
+                    bosch_alarm_map.models.special_day_model_list_all_of_list_inner.SpecialDayModelList_allOf_list_inner()
                     ]
             )
         else:

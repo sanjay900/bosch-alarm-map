@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.created_sub import CreatedSub
+from bosch_alarm_map.models.created_sub import CreatedSub
 
 class TestCreatedSub(unittest.TestCase):
     """CreatedSub unit test stubs"""

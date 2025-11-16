@@ -1,4 +1,4 @@
-# bosch-alarm-map.UsermodelApi
+# bosch_alarm_map.UsermodelApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -19,14 +19,14 @@ This function returns all parameters of a defined user. The passcode of the user
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.get_usermodel_by_id200_response import GetUsermodelById200Response
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.get_usermodel_by_id200_response import GetUsermodelById200Response
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -36,9 +36,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.UsermodelApi(api_client)
+    api_instance = bosch_alarm_map.UsermodelApi(api_client)
     id = '/004' # str | Unique user ID of each MAP system user. Possible user IDs are in the range from 4 to 998.
 
     try:
@@ -141,15 +141,15 @@ To have a successful decryption: Shared Key must be the same between device that
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.user_model_post import UserModelPost
-from bosch-alarm-map.models.user_model_sync_id import UserModelSyncID
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.user_model_post import UserModelPost
+from bosch_alarm_map.models.user_model_sync_id import UserModelSyncID
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -159,9 +159,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.UsermodelApi(api_client)
+    api_instance = bosch_alarm_map.UsermodelApi(api_client)
     user_model_post = {"@cmd":"CREATE","id":"008","userType":"User:Standard","firstName":"Jan","lastName":"Jansen","passcode":"888888","accessModel":"Basic Profile","userModelSyncID":156} # UserModelPost |  (optional)
 
     try:

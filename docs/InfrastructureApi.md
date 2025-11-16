@@ -1,4 +1,4 @@
-# bosch-alarm-map.InfrastructureApi
+# bosch_alarm_map.InfrastructureApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -19,14 +19,14 @@ Returns a complete tree of connected devices.
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.infrastructure import Infrastructure
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.infrastructure import Infrastructure
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -36,9 +36,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.InfrastructureApi(api_client)
+    api_instance = bosch_alarm_map.InfrastructureApi(api_client)
 
     try:
         # Get complete MAP device infrastructure
@@ -95,14 +95,14 @@ It is also possible to limit hierarchy depth by specifying depth parameter:
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.infrastructure_device import InfrastructureDevice
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.infrastructure_device import InfrastructureDevice
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -112,9 +112,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.InfrastructureApi(api_client)
+    api_instance = bosch_alarm_map.InfrastructureApi(api_client)
     device_siid = '1.1.SystemKeypad.12001.001' # str | SIID of a device
 
     try:

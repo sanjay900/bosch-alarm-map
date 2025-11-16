@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from bosch-alarm-map.models.sharedkey_get import SharedkeyGet
+from bosch_alarm_map.models.sharedkey_get import SharedkeyGet
 
 # TODO update the JSON string below
 json = "{}"

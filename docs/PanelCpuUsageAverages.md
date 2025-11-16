@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from bosch-alarm-map.models.panel_cpu_usage_averages import PanelCpuUsageAverages
+from bosch_alarm_map.models.panel_cpu_usage_averages import PanelCpuUsageAverages
 
 # TODO update the JSON string below
 json = "{}"

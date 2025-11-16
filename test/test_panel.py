@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.panel import Panel
+from bosch_alarm_map.models.panel import Panel
 
 class TestPanel(unittest.TestCase):
     """Panel unit test stubs"""
@@ -50,11 +50,11 @@ class TestPanel(unittest.TestCase):
                 firmware_version = '1.4.0240',
                 model_name = 'MAP5000-COM',
                 udn = '12345.12345678901',
-                last_restart_reason = bosch-alarm-map.models.panel_last_restart_reason.panel_lastRestartReason(
+                last_restart_reason = bosch_alarm_map.models.panel_last_restart_reason.panel_lastRestartReason(
                     value = 11006, 
                     description = 'Installer requested', 
                     time = '2021-08-04T19:01:38.000+02:00', ),
-                meminfo = bosch-alarm-map.models.panel_meminfo.panel_meminfo(
+                meminfo = bosch_alarm_map.models.panel_meminfo.panel_meminfo(
                     mem_total = 126168, 
                     mem_free = 78912, 
                     buffers = 0, 
@@ -65,22 +65,22 @@ class TestPanel(unittest.TestCase):
                     swap_free = 0, 
                     dirty = 0, 
                     writeback = 0, ),
-                cpu_usage = bosch-alarm-map.models.panel_cpu_usage.panel_cpuUsage(
+                cpu_usage = bosch_alarm_map.models.panel_cpu_usage.panel_cpuUsage(
                     current = 1.2, 
-                    averages = bosch-alarm-map.models.panel_cpu_usage_averages.panel_cpuUsage_averages(
+                    averages = bosch_alarm_map.models.panel_cpu_usage_averages.panel_cpuUsage_averages(
                         1min = 3.34, 
                         5min = 4.31, 
                         30min = 2.33, ), ),
-                disk = bosch-alarm-map.models.panel_disk.panel_disk(
+                disk = bosch_alarm_map.models.panel_disk.panel_disk(
                     total = 63984, 
                     free = 16692, 
                     usage = 47292, 
                     badblocks = 4, ),
-                panel = bosch-alarm-map.models.panel_panel.panel_Panel(
+                panel = bosch_alarm_map.models.panel_panel.panel_Panel(
                     vm_size = 44428, 
                     vm_rss = 26136, 
                     threads = 67, ),
-                oii_sessions = bosch-alarm-map.models.panel_oii_sessions.panel_OIISessions(
+                oii_sessions = bosch_alarm_map.models.panel_oii_sessions.panel_OIISessions(
                     total_memory_usage = 159, 
                     per_session_usage = [109,50], )
             )

@@ -1,4 +1,4 @@
-# bosch-alarm-map.InternalprogramSIIDApi
+# bosch_alarm_map.InternalprogramSIIDApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -23,14 +23,14 @@ the incident will not indicate the internal program but the area that detected t
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.internal_program import InternalProgram
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.internal_program import InternalProgram
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -40,9 +40,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.InternalprogramSIIDApi(api_client)
+    api_instance = bosch_alarm_map.InternalprogramSIIDApi(api_client)
     internalprogram_siid = '/1' # str | Unique internal program SIID (1-14). You can get all existing internal program IDs with the command GET /internalprograms
 
     try:
@@ -104,15 +104,15 @@ the incident will not indicate the internal program but the area that detected t
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.ip_arming_info import IpArmingInfo
-from bosch-alarm-map.models.post_interprogram_siid_request import PostInterprogramSIIDRequest
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.ip_arming_info import IpArmingInfo
+from bosch_alarm_map.models.post_interprogram_siid_request import PostInterprogramSIIDRequest
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -122,9 +122,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.InternalprogramSIIDApi(api_client)
+    api_instance = bosch_alarm_map.InternalprogramSIIDApi(api_client)
     internalprogram_siid = '/1' # str | Unique internal program ID (1-14). You can get all existing internal program IDs with the command GET /internalprograms
     post_interprogram_siid_request = {"@cmd":"ACTIVATE"} # PostInterprogramSIIDRequest | 
 

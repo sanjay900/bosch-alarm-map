@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from bosch-alarm-map.models.ntp_post import NtpPost
+from bosch_alarm_map.models.ntp_post import NtpPost
 
 # TODO update the JSON string below
 json = "{}"

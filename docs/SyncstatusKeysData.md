@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from bosch-alarm-map.models.syncstatus_keys_data import SyncstatusKeysData
+from bosch_alarm_map.models.syncstatus_keys_data import SyncstatusKeysData
 
 # TODO update the JSON string below
 json = "{}"

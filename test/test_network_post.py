@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.network_post import NetworkPost
+from bosch_alarm_map.models.network_post import NetworkPost
 
 class TestNetworkPost(unittest.TestCase):
     """NetworkPost unit test stubs"""

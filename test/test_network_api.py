@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.api.network_api import NetworkApi
+from bosch_alarm_map.api.network_api import NetworkApi
 
 
 class TestNetworkApi(unittest.TestCase):

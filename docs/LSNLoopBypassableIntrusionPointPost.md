@@ -20,7 +20,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from bosch-alarm-map.models.lsn_loop_bypassable_intrusion_point_post import LSNLoopBypassableIntrusionPointPost
+from bosch_alarm_map.models.lsn_loop_bypassable_intrusion_point_post import LSNLoopBypassableIntrusionPointPost
 
 # TODO update the JSON string below
 json = "{}"

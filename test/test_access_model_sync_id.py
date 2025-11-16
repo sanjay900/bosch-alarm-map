@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.access_model_sync_id import AccessModelSyncID
+from bosch_alarm_map.models.access_model_sync_id import AccessModelSyncID
 
 class TestAccessModelSyncID(unittest.TestCase):
     """AccessModelSyncID unit test stubs"""

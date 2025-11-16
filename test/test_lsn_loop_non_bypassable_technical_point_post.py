@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.lsn_loop_non_bypassable_technical_point_post import LSNLoopNonBypassableTechnicalPointPost
+from bosch_alarm_map.models.lsn_loop_non_bypassable_technical_point_post import LSNLoopNonBypassableTechnicalPointPost
 
 class TestLSNLoopNonBypassableTechnicalPointPost(unittest.TestCase):
     """LSNLoopNonBypassableTechnicalPointPost unit test stubs"""

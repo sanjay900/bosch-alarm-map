@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.device_update import DeviceUpdate
+from bosch_alarm_map.models.device_update import DeviceUpdate
 
 class TestDeviceUpdate(unittest.TestCase):
     """DeviceUpdate unit test stubs"""

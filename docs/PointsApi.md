@@ -1,4 +1,4 @@
-# bosch-alarm-map.PointsApi
+# bosch_alarm_map.PointsApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -19,14 +19,14 @@ List of points in the system. Points represent detectors like PIRs, glass break 
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.point_list import PointList
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.point_list import PointList
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -36,9 +36,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.PointsApi(api_client)
+    api_instance = bosch_alarm_map.PointsApi(api_client)
 
     try:
         # List of points in the system
@@ -92,14 +92,14 @@ Enable/Disable all point in the MAP system
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.device_enable_disable import DeviceEnableDisable
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.device_enable_disable import DeviceEnableDisable
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -109,9 +109,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.PointsApi(api_client)
+    api_instance = bosch_alarm_map.PointsApi(api_client)
     device_enable_disable = {"@cmd":"ENABLE"} # DeviceEnableDisable | 
 
     try:

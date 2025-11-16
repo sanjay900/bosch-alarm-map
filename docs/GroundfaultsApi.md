@@ -1,4 +1,4 @@
-# bosch-alarm-map.GroundfaultsApi
+# bosch_alarm_map.GroundfaultsApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -22,14 +22,14 @@ be walktested. The resource structure contains attributes of device, disable and
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.groundfault_list import GroundfaultList
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.groundfault_list import GroundfaultList
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -39,9 +39,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.GroundfaultsApi(api_client)
+    api_instance = bosch_alarm_map.GroundfaultsApi(api_client)
 
     try:
         # List of resources representing the ground faults of a power supply in the MAP system
@@ -98,14 +98,14 @@ be walktested. The resource structure contains attributes of device, disable and
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.post_batteries_request import PostBatteriesRequest
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.post_batteries_request import PostBatteriesRequest
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -115,9 +115,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.GroundfaultsApi(api_client)
+    api_instance = bosch_alarm_map.GroundfaultsApi(api_client)
     post_batteries_request = {"@cmd":"ENABLE"} # PostBatteriesRequest | 
 
     try:

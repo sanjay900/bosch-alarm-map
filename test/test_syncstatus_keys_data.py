@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.syncstatus_keys_data import SyncstatusKeysData
+from bosch_alarm_map.models.syncstatus_keys_data import SyncstatusKeysData
 
 class TestSyncstatusKeysData(unittest.TestCase):
     """SyncstatusKeysData unit test stubs"""

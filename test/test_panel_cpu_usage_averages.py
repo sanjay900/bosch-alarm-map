@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.panel_cpu_usage_averages import PanelCpuUsageAverages
+from bosch_alarm_map.models.panel_cpu_usage_averages import PanelCpuUsageAverages
 
 class TestPanelCpuUsageAverages(unittest.TestCase):
     """PanelCpuUsageAverages unit test stubs"""

@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.post_interprogram_siid_request import PostInterprogramSIIDRequest
+from bosch_alarm_map.models.post_interprogram_siid_request import PostInterprogramSIIDRequest
 
 class TestPostInterprogramSIIDRequest(unittest.TestCase):
     """PostInterprogramSIIDRequest unit test stubs"""

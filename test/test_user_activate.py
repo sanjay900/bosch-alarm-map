@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.user_activate import UserActivate
+from bosch_alarm_map.models.user_activate import UserActivate
 
 class TestUserActivate(unittest.TestCase):
     """UserActivate unit test stubs"""

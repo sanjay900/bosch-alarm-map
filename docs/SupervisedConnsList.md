@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from bosch-alarm-map.models.supervised_conns_list import SupervisedConnsList
+from bosch_alarm_map.models.supervised_conns_list import SupervisedConnsList
 
 # TODO update the JSON string below
 json = "{}"

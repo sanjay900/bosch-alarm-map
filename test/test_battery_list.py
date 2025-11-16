@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.battery_list import BatteryList
+from bosch_alarm_map.models.battery_list import BatteryList
 
 class TestBatteryList(unittest.TestCase):
     """BatteryList unit test stubs"""

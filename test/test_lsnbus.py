@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.lsnbus import Lsnbus
+from bosch_alarm_map.models.lsnbus import Lsnbus
 
 class TestLsnbus(unittest.TestCase):
     """Lsnbus unit test stubs"""

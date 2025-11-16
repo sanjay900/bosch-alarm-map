@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.api.communicator_siid_api import CommunicatorSIIDApi
+from bosch_alarm_map.api.communicator_siid_api import CommunicatorSIIDApi
 
 
 class TestCommunicatorSIIDApi(unittest.TestCase):

@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from bosch-alarm-map.models.infrastructure_device_generic_property import InfrastructureDeviceGenericProperty
+from bosch_alarm_map.models.infrastructure_device_generic_property import InfrastructureDeviceGenericProperty
 
 # TODO update the JSON string below
 json = "{}"

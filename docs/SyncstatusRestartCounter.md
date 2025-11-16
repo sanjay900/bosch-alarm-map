@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from bosch-alarm-map.models.syncstatus_restart_counter import SyncstatusRestartCounter
+from bosch_alarm_map.models.syncstatus_restart_counter import SyncstatusRestartCounter
 
 # TODO update the JSON string below
 json = "{}"

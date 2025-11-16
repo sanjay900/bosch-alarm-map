@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from bosch-alarm-map.models.sub_list import SubList
+from bosch_alarm_map.models.sub_list import SubList
 
 # TODO update the JSON string below
 json = "{}"

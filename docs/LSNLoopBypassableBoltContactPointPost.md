@@ -15,7 +15,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from bosch-alarm-map.models.lsn_loop_bypassable_bolt_contact_point_post import LSNLoopBypassableBoltContactPointPost
+from bosch_alarm_map.models.lsn_loop_bypassable_bolt_contact_point_post import LSNLoopBypassableBoltContactPointPost
 
 # TODO update the JSON string below
 json = "{}"

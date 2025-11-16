@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.post_lsngw_config_request import PostLSNGWConfigRequest
+from bosch_alarm_map.models.post_lsngw_config_request import PostLSNGWConfigRequest
 
 class TestPostLSNGWConfigRequest(unittest.TestCase):
     """PostLSNGWConfigRequest unit test stubs"""
@@ -49,12 +49,12 @@ class TestPostLSNGWConfigRequest(unittest.TestCase):
                 consider_loop_failure_as_tamper_in_disarmed_condition = True,
                 loop_failure_indication = 'Immediate',
                 aux = [
-                    bosch-alarm-map.models.lsngwaux_configuration.LSNGWAUXConfiguration(
+                    bosch_alarm_map.models.lsngwaux_configuration.LSNGWAUXConfiguration(
                         name = '[LSN AUX 1]', 
                         reporting_number = 3, 
                         supports_delayed_reporting = True, )
                     ],
-                loop = bosch-alarm-map.models.lsngw_loop_configuration.LSNGWLoopConfiguration(
+                loop = bosch_alarm_map.models.lsngw_loop_configuration.LSNGWLoopConfiguration(
                     name = '[LSN Loop 1]', 
                     devices = [
                         null
@@ -69,12 +69,12 @@ class TestPostLSNGWConfigRequest(unittest.TestCase):
                 area = '',
                 serial_number = '00000.00000000022',
                 aux = [
-                    bosch-alarm-map.models.lsngwaux_configuration.LSNGWAUXConfiguration(
+                    bosch_alarm_map.models.lsngwaux_configuration.LSNGWAUXConfiguration(
                         name = '[LSN AUX 1]', 
                         reporting_number = 3, 
                         supports_delayed_reporting = True, )
                     ],
-                loop = bosch-alarm-map.models.lsngw_loop_configuration.LSNGWLoopConfiguration(
+                loop = bosch_alarm_map.models.lsngw_loop_configuration.LSNGWLoopConfiguration(
                     name = '[LSN Loop 1]', 
                     devices = [
                         null

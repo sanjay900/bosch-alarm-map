@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.lsn_loop_silent_holdup_point_post import LSNLoopSilentHoldupPointPost
+from bosch_alarm_map.models.lsn_loop_silent_holdup_point_post import LSNLoopSilentHoldupPointPost
 
 class TestLSNLoopSilentHoldupPointPost(unittest.TestCase):
     """LSNLoopSilentHoldupPointPost unit test stubs"""

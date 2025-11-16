@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.api.batterycharger_siid_api import BatterychargerSIIDApi
+from bosch_alarm_map.api.batterycharger_siid_api import BatterychargerSIIDApi
 
 
 class TestBatterychargerSIIDApi(unittest.TestCase):

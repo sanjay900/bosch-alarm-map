@@ -1,4 +1,4 @@
-# bosch-alarm-map.SubApi
+# bosch_alarm_map.SubApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -42,14 +42,14 @@ be forward compatible.
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.sub_list import SubList
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.sub_list import SubList
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -59,9 +59,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.SubApi(api_client)
+    api_instance = bosch_alarm_map.SubApi(api_client)
 
     try:
         # List current event subscriptions
@@ -128,15 +128,15 @@ A subscription may not be accepted due to three main reasons:
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.create_sub import CreateSub
-from bosch-alarm-map.models.created_sub import CreatedSub
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.create_sub import CreateSub
+from bosch_alarm_map.models.created_sub import CreatedSub
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -146,10 +146,10 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.SubApi(api_client)
-    create_sub = bosch-alarm-map.CreateSub() # CreateSub | 
+    api_instance = bosch_alarm_map.SubApi(api_client)
+    create_sub = bosch_alarm_map.CreateSub() # CreateSub | 
 
     try:
         # Create a subscription

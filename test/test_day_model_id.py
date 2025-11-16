@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.day_model_id import DayModelID
+from bosch_alarm_map.models.day_model_id import DayModelID
 
 class TestDayModelID(unittest.TestCase):
     """DayModelID unit test stubs"""

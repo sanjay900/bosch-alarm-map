@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from bosch-alarm-map.models.smartkey_model_id import SmartkeyModelID
+from bosch_alarm_map.models.smartkey_model_id import SmartkeyModelID
 
 # TODO update the JSON string below
 json = "{}"

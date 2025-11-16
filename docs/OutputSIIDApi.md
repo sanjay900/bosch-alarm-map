@@ -1,4 +1,4 @@
-# bosch-alarm-map.OutputSIIDApi
+# bosch_alarm_map.OutputSIIDApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -19,14 +19,14 @@ The resource type output extends the type device with additional output state in
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.output import Output
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.output import Output
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -36,9 +36,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.OutputSIIDApi(api_client)
+    api_instance = bosch_alarm_map.OutputSIIDApi(api_client)
     output_siid = '/1.1.Output.3002.12' # str | Unique output SIID. You can get all existing outputs IDs with the command GET /outputs
 
     try:
@@ -99,14 +99,14 @@ attributes of device and disable.
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.post_outputs_request import PostOutputsRequest
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.post_outputs_request import PostOutputsRequest
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -116,9 +116,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.OutputSIIDApi(api_client)
+    api_instance = bosch_alarm_map.OutputSIIDApi(api_client)
     output_siid = '/1.1.Output.3002.12' # str | 
     post_outputs_request = {"@cmd":"ENABLE"} # PostOutputsRequest | 
 

@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.api.groundfault_siid_api import GroundfaultSIIDApi
+from bosch_alarm_map.api.groundfault_siid_api import GroundfaultSIIDApi
 
 
 class TestGroundfaultSIIDApi(unittest.TestCase):

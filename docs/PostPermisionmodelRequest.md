@@ -18,7 +18,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from bosch-alarm-map.models.post_permisionmodel_request import PostPermisionmodelRequest
+from bosch_alarm_map.models.post_permisionmodel_request import PostPermisionmodelRequest
 
 # TODO update the JSON string below
 json = "{}"

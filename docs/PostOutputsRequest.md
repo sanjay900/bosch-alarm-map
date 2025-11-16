@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from bosch-alarm-map.models.post_outputs_request import PostOutputsRequest
+from bosch_alarm_map.models.post_outputs_request import PostOutputsRequest
 
 # TODO update the JSON string below
 json = "{}"

@@ -1,4 +1,4 @@
-# bosch-alarm-map.MainsApi
+# bosch_alarm_map.MainsApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -19,14 +19,14 @@ List of resources representing the mains connection of a power supply in the MAP
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.main_list import MainList
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.main_list import MainList
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -36,9 +36,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.MainsApi(api_client)
+    api_instance = bosch_alarm_map.MainsApi(api_client)
 
     try:
         # Get list of all alternating current (short: ac ) power supplies 
@@ -95,14 +95,14 @@ attributes of device, disable and bypass. This resource type cannot be walkteste
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.post_batteries_request import PostBatteriesRequest
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.post_batteries_request import PostBatteriesRequest
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -112,9 +112,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.MainsApi(api_client)
+    api_instance = bosch_alarm_map.MainsApi(api_client)
     post_batteries_request = {"@cmd":"ENABLE"} # PostBatteriesRequest | 
 
     try:

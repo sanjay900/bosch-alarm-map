@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.device_walktest import DeviceWalktest
+from bosch_alarm_map.models.device_walktest import DeviceWalktest
 
 class TestDeviceWalktest(unittest.TestCase):
     """DeviceWalktest unit test stubs"""

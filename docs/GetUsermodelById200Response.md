@@ -31,7 +31,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from bosch-alarm-map.models.get_usermodel_by_id200_response import GetUsermodelById200Response
+from bosch_alarm_map.models.get_usermodel_by_id200_response import GetUsermodelById200Response
 
 # TODO update the JSON string below
 json = "{}"

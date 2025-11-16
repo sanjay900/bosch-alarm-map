@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.inc_list import IncList
+from bosch_alarm_map.models.inc_list import IncList
 
 class TestIncList(unittest.TestCase):
     """IncList unit test stubs"""

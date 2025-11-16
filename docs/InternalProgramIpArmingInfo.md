@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from bosch-alarm-map.models.internal_program_ip_arming_info import InternalProgramIpArmingInfo
+from bosch_alarm_map.models.internal_program_ip_arming_info import InternalProgramIpArmingInfo
 
 # TODO update the JSON string below
 json = "{}"

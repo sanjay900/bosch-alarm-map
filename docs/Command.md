@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from bosch-alarm-map.models.command import Command
+from bosch_alarm_map.models.command import Command
 
 # TODO update the JSON string below
 json = "{}"

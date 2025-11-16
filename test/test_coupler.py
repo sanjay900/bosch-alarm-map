@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.coupler import Coupler
+from bosch_alarm_map.models.coupler import Coupler
 
 class TestCoupler(unittest.TestCase):
     """Coupler unit test stubs"""

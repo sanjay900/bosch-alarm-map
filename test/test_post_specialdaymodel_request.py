@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.post_specialdaymodel_request import PostSpecialdaymodelRequest
+from bosch_alarm_map.models.post_specialdaymodel_request import PostSpecialdaymodelRequest
 
 class TestPostSpecialdaymodelRequest(unittest.TestCase):
     """PostSpecialdaymodelRequest unit test stubs"""

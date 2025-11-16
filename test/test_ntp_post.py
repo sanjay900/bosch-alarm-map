@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.ntp_post import NtpPost
+from bosch_alarm_map.models.ntp_post import NtpPost
 
 class TestNtpPost(unittest.TestCase):
     """NtpPost unit test stubs"""

@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.time_modellist_post import TimeModellistPost
+from bosch_alarm_map.models.time_modellist_post import TimeModellistPost
 
 class TestTimeModellistPost(unittest.TestCase):
     """TimeModellistPost unit test stubs"""

@@ -1,4 +1,4 @@
-# bosch-alarm-map.TimemodellistApi
+# bosch_alarm_map.TimemodellistApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -19,14 +19,14 @@ This function returns a list of all timemodels saved in the MAP panel database, 
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.time_model_list import TimeModelList
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.time_model_list import TimeModelList
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -36,9 +36,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.TimemodellistApi(api_client)
+    api_instance = bosch_alarm_map.TimemodellistApi(api_client)
 
     try:
         # Get all time models of the MAP system
@@ -106,15 +106,15 @@ The client system takes the modifications from the body and can check for timemo
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.time_model_list import TimeModelList
-from bosch-alarm-map.models.time_modellist_post import TimeModellistPost
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.time_model_list import TimeModelList
+from bosch_alarm_map.models.time_modellist_post import TimeModellistPost
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -124,9 +124,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.TimemodellistApi(api_client)
+    api_instance = bosch_alarm_map.TimemodellistApi(api_client)
     time_modellist_post = {"@cmd":"GETMODIFIEDLIST","timeModelSyncID":572} # TimeModellistPost |  (optional)
 
     try:

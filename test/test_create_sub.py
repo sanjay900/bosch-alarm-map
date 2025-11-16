@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.create_sub import CreateSub
+from bosch_alarm_map.models.create_sub import CreateSub
 
 class TestCreateSub(unittest.TestCase):
     """CreateSub unit test stubs"""
@@ -41,7 +41,7 @@ class TestCreateSub(unittest.TestCase):
                 buffer_size = 50,
                 subscriptions = [
                     [
-                        bosch-alarm-map.models.subscriptions_inner.subscriptions_inner(
+                        bosch_alarm_map.models.subscriptions_inner.subscriptions_inner(
                             urls = ["*"], 
                             event_type = ["CHANGED"], )
                         ]

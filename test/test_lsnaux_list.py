@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.lsnaux_list import LsnauxList
+from bosch_alarm_map.models.lsnaux_list import LsnauxList
 
 class TestLsnauxList(unittest.TestCase):
     """LsnauxList unit test stubs"""

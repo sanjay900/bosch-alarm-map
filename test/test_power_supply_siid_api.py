@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.api.power_supply_siid_api import PowerSupplySIIDApi
+from bosch_alarm_map.api.power_supply_siid_api import PowerSupplySIIDApi
 
 
 class TestPowerSupplySIIDApi(unittest.TestCase):

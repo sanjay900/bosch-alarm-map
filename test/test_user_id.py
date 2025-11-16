@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.user_id import UserID
+from bosch_alarm_map.models.user_id import UserID
 
 class TestUserID(unittest.TestCase):
     """UserID unit test stubs"""

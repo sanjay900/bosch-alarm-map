@@ -1,4 +1,4 @@
-# bosch-alarm-map.MumusergroupApi
+# bosch_alarm_map.MumusergroupApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -19,14 +19,14 @@ The response body of this URL returns all User IDs, that are controlled by the M
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.mumusergroup_mixarray import MumusergroupMixarray
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.mumusergroup_mixarray import MumusergroupMixarray
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -36,9 +36,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.MumusergroupApi(api_client)
+    api_instance = bosch_alarm_map.MumusergroupApi(api_client)
 
     try:
         # Get MUM property for all User IDs
@@ -113,14 +113,14 @@ only the users with IDs { 4, 5, 70,71,72,...,89,90, 100, 200,201, ...,299,300 } 
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.mumusergroup_mixarray import MumusergroupMixarray
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.mumusergroup_mixarray import MumusergroupMixarray
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -130,9 +130,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.MumusergroupApi(api_client)
+    api_instance = bosch_alarm_map.MumusergroupApi(api_client)
     mumusergroup_mixarray = {"userIds":[5],"mumusergroupSyncID":52} # MumusergroupMixarray |  (optional)
 
     try:

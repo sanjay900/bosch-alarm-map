@@ -1,4 +1,4 @@
-# bosch-alarm-map.BlocklockSIIDApi
+# bosch_alarm_map.BlocklockSIIDApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -23,14 +23,14 @@ The resource structure will contain attributes of device, disable, bypassed and 
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.blocklock import Blocklock
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.blocklock import Blocklock
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -40,9 +40,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.BlocklockSIIDApi(api_client)
+    api_instance = bosch_alarm_map.BlocklockSIIDApi(api_client)
     blocklock_siid = '/1.1.ArmingDevice.3001.26' # str | Unique blocklock SIID. You can get all existing blocklocks SIIDs with the command GET /blocklocks
 
     try:
@@ -103,14 +103,14 @@ The resource structure will contain attributes of device, disable, bypassed and 
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.post_batteries_request import PostBatteriesRequest
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.post_batteries_request import PostBatteriesRequest
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -120,9 +120,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.BlocklockSIIDApi(api_client)
+    api_instance = bosch_alarm_map.BlocklockSIIDApi(api_client)
     blocklock_siid = '/1.1.ArmingDevice.3001.26' # str | Unique blocklock SIID. You can get all existing blocklocks SIIDs with the command GET /blocklocks
     post_batteries_request = {"@cmd":"ENABLE"} # PostBatteriesRequest | 
 

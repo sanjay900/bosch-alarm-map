@@ -1,4 +1,4 @@
-# bosch-alarm-map.MainSIIDApi
+# bosch_alarm_map.MainSIIDApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -21,14 +21,14 @@ interface as the resource type device.
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.main import Main
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.main import Main
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -38,9 +38,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.MainSIIDApi(api_client)
+    api_instance = bosch_alarm_map.MainSIIDApi(api_client)
     main_siid = '/1.1.PowerSupply.13001.4' # str | Unique main SIID. You can get all existing mains IDs with the command GET /mains
 
     try:
@@ -98,14 +98,14 @@ The resource type mains lists the alternating current (AC) input of the power su
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.post_batteries_request import PostBatteriesRequest
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.post_batteries_request import PostBatteriesRequest
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -115,9 +115,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.MainSIIDApi(api_client)
+    api_instance = bosch_alarm_map.MainSIIDApi(api_client)
     main_siid = '/1.1.PowerSupply.13001.4' # str | 
     post_batteries_request = {"@cmd":"ENABLE"} # PostBatteriesRequest | 
 

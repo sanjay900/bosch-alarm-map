@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from bosch-alarm-map.models.config import Config
+from bosch_alarm_map.models.config import Config
 
 # TODO update the JSON string below
 json = "{}"

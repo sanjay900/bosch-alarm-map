@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.lsn_loop_non_bypassable24_hour_intrusion_point_post import LSNLoopNonBypassable24HourIntrusionPointPost
+from bosch_alarm_map.models.lsn_loop_non_bypassable24_hour_intrusion_point_post import LSNLoopNonBypassable24HourIntrusionPointPost
 
 class TestLSNLoopNonBypassable24HourIntrusionPointPost(unittest.TestCase):
     """LSNLoopNonBypassable24HourIntrusionPointPost unit test stubs"""

@@ -15,7 +15,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from bosch-alarm-map.models.area_and_time_model import AreaAndTimeModel
+from bosch_alarm_map.models.area_and_time_model import AreaAndTimeModel
 
 # TODO update the JSON string below
 json = "{}"

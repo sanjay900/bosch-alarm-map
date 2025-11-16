@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from bosch-alarm-map.models.infrastructure_device_rps_property import InfrastructureDeviceRPSProperty
+from bosch_alarm_map.models.infrastructure_device_rps_property import InfrastructureDeviceRPSProperty
 
 # TODO update the JSON string below
 json = "{}"

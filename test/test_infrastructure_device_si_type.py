@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.infrastructure_device_si_type import InfrastructureDeviceSIType
+from bosch_alarm_map.models.infrastructure_device_si_type import InfrastructureDeviceSIType
 
 class TestInfrastructureDeviceSIType(unittest.TestCase):
     """InfrastructureDeviceSIType unit test stubs"""

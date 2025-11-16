@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.time_model_sync_id import TimeModelSyncID
+from bosch_alarm_map.models.time_model_sync_id import TimeModelSyncID
 
 class TestTimeModelSyncID(unittest.TestCase):
     """TimeModelSyncID unit test stubs"""

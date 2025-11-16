@@ -17,7 +17,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from bosch-alarm-map.models.blocklock import Blocklock
+from bosch_alarm_map.models.blocklock import Blocklock
 
 # TODO update the JSON string below
 json = "{}"

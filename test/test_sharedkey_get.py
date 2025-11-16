@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.sharedkey_get import SharedkeyGet
+from bosch_alarm_map.models.sharedkey_get import SharedkeyGet
 
 class TestSharedkeyGet(unittest.TestCase):
     """SharedkeyGet unit test stubs"""

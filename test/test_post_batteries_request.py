@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.post_batteries_request import PostBatteriesRequest
+from bosch_alarm_map.models.post_batteries_request import PostBatteriesRequest
 
 class TestPostBatteriesRequest(unittest.TestCase):
     """PostBatteriesRequest unit test stubs"""

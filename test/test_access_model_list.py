@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.access_model_list import AccessModelList
+from bosch_alarm_map.models.access_model_list import AccessModelList
 
 class TestAccessModelList(unittest.TestCase):
     """AccessModelList unit test stubs"""
@@ -38,7 +38,7 @@ class TestAccessModelList(unittest.TestCase):
             return AccessModelList(
                 access_model_sync_id = 20,
                 list = [
-                    bosch-alarm-map.models.access_model_list_all_of_list_inner.AccessModelList_allOf_list_inner()
+                    bosch_alarm_map.models.access_model_list_all_of_list_inner.AccessModelList_allOf_list_inner()
                     ]
             )
         else:

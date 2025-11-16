@@ -1,4 +1,4 @@
-# bosch-alarm-map.AreaandtimemodelApi
+# bosch_alarm_map.AreaandtimemodelApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -20,14 +20,14 @@ This function returns all parameters of a defined area and time model.
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.get_areaandtimemodel200_response import GetAreaandtimemodel200Response
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.get_areaandtimemodel200_response import GetAreaandtimemodel200Response
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -37,9 +37,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.AreaandtimemodelApi(api_client)
+    api_instance = bosch_alarm_map.AreaandtimemodelApi(api_client)
     area_and_time_model_id = 'Installer Model, All Areas, Anytime' # str | Unique area and time model name
 
     try:
@@ -116,15 +116,15 @@ The example *deleteAreaAndTimeModel* shows how to delete an AreaAndTime Model.
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.area_and_time_model_sync_id import AreaAndTimeModelSyncID
-from bosch-alarm-map.models.post_areaandtimemodel_request import PostAreaandtimemodelRequest
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.area_and_time_model_sync_id import AreaAndTimeModelSyncID
+from bosch_alarm_map.models.post_areaandtimemodel_request import PostAreaandtimemodelRequest
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -134,9 +134,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.AreaandtimemodelApi(api_client)
+    api_instance = bosch_alarm_map.AreaandtimemodelApi(api_client)
     post_areaandtimemodel_request = {"@cmd":"CREATE","areaAndTimeModelID":"Installer Model, All Areas, Anytime","alwaysAllowedPermissionSet":"Super User Permission","restrictedByAreaPermissionSet":"","restrictedByTimePermissionSet":"","restrictedByAreaAndTimePermissionSet":"","areaList":[],"timeModelID":"","areaAndTimeModelSyncID":145} # PostAreaandtimemodelRequest | 
 
     try:

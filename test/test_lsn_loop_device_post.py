@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.lsn_loop_device_post import LSNLoopDevicePost
+from bosch_alarm_map.models.lsn_loop_device_post import LSNLoopDevicePost
 
 class TestLSNLoopDevicePost(unittest.TestCase):
     """LSNLoopDevicePost unit test stubs"""

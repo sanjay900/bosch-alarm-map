@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.time_model_list_all_of_list_inner import TimeModelListAllOfListInner
+from bosch_alarm_map.models.time_model_list_all_of_list_inner import TimeModelListAllOfListInner
 
 class TestTimeModelListAllOfListInner(unittest.TestCase):
     """TimeModelListAllOfListInner unit test stubs"""

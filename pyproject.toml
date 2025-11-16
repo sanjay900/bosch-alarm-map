@@ -1,5 +1,5 @@
 [project]
-name = "bosch-alarm-map"
+name = "bosch_alarm_map"
 version = "1.0.0"
 description = "REST-API_basic"
 authors = [
@@ -41,7 +41,7 @@ extension-pkg-whitelist = "pydantic"
 
 [tool.mypy]
 files = [
-  "bosch-alarm-map",
+  "bosch_alarm_map",
   #"test",  # auto-generated tests
   "tests", # hand-written tests
 ]
@@ -79,7 +79,7 @@ disallow_any_generics = true
 
 [[tool.mypy.overrides]]
 module = [
-  "bosch-alarm-map.configuration",
+  "bosch_alarm_map.configuration",
 ]
 warn_unused_ignores = true
 strict_equality = true

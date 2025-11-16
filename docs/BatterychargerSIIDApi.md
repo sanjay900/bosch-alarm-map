@@ -1,4 +1,4 @@
-# bosch-alarm-map.BatterychargerSIIDApi
+# bosch_alarm_map.BatterychargerSIIDApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -23,14 +23,14 @@ The resource type batterycharger_SIID lists the battery charger of the power sup
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.batterycharger import Batterycharger
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.batterycharger import Batterycharger
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -40,9 +40,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.BatterychargerSIIDApi(api_client)
+    api_instance = bosch_alarm_map.BatterychargerSIIDApi(api_client)
     batterycharger_siid = '/1.1.PowerSupply.13001.5' # str | Unique battery charger SIID. You can get all existing battery chargers SIIDs with the command GET /batterychargers
 
     try:
@@ -104,14 +104,14 @@ device, disable and device.
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.post_batteries_request import PostBatteriesRequest
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.post_batteries_request import PostBatteriesRequest
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -121,9 +121,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.BatterychargerSIIDApi(api_client)
+    api_instance = bosch_alarm_map.BatterychargerSIIDApi(api_client)
     batterycharger_siid = '/1.1.PowerSupply.13001.5' # str | Unique battery charger SIID. You can get all existing battery chargers SIIDs with the command GET /batterychargers
     post_batteries_request = {"@cmd":"ENABLE"} # PostBatteriesRequest | 
 

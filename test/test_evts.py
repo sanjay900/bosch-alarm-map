@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.evts import Evts
+from bosch_alarm_map.models.evts import Evts
 
 class TestEvts(unittest.TestCase):
     """Evts unit test stubs"""
@@ -42,7 +42,7 @@ class TestEvts(unittest.TestCase):
                 props = [
                     'armed'
                     ],
-                evt = bosch-alarm-map.models.evt.evt(
+                evt = bosch_alarm_map.models.evt.evt(
                     @type = ["IN.area.1"], 
                     @self = '/1.1.Area.2.1', 
                     armed = True, )

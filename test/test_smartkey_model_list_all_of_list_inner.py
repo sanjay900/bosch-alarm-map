@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.smartkey_model_list_all_of_list_inner import SmartkeyModelListAllOfListInner
+from bosch_alarm_map.models.smartkey_model_list_all_of_list_inner import SmartkeyModelListAllOfListInner
 
 class TestSmartkeyModelListAllOfListInner(unittest.TestCase):
     """SmartkeyModelListAllOfListInner unit test stubs"""

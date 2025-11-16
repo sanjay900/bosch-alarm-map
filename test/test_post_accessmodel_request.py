@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.post_accessmodel_request import PostAccessmodelRequest
+from bosch_alarm_map.models.post_accessmodel_request import PostAccessmodelRequest
 
 class TestPostAccessmodelRequest(unittest.TestCase):
     """PostAccessmodelRequest unit test stubs"""

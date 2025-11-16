@@ -1,4 +1,4 @@
-# bosch-alarm-map.SubSIIDApi
+# bosch_alarm_map.SubSIIDApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -20,13 +20,13 @@ This operation cancels a subscription. The MAP panel will free the event buffer 
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -36,9 +36,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.SubSIIDApi(api_client)
+    api_instance = bosch_alarm_map.SubSIIDApi(api_client)
     sub_siid = '/EDB1122914E14962A8BDCBD75B9ABA92' # str | Unique subscription SIID. You can get all existing subscriptions SIIDs with the command GET /sub 
 
     try:
@@ -108,14 +108,14 @@ sequence information shall be assumed by the client.
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.sub import Sub
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.sub import Sub
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -125,9 +125,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.SubSIIDApi(api_client)
+    api_instance = bosch_alarm_map.SubSIIDApi(api_client)
     sub_siid = '/538D759E63DA4E64A687F58C22793435' # str | Unique subscription SIID. You can get all existing subscriptions SIIDs with the command GET /sub 
 
     try:
@@ -232,15 +232,15 @@ subscription on the MAP panel.
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.fetch_events import FetchEvents
-from bosch-alarm-map.models.fetched_events import FetchedEvents
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.fetch_events import FetchEvents
+from bosch_alarm_map.models.fetched_events import FetchedEvents
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -250,9 +250,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.SubSIIDApi(api_client)
+    api_instance = bosch_alarm_map.SubSIIDApi(api_client)
     sub_siid = '/EDB1122914E14962A8BDCBD75B9ABA92' # str | Unique subscription SIID. You can get all existing subscriptions SIIDs with the command GET /sub 
     fetch_events = {"@cmd":"FETCHEVENTS","maxEvents":100,"minEvents":1,"maxTime":50} # FetchEvents | 
 

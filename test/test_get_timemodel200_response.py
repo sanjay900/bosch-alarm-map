@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.get_timemodel200_response import GetTimemodel200Response
+from bosch_alarm_map.models.get_timemodel200_response import GetTimemodel200Response
 
 class TestGetTimemodel200Response(unittest.TestCase):
     """GetTimemodel200Response unit test stubs"""

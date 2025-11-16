@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from bosch-alarm-map.models.lsn_loop_device_post import LSNLoopDevicePost
+from bosch_alarm_map.models.lsn_loop_device_post import LSNLoopDevicePost
 
 # TODO update the JSON string below
 json = "{}"

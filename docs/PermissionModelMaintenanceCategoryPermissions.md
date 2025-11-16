@@ -17,7 +17,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from bosch-alarm-map.models.permission_model_maintenance_category_permissions import PermissionModelMaintenanceCategoryPermissions
+from bosch_alarm_map.models.permission_model_maintenance_category_permissions import PermissionModelMaintenanceCategoryPermissions
 
 # TODO update the JSON string below
 json = "{}"

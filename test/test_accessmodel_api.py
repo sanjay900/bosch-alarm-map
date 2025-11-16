@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.api.accessmodel_api import AccessmodelApi
+from bosch_alarm_map.api.accessmodel_api import AccessmodelApi
 
 
 class TestAccessmodelApi(unittest.TestCase):

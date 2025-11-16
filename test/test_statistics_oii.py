@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.statistics_oii import StatisticsOii
+from bosch_alarm_map.models.statistics_oii import StatisticsOii
 
 class TestStatisticsOii(unittest.TestCase):
     """StatisticsOii unit test stubs"""

@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.desc import Desc
+from bosch_alarm_map.models.desc import Desc
 
 class TestDesc(unittest.TestCase):
     """Desc unit test stubs"""
@@ -47,7 +47,7 @@ class TestDesc(unittest.TestCase):
                     ''
                     ],
                 main_resources = [
-                    bosch-alarm-map.models.desc_main_resources_inner.desc_mainResources_inner(
+                    bosch_alarm_map.models.desc_main_resources_inner.desc_mainResources_inner(
                         @type = [
                             ''
                             ], 

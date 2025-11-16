@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.fire_detector import FireDetector
+from bosch_alarm_map.models.fire_detector import FireDetector
 
 class TestFireDetector(unittest.TestCase):
     """FireDetector unit test stubs"""
@@ -46,7 +46,7 @@ class TestFireDetector(unittest.TestCase):
                     ''
                     ],
                 tested_sensors = [
-                    bosch-alarm-map.models.fire_detector_tested_sensors_inner.fireDetector_testedSensors_inner(
+                    bosch_alarm_map.models.fire_detector_tested_sensors_inner.fireDetector_testedSensors_inner(
                         type = 'o', 
                         tested = True, )
                     ]

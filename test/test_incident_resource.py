@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.incident_resource import IncidentResource
+from bosch_alarm_map.models.incident_resource import IncidentResource
 
 class TestIncidentResource(unittest.TestCase):
     """IncidentResource unit test stubs"""

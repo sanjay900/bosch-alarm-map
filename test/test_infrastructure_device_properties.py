@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.infrastructure_device_properties import InfrastructureDeviceProperties
+from bosch_alarm_map.models.infrastructure_device_properties import InfrastructureDeviceProperties
 
 class TestInfrastructureDeviceProperties(unittest.TestCase):
     """InfrastructureDeviceProperties unit test stubs"""
@@ -37,14 +37,14 @@ class TestInfrastructureDeviceProperties(unittest.TestCase):
         if include_optional:
             return InfrastructureDeviceProperties(
                 generic = [
-                    bosch-alarm-map.models.infrastructure_device_generic_property.InfrastructureDeviceGenericProperty(
+                    bosch_alarm_map.models.infrastructure_device_generic_property.InfrastructureDeviceGenericProperty(
                         name = 'Interface type', 
                         value = 'Command', 
                         second_value = 'TBL_3STATE_12K1', 
                         third_value = '50000', )
                     ],
                 rps = [
-                    bosch-alarm-map.models.infrastructure_device_rps_property.InfrastructureDeviceRPSProperty(
+                    bosch_alarm_map.models.infrastructure_device_rps_property.InfrastructureDeviceRPSProperty(
                         name = 'MaxIncorrectAttempts', 
                         value = '10', )
                     ]

@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.lsn_detector_sensitivity_property import LSNDetectorSensitivityProperty
+from bosch_alarm_map.models.lsn_detector_sensitivity_property import LSNDetectorSensitivityProperty
 
 class TestLSNDetectorSensitivityProperty(unittest.TestCase):
     """LSNDetectorSensitivityProperty unit test stubs"""

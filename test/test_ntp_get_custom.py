@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.ntp_get_custom import NtpGetCustom
+from bosch_alarm_map.models.ntp_get_custom import NtpGetCustom
 
 class TestNtpGetCustom(unittest.TestCase):
     """NtpGetCustom unit test stubs"""

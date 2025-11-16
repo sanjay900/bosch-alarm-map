@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.post_areas_request import PostAreasRequest
+from bosch_alarm_map.models.post_areas_request import PostAreasRequest
 
 class TestPostAreasRequest(unittest.TestCase):
     """PostAreasRequest unit test stubs"""

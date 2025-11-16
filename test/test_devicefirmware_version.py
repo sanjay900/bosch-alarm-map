@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.devicefirmware_version import DevicefirmwareVersion
+from bosch_alarm_map.models.devicefirmware_version import DevicefirmwareVersion
 
 class TestDevicefirmwareVersion(unittest.TestCase):
     """DevicefirmwareVersion unit test stubs"""

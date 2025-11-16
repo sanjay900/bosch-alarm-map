@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.api.areaandtimemodellist_api import AreaandtimemodellistApi
+from bosch_alarm_map.api.areaandtimemodellist_api import AreaandtimemodellistApi
 
 
 class TestAreaandtimemodellistApi(unittest.TestCase):

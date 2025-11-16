@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.get_usermodel_by_id200_response import GetUsermodelById200Response
+from bosch_alarm_map.models.get_usermodel_by_id200_response import GetUsermodelById200Response
 
 class TestGetUsermodelById200Response(unittest.TestCase):
     """GetUsermodelById200Response unit test stubs"""

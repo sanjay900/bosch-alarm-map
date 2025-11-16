@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from bosch-alarm-map.models.smartkey_model_list_all_of_list_inner import SmartkeyModelListAllOfListInner
+from bosch_alarm_map.models.smartkey_model_list_all_of_list_inner import SmartkeyModelListAllOfListInner
 
 # TODO update the JSON string below
 json = "{}"

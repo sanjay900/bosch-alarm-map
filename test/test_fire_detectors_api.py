@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.api.fire_detectors_api import FireDetectorsApi
+from bosch_alarm_map.api.fire_detectors_api import FireDetectorsApi
 
 
 class TestFireDetectorsApi(unittest.TestCase):

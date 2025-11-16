@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.batterycharger import Batterycharger
+from bosch_alarm_map.models.batterycharger import Batterycharger
 
 class TestBatterycharger(unittest.TestCase):
     """Batterycharger unit test stubs"""

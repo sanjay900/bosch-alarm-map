@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.panel_meminfo import PanelMeminfo
+from bosch_alarm_map.models.panel_meminfo import PanelMeminfo
 
 class TestPanelMeminfo(unittest.TestCase):
     """PanelMeminfo unit test stubs"""

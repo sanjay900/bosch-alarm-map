@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.network_get import NetworkGet
+from bosch_alarm_map.models.network_get import NetworkGet
 
 class TestNetworkGet(unittest.TestCase):
     """NetworkGet unit test stubs"""

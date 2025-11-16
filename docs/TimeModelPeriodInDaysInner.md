@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from bosch-alarm-map.models.time_model_period_in_days_inner import TimeModelPeriodInDaysInner
+from bosch_alarm_map.models.time_model_period_in_days_inner import TimeModelPeriodInDaysInner
 
 # TODO update the JSON string below
 json = "{}"

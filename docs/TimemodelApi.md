@@ -1,4 +1,4 @@
-# bosch-alarm-map.TimemodelApi
+# bosch_alarm_map.TimemodelApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -19,14 +19,14 @@ Get a model by ID
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.get_timemodel200_response import GetTimemodel200Response
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.get_timemodel200_response import GetTimemodel200Response
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -36,9 +36,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.TimemodelApi(api_client)
+    api_instance = bosch_alarm_map.TimemodelApi(api_client)
     time_model_id = '24-Hour' # str | Unique name of a time model
 
     try:
@@ -114,15 +114,15 @@ The example  *deleteTimeModel* shows how to delete a time model:
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.post_timemodel_request import PostTimemodelRequest
-from bosch-alarm-map.models.time_model_sync_id import TimeModelSyncID
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.post_timemodel_request import PostTimemodelRequest
+from bosch_alarm_map.models.time_model_sync_id import TimeModelSyncID
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -132,9 +132,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.TimemodelApi(api_client)
+    api_instance = bosch_alarm_map.TimemodelApi(api_client)
     post_timemodel_request = {"@cmd":"CREATE","timeModelID":"6 Days (No Sundays)","referenceDate":"2011-10-11","ignoreSpecialDays":false,"periodInDays":[{"dayModelID":"Normal Work Day","priority":1},{"dayModelID":"Normal Work Day","priority":1},{"dayModelID":"Normal Work Day","priority":1},{"dayModelID":"Normal Work Day","priority":1},{"dayModelID":"Friday Work Day","priority":1},{"dayModelID":"Saturday Work Day","priority":1},{"dayModelID":"No Access","priority":1}],"specialDays":["New Year's Day","Christmas"],"timeModelSyncID":156} # PostTimemodelRequest | 
 
     try:

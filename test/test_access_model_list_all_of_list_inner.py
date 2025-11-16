@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.access_model_list_all_of_list_inner import AccessModelListAllOfListInner
+from bosch_alarm_map.models.access_model_list_all_of_list_inner import AccessModelListAllOfListInner
 
 class TestAccessModelListAllOfListInner(unittest.TestCase):
     """AccessModelListAllOfListInner unit test stubs"""

@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.api.sharedkey_api import SharedkeyApi
+from bosch_alarm_map.api.sharedkey_api import SharedkeyApi
 
 
 class TestSharedkeyApi(unittest.TestCase):

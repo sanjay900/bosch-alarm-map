@@ -1,4 +1,4 @@
-# bosch-alarm-map.PermissionmodellistApi
+# bosch_alarm_map.PermissionmodellistApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -19,14 +19,14 @@ This function returns a list of all permissionmodels saved in the MAP panel data
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.permission_model_list import PermissionModelList
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.permission_model_list import PermissionModelList
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -36,9 +36,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.PermissionmodellistApi(api_client)
+    api_instance = bosch_alarm_map.PermissionmodellistApi(api_client)
 
     try:
         # Get all permission models of the MAP system
@@ -106,15 +106,15 @@ The client system takes the modifications from the body and can check for permis
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.permission_model_list import PermissionModelList
-from bosch-alarm-map.models.permission_modellist_post import PermissionModellistPost
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.permission_model_list import PermissionModelList
+from bosch_alarm_map.models.permission_modellist_post import PermissionModellistPost
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -124,9 +124,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.PermissionmodellistApi(api_client)
+    api_instance = bosch_alarm_map.PermissionmodellistApi(api_client)
     permission_modellist_post = {"@cmd":"GETMODIFIEDLIST","permissionModelSyncID":572} # PermissionModellistPost |  (optional)
 
     try:

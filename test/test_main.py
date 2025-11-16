@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.main import Main
+from bosch_alarm_map.models.main import Main
 
 class TestMain(unittest.TestCase):
     """Main unit test stubs"""

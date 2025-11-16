@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from bosch-alarm-map.models.desc_main_resources_inner import DescMainResourcesInner
+from bosch_alarm_map.models.desc_main_resources_inner import DescMainResourcesInner
 
 # TODO update the JSON string below
 json = "{}"

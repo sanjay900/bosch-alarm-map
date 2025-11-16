@@ -1,4 +1,4 @@
-# bosch-alarm-map.UsermodellistApi
+# bosch_alarm_map.UsermodellistApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -26,14 +26,14 @@ To assign to a user the property *MUM*, see the URL */mumusergroup*  .<br>
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.user_model_list import UserModelList
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.user_model_list import UserModelList
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -43,9 +43,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.UsermodellistApi(api_client)
+    api_instance = bosch_alarm_map.UsermodellistApi(api_client)
     var_property = 'var_property_example' # str | Querying by property parameter will filter all existing users with UserID that have specified property flag set. UserID property is a set of flags for each UserID.  List of properties: - MUM: Multi-User-MAP: reserved for MUM usage; MAP Keypad cannot use (create) Users with MUM flagged UserID.  Each UserID has exactly one set of flags attached, UserID can be set in range [4, 998].  (optional)
 
     try:
@@ -118,15 +118,15 @@ The client system takes the modifications from the body and can check for users 
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.user_model_list import UserModelList
-from bosch-alarm-map.models.user_modellist_post import UserModellistPost
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.user_model_list import UserModelList
+from bosch_alarm_map.models.user_modellist_post import UserModellistPost
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -136,9 +136,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.UsermodellistApi(api_client)
+    api_instance = bosch_alarm_map.UsermodellistApi(api_client)
     user_modellist_post = {"@cmd":"GETMODIFIEDLIST","userModelSyncID":201} # UserModellistPost |  (optional)
 
     try:

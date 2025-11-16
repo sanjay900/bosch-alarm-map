@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.lsngwaux_configuration import LSNGWAUXConfiguration
+from bosch_alarm_map.models.lsngwaux_configuration import LSNGWAUXConfiguration
 
 class TestLSNGWAUXConfiguration(unittest.TestCase):
     """LSNGWAUXConfiguration unit test stubs"""

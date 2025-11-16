@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.diagnose_response import DiagnoseResponse
+from bosch_alarm_map.models.diagnose_response import DiagnoseResponse
 
 class TestDiagnoseResponse(unittest.TestCase):
     """DiagnoseResponse unit test stubs"""

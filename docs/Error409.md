@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from bosch-alarm-map.models.error409 import Error409
+from bosch_alarm_map.models.error409 import Error409
 
 # TODO update the JSON string below
 json = "{}"

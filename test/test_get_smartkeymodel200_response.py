@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.get_smartkeymodel200_response import GetSmartkeymodel200Response
+from bosch_alarm_map.models.get_smartkeymodel200_response import GetSmartkeymodel200Response
 
 class TestGetSmartkeymodel200Response(unittest.TestCase):
     """GetSmartkeymodel200Response unit test stubs"""

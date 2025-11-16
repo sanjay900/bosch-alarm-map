@@ -202,7 +202,7 @@ pip install git+https://github.com/GIT_USER_ID/GIT_REPO_ID.git
 
 Then import the package:
 ```python
-import bosch-alarm-map
+import bosch_alarm_map
 ```
 
 ### Setuptools
@@ -216,7 +216,7 @@ python setup.py install --user
 
 Then import the package:
 ```python
-import bosch-alarm-map
+import bosch_alarm_map
 ```
 
 ### Tests
@@ -229,13 +229,13 @@ Please follow the [installation procedure](#installation--usage) and then run th
 
 ```python
 
-import bosch-alarm-map
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -246,9 +246,9 @@ configuration = bosch-alarm-map.Configuration(
 
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.DEModuleSIIDApi(api_client)
+    api_instance = bosch_alarm_map.DEModuleSIIDApi(api_client)
     de_module_siid = '/1.1.Gateway.15001.1' # str | Unique DEModule SIID
 
     try:

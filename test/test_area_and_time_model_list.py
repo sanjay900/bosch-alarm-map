@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.area_and_time_model_list import AreaAndTimeModelList
+from bosch_alarm_map.models.area_and_time_model_list import AreaAndTimeModelList
 
 class TestAreaAndTimeModelList(unittest.TestCase):
     """AreaAndTimeModelList unit test stubs"""
@@ -38,7 +38,7 @@ class TestAreaAndTimeModelList(unittest.TestCase):
             return AreaAndTimeModelList(
                 area_and_time_model_sync_id = 145,
                 list = [
-                    bosch-alarm-map.models.area_and_time_model_list_all_of_list_inner.AreaAndTimeModelList_allOf_list_inner()
+                    bosch_alarm_map.models.area_and_time_model_list_all_of_list_inner.AreaAndTimeModelList_allOf_list_inner()
                     ]
             )
         else:

@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.api.config_api import ConfigApi
+from bosch_alarm_map.api.config_api import ConfigApi
 
 
 class TestConfigApi(unittest.TestCase):

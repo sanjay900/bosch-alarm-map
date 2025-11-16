@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.post_smartkeymodel_request import PostSmartkeymodelRequest
+from bosch_alarm_map.models.post_smartkeymodel_request import PostSmartkeymodelRequest
 
 class TestPostSmartkeymodelRequest(unittest.TestCase):
     """PostSmartkeymodelRequest unit test stubs"""

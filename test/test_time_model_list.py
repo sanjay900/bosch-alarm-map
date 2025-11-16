@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.time_model_list import TimeModelList
+from bosch_alarm_map.models.time_model_list import TimeModelList
 
 class TestTimeModelList(unittest.TestCase):
     """TimeModelList unit test stubs"""
@@ -38,7 +38,7 @@ class TestTimeModelList(unittest.TestCase):
             return TimeModelList(
                 time_model_sync_id = 354,
                 list = [
-                    bosch-alarm-map.models.time_model_list_all_of_list_inner.TimeModelList_allOf_list_inner()
+                    bosch_alarm_map.models.time_model_list_all_of_list_inner.TimeModelList_allOf_list_inner()
                     ]
             )
         else:

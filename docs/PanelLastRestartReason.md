@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from bosch-alarm-map.models.panel_last_restart_reason import PanelLastRestartReason
+from bosch_alarm_map.models.panel_last_restart_reason import PanelLastRestartReason
 
 # TODO update the JSON string below
 json = "{}"

@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.get_specialdaymodel200_response import GetSpecialdaymodel200Response
+from bosch_alarm_map.models.get_specialdaymodel200_response import GetSpecialdaymodel200Response
 
 class TestGetSpecialdaymodel200Response(unittest.TestCase):
     """GetSpecialdaymodel200Response unit test stubs"""

@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.models.statistics_common import StatisticsCommon
+from bosch_alarm_map.models.statistics_common import StatisticsCommon
 
 class TestStatisticsCommon(unittest.TestCase):
     """StatisticsCommon unit test stubs"""

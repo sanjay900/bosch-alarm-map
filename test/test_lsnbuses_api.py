@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch-alarm-map.api.lsnbuses_api import LsnbusesApi
+from bosch_alarm_map.api.lsnbuses_api import LsnbusesApi
 
 
 class TestLsnbusesApi(unittest.TestCase):

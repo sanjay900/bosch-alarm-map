@@ -1,4 +1,4 @@
-# bosch-alarm-map.PanelApi
+# bosch_alarm_map.PanelApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -26,14 +26,14 @@ The resource will allow an authorized client to restart the panel.
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.panel import Panel
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.panel import Panel
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -43,9 +43,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.PanelApi(api_client)
+    api_instance = bosch_alarm_map.PanelApi(api_client)
 
     try:
         # Current MAP panel status
@@ -102,14 +102,14 @@ and time. The resource will allow an authorized client to restart the panel.
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.panel_post import PanelPost
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.panel_post import PanelPost
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -119,9 +119,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.PanelApi(api_client)
+    api_instance = bosch_alarm_map.PanelApi(api_client)
     panel_post = {"@cmd":"RESTART","persistData":true} # PanelPost | 
 
     try:

@@ -1,4 +1,4 @@
-# bosch-alarm-map.IncApi
+# bosch_alarm_map.IncApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -75,14 +75,14 @@ under /inc with the following structure:
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.inc_list import IncList
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.inc_list import IncList
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -92,9 +92,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.IncApi(api_client)
+    api_instance = bosch_alarm_map.IncApi(api_client)
 
     try:
         # List of all incidents in the MAP
@@ -157,14 +157,14 @@ retry handling until the incident is deleted.
 
 
 ```python
-import bosch-alarm-map
-from bosch-alarm-map.models.incident_resource import IncidentResource
-from bosch-alarm-map.rest import ApiException
+import bosch_alarm_map
+from bosch_alarm_map.models.incident_resource import IncidentResource
+from bosch_alarm_map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = bosch-alarm-map.Configuration(
+configuration = bosch_alarm_map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -174,9 +174,9 @@ configuration = bosch-alarm-map.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with bosch-alarm-map.ApiClient(configuration) as api_client:
+with bosch_alarm_map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = bosch-alarm-map.IncApi(api_client)
+    api_instance = bosch_alarm_map.IncApi(api_client)
     incident_resource = {"@cmd":"HANDLE"} # IncidentResource | 
 
     try:
