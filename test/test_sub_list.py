@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.sub_list import SubList
+from bosch-alarm-map.models.sub_list import SubList
 
 class TestSubList(unittest.TestCase):
     """SubList unit test stubs"""

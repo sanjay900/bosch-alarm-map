@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.keypad_list import KeypadList
+from bosch-alarm-map.models.keypad_list import KeypadList
 
 class TestKeypadList(unittest.TestCase):
     """KeypadList unit test stubs"""

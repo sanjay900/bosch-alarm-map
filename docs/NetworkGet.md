@@ -15,7 +15,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.network_get import NetworkGet
+from bosch-alarm-map.models.network_get import NetworkGet
 
 # TODO update the JSON string below
 json = "{}"

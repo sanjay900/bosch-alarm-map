@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.lsn_loop_latching_bypassable_technical_point_post import LSNLoopLatchingBypassableTechnicalPointPost
+from bosch-alarm-map.models.lsn_loop_latching_bypassable_technical_point_post import LSNLoopLatchingBypassableTechnicalPointPost
 
 class TestLSNLoopLatchingBypassableTechnicalPointPost(unittest.TestCase):
     """LSNLoopLatchingBypassableTechnicalPointPost unit test stubs"""

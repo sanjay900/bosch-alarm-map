@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.day_model_list import DayModelList
+from bosch-alarm-map.models.day_model_list import DayModelList
 
 class TestDayModelList(unittest.TestCase):
     """DayModelList unit test stubs"""
@@ -38,7 +38,7 @@ class TestDayModelList(unittest.TestCase):
             return DayModelList(
                 day_model_sync_id = 458,
                 list = [
-                    openapi_client.models.day_model_list_all_of_list_inner.DayModelList_allOf_list_inner()
+                    bosch-alarm-map.models.day_model_list_all_of_list_inner.DayModelList_allOf_list_inner()
                     ]
             )
         else:

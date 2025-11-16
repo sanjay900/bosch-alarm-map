@@ -1,4 +1,4 @@
-# openapi_client.SmartkeysApi
+# bosch-alarm-map.SmartkeysApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -19,14 +19,14 @@ The resource returns a List of all used Smartkey resources
 
 
 ```python
-import openapi_client
-from openapi_client.models.smartkey_list import SmartkeyList
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.smartkey_list import SmartkeyList
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -36,9 +36,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SmartkeysApi(api_client)
+    api_instance = bosch-alarm-map.SmartkeysApi(api_client)
 
     try:
         # List of Smartkeys
@@ -92,14 +92,14 @@ Enable/Disable all Smartkeys resources in the system
 
 
 ```python
-import openapi_client
-from openapi_client.models.post_batteries_request import PostBatteriesRequest
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.post_batteries_request import PostBatteriesRequest
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -109,9 +109,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SmartkeysApi(api_client)
+    api_instance = bosch-alarm-map.SmartkeysApi(api_client)
     post_batteries_request = {"@cmd":"ENABLE"} # PostBatteriesRequest | 
 
     try:

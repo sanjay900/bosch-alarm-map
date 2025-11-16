@@ -1,4 +1,4 @@
-# openapi_client.OutputsApi
+# bosch-alarm-map.OutputsApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -19,14 +19,14 @@ List of outputs configured with the system including digital outputs, sirens, et
 
 
 ```python
-import openapi_client
-from openapi_client.models.output_list import OutputList
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.output_list import OutputList
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -36,9 +36,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.OutputsApi(api_client)
+    api_instance = bosch-alarm-map.OutputsApi(api_client)
 
     try:
         # List of all outputs
@@ -92,14 +92,14 @@ List operation for all system outputs
 
 
 ```python
-import openapi_client
-from openapi_client.models.post_outputs_request import PostOutputsRequest
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.post_outputs_request import PostOutputsRequest
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -109,9 +109,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.OutputsApi(api_client)
+    api_instance = bosch-alarm-map.OutputsApi(api_client)
     post_outputs_request = {"@cmd":"ENABLE"} # PostOutputsRequest | 
 
     try:

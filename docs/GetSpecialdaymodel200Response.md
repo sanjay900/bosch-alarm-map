@@ -18,7 +18,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_specialdaymodel200_response import GetSpecialdaymodel200Response
+from bosch-alarm-map.models.get_specialdaymodel200_response import GetSpecialdaymodel200Response
 
 # TODO update the JSON string below
 json = "{}"

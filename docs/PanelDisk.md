@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.panel_disk import PanelDisk
+from bosch-alarm-map.models.panel_disk import PanelDisk
 
 # TODO update the JSON string below
 json = "{}"

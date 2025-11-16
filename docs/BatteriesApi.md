@@ -1,4 +1,4 @@
-# openapi_client.BatteriesApi
+# bosch-alarm-map.BatteriesApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -21,14 +21,14 @@ same interface as devices, it can be disabled and bypassed. This resource type c
 
 
 ```python
-import openapi_client
-from openapi_client.models.battery_list import BatteryList
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.battery_list import BatteryList
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -38,9 +38,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.BatteriesApi(api_client)
+    api_instance = bosch-alarm-map.BatteriesApi(api_client)
 
     try:
         # List of batteries in the MAP system
@@ -96,14 +96,14 @@ same interface as the resource type device. It can be disabled and bypassed. Thi
 
 
 ```python
-import openapi_client
-from openapi_client.models.post_batteries_request import PostBatteriesRequest
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.post_batteries_request import PostBatteriesRequest
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -113,9 +113,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.BatteriesApi(api_client)
+    api_instance = bosch-alarm-map.BatteriesApi(api_client)
     post_batteries_request = {"@cmd":"ENABLE"} # PostBatteriesRequest | 
 
     try:

@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.post_keypads_request import PostKeypadsRequest
+from bosch-alarm-map.models.post_keypads_request import PostKeypadsRequest
 
 class TestPostKeypadsRequest(unittest.TestCase):
     """PostKeypadsRequest unit test stubs"""

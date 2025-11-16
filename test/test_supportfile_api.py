@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.api.supportfile_api import SupportfileApi
+from bosch-alarm-map.api.supportfile_api import SupportfileApi
 
 
 class TestSupportfileApi(unittest.TestCase):

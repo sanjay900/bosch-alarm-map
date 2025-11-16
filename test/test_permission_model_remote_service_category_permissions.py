@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.permission_model_remote_service_category_permissions import PermissionModelRemoteServiceCategoryPermissions
+from bosch-alarm-map.models.permission_model_remote_service_category_permissions import PermissionModelRemoteServiceCategoryPermissions
 
 class TestPermissionModelRemoteServiceCategoryPermissions(unittest.TestCase):
     """PermissionModelRemoteServiceCategoryPermissions unit test stubs"""

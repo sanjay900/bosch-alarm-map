@@ -15,7 +15,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.lsn_loop_silent_duress_point_post import LSNLoopSilentDuressPointPost
+from bosch-alarm-map.models.lsn_loop_silent_duress_point_post import LSNLoopSilentDuressPointPost
 
 # TODO update the JSON string below
 json = "{}"

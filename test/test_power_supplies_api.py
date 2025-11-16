@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.api.power_supplies_api import PowerSuppliesApi
+from bosch-alarm-map.api.power_supplies_api import PowerSuppliesApi
 
 
 class TestPowerSuppliesApi(unittest.TestCase):

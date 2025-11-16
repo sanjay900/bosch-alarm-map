@@ -18,7 +18,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.smartkey import Smartkey
+from bosch-alarm-map.models.smartkey import Smartkey
 
 # TODO update the JSON string below
 json = "{}"

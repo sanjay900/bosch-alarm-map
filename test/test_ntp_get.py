@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.ntp_get import NtpGet
+from bosch-alarm-map.models.ntp_get import NtpGet
 
 class TestNtpGet(unittest.TestCase):
     """NtpGet unit test stubs"""
@@ -38,10 +38,10 @@ class TestNtpGet(unittest.TestCase):
             return NtpGet(
                 status = '2024-01-01T12:00:00+01:00 from time.myorganization.com:123',
                 resync = 30240,
-                public = openapi_client.models.ntp_get_public.ntp_get_public(
+                public = bosch-alarm-map.models.ntp_get_public.ntp_get_public(
                     enabled = False, 
                     servers = ["time1.example.com:123","time2.example.com:123","time3.example.com:123","time4.example.com:123","time5.example.com:123"], ),
-                custom = openapi_client.models.ntp_get_custom.ntp_get_custom(
+                custom = bosch-alarm-map.models.ntp_get_custom.ntp_get_custom(
                     enabled = True, 
                     servers = ["time1.myorganization.com:123","time2.myorganization.com:123"], )
             )

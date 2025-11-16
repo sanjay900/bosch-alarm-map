@@ -15,7 +15,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.printer import Printer
+from bosch-alarm-map.models.printer import Printer
 
 # TODO update the JSON string below
 json = "{}"

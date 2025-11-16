@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.statistics_db_all_of_databases import StatisticsDbAllOfDatabases
+from bosch-alarm-map.models.statistics_db_all_of_databases import StatisticsDbAllOfDatabases
 
 # TODO update the JSON string below
 json = "{}"

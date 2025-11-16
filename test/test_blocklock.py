@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.blocklock import Blocklock
+from bosch-alarm-map.models.blocklock import Blocklock
 
 class TestBlocklock(unittest.TestCase):
     """Blocklock unit test stubs"""

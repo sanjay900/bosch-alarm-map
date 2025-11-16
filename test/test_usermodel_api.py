@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.api.usermodel_api import UsermodelApi
+from bosch-alarm-map.api.usermodel_api import UsermodelApi
 
 
 class TestUsermodelApi(unittest.TestCase):

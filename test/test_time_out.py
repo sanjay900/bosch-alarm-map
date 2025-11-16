@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.time_out import TimeOut
+from bosch-alarm-map.models.time_out import TimeOut
 
 class TestTimeOut(unittest.TestCase):
     """TimeOut unit test stubs"""

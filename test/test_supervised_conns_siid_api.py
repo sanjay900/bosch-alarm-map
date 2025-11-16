@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.api.supervised_conns_siid_api import SupervisedConnsSIIDApi
+from bosch-alarm-map.api.supervised_conns_siid_api import SupervisedConnsSIIDApi
 
 
 class TestSupervisedConnsSIIDApi(unittest.TestCase):

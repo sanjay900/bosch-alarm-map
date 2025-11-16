@@ -23,7 +23,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.lsn_std_intr56_configuration import LSNStdIntr56Configuration
+from bosch-alarm-map.models.lsn_std_intr56_configuration import LSNStdIntr56Configuration
 
 # TODO update the JSON string below
 json = "{}"

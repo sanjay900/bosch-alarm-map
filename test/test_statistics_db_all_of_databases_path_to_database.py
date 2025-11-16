@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.statistics_db_all_of_databases_path_to_database import StatisticsDbAllOfDatabasesPathToDatabase
+from bosch-alarm-map.models.statistics_db_all_of_databases_path_to_database import StatisticsDbAllOfDatabasesPathToDatabase
 
 class TestStatisticsDbAllOfDatabasesPathToDatabase(unittest.TestCase):
     """StatisticsDbAllOfDatabasesPathToDatabase unit test stubs"""
@@ -37,11 +37,11 @@ class TestStatisticsDbAllOfDatabasesPathToDatabase(unittest.TestCase):
         if include_optional:
             return StatisticsDbAllOfDatabasesPathToDatabase(
                 size_kb = 512,
-                handles = openapi_client.models.statistics_db_all_of_databases_path_to_database_handles.statistics_db_allOf_databases_path_to_database_handles(
+                handles = bosch-alarm-map.models.statistics_db_all_of_databases_path_to_database_handles.statistics_db_allOf_databases_path_to_database_handles(
                     alloc = 582, 
                     dealloc = 12, 
                     usage = 570, ),
-                counters = openapi_client.models.statistics_db_all_of_databases_path_to_database_counters.statistics_db_allOf_databases_path_to_database_counters(
+                counters = bosch-alarm-map.models.statistics_db_all_of_databases_path_to_database_counters.statistics_db_allOf_databases_path_to_database_counters(
                     reads = 2752, 
                     read_interval = '00:00:01.433', 
                     writes = 1371, 

@@ -1,4 +1,4 @@
-# openapi_client.AreasApi
+# bosch-alarm-map.AreasApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -23,14 +23,14 @@ all areas is provided.
 
 
 ```python
-import openapi_client
-from openapi_client.models.area_list import AreaList
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.area_list import AreaList
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -40,9 +40,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AreasApi(api_client)
+    api_instance = bosch-alarm-map.AreasApi(api_client)
 
     try:
         # List of all areas configured in the MAP system
@@ -111,14 +111,14 @@ all areas is provided. For the following area functions an example with explanat
 
 
 ```python
-import openapi_client
-from openapi_client.models.post_areas_request import PostAreasRequest
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.post_areas_request import PostAreasRequest
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -128,9 +128,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AreasApi(api_client)
+    api_instance = bosch-alarm-map.AreasApi(api_client)
     post_areas_request = {"@cmd":"ARM","bypassOffNormalDevices":false,"exitDelay":"ZERO"} # PostAreasRequest | 
 
     try:

@@ -1,4 +1,4 @@
-# openapi_client.LsnGatewaySIIDApi
+# bosch-alarm-map.LsnGatewaySIIDApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -22,14 +22,14 @@ will contain attributes of device and disable.
 
 
 ```python
-import openapi_client
-from openapi_client.models.lsn_gateway import LsnGateway
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.lsn_gateway import LsnGateway
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -39,9 +39,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.LsnGatewaySIIDApi(api_client)
+    api_instance = bosch-alarm-map.LsnGatewaySIIDApi(api_client)
     lsn_gateway_siid = '/1.1.Gateway.8001.1' # str | Unique lsnGateway SIID. You can get all existing lsnGateways IDs with the command GET /lsnGateways
 
     try:
@@ -102,15 +102,15 @@ will contain attributes of device and disable.
 
 
 ```python
-import openapi_client
-from openapi_client.models.devicefirmware_version import DevicefirmwareVersion
-from openapi_client.models.postlsn_gateway_siid_request import PostlsnGatewaySIIDRequest
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.devicefirmware_version import DevicefirmwareVersion
+from bosch-alarm-map.models.postlsn_gateway_siid_request import PostlsnGatewaySIIDRequest
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -120,9 +120,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.LsnGatewaySIIDApi(api_client)
+    api_instance = bosch-alarm-map.LsnGatewaySIIDApi(api_client)
     lsn_gateway_siid = '/1.1.Gateway.8001.1' # str | 
     postlsn_gateway_siid_request = {"@cmd":"ENABLE"} # PostlsnGatewaySIIDRequest | 
 

@@ -1,4 +1,4 @@
-# openapi-client
+# bosch-alarm-map
 # Overview 
 
 This document specifies the MAP REST-API (OII) - **O**pen **I**ntrusion **I**nterface (**OII**). 
@@ -202,7 +202,7 @@ pip install git+https://github.com/GIT_USER_ID/GIT_REPO_ID.git
 
 Then import the package:
 ```python
-import openapi_client
+import bosch-alarm-map
 ```
 
 ### Setuptools
@@ -216,7 +216,7 @@ python setup.py install --user
 
 Then import the package:
 ```python
-import openapi_client
+import bosch-alarm-map
 ```
 
 ### Tests
@@ -229,13 +229,13 @@ Please follow the [installation procedure](#installation--usage) and then run th
 
 ```python
 
-import openapi_client
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -246,9 +246,9 @@ configuration = openapi_client.Configuration(
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DEModuleSIIDApi(api_client)
+    api_instance = bosch-alarm-map.DEModuleSIIDApi(api_client)
     de_module_siid = '/1.1.Gateway.15001.1' # str | Unique DEModule SIID
 
     try:

@@ -1,4 +1,4 @@
-# openapi_client.NetworkApi
+# bosch-alarm-map.NetworkApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -20,14 +20,14 @@ This resource allows inspecting of the IP network settings of the MAP panel.
 
 
 ```python
-import openapi_client
-from openapi_client.models.network_get import NetworkGet
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.network_get import NetworkGet
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -37,9 +37,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.NetworkApi(api_client)
+    api_instance = bosch-alarm-map.NetworkApi(api_client)
 
     try:
         # Inspect network settings
@@ -99,14 +99,14 @@ See also the examples:
 
 
 ```python
-import openapi_client
-from openapi_client.models.network_post import NetworkPost
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.network_post import NetworkPost
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -116,9 +116,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.NetworkApi(api_client)
+    api_instance = bosch-alarm-map.NetworkApi(api_client)
     network_post = {"@cmd":"ACTIVATEDHCP"} # NetworkPost | 
 
     try:

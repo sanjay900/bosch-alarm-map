@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.de_module import DEModule
+from bosch-alarm-map.models.de_module import DEModule
 
 class TestDEModule(unittest.TestCase):
     """DEModule unit test stubs"""

@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.supervised_conns_list import SupervisedConnsList
+from bosch-alarm-map.models.supervised_conns_list import SupervisedConnsList
 
 class TestSupervisedConnsList(unittest.TestCase):
     """SupervisedConnsList unit test stubs"""

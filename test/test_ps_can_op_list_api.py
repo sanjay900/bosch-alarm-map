@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.api.ps_can_op_list_api import PsCanOpListApi
+from bosch-alarm-map.api.ps_can_op_list_api import PsCanOpListApi
 
 
 class TestPsCanOpListApi(unittest.TestCase):

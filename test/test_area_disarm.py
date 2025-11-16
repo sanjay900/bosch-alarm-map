@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.area_disarm import AreaDisarm
+from bosch-alarm-map.models.area_disarm import AreaDisarm
 
 class TestAreaDisarm(unittest.TestCase):
     """AreaDisarm unit test stubs"""

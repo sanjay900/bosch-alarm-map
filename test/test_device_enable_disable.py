@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.device_enable_disable import DeviceEnableDisable
+from bosch-alarm-map.models.device_enable_disable import DeviceEnableDisable
 
 class TestDeviceEnableDisable(unittest.TestCase):
     """DeviceEnableDisable unit test stubs"""

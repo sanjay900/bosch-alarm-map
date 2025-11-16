@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.getarming_info import GetarmingInfo
+from bosch-alarm-map.models.getarming_info import GetarmingInfo
 
 class TestGetarmingInfo(unittest.TestCase):
     """GetarmingInfo unit test stubs"""

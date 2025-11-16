@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.synchronization_ids import SynchronizationIDs
+from bosch-alarm-map.models.synchronization_ids import SynchronizationIDs
 
 class TestSynchronizationIDs(unittest.TestCase):
     """SynchronizationIDs unit test stubs"""

@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.api.walktests_api import WalktestsApi
+from bosch-alarm-map.api.walktests_api import WalktestsApi
 
 
 class TestWalktestsApi(unittest.TestCase):

@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.api.main_siid_api import MainSIIDApi
+from bosch-alarm-map.api.main_siid_api import MainSIIDApi
 
 
 class TestMainSIIDApi(unittest.TestCase):

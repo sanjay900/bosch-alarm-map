@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.config import Config
+from bosch-alarm-map.models.config import Config
 
 class TestConfig(unittest.TestCase):
     """Config unit test stubs"""
@@ -40,7 +40,7 @@ class TestConfig(unittest.TestCase):
                     'IN.config.1'
                     ],
                 var_self = '',
-                area_configuration = openapi_client.models.area_configuration.areaConfiguration(
+                area_configuration = bosch-alarm-map.models.area_configuration.areaConfiguration(
                     name = '[Control Panel Area]', 
                     siid = '1.1.ControlPanelArea.1.1', 
                     disarm_if_all_disarmed = 'NOCONSTRAINT', 
@@ -53,13 +53,13 @@ class TestConfig(unittest.TestCase):
                     device_list = [
                         '1.1.Point.21001.8'
                         ], ),
-                internal_programs_configuration = openapi_client.models.internal_programs_configuration.internalProgramsConfiguration(
+                internal_programs_configuration = bosch-alarm-map.models.internal_programs_configuration.internalProgramsConfiguration(
                     name = '[Control Panel Area]', 
                     siid = 'internalprogram/1', 
                     device_list = [
                         '1.1.Point.21001.9'
                         ], ),
-                device_configuration = openapi_client.models.device_configuration.deviceConfiguration(
+                device_configuration = bosch-alarm-map.models.device_configuration.deviceConfiguration(
                     name = 'Onboard I/O', 
                     siid = '1.1.Module.21001.001', 
                     type = 'POINT.ONBOARD', 

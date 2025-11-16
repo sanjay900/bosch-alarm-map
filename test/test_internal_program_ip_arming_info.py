@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.internal_program_ip_arming_info import InternalProgramIpArmingInfo
+from bosch-alarm-map.models.internal_program_ip_arming_info import InternalProgramIpArmingInfo
 
 class TestInternalProgramIpArmingInfo(unittest.TestCase):
     """InternalProgramIpArmingInfo unit test stubs"""

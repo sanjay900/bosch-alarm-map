@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.lsn_gateway_list import LsnGatewayList
+from bosch-alarm-map.models.lsn_gateway_list import LsnGatewayList
 
 class TestLsnGatewayList(unittest.TestCase):
     """LsnGatewayList unit test stubs"""

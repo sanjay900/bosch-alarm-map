@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.time_model_list_all_of_list_inner import TimeModelListAllOfListInner
+from bosch-alarm-map.models.time_model_list_all_of_list_inner import TimeModelListAllOfListInner
 
 # TODO update the JSON string below
 json = "{}"

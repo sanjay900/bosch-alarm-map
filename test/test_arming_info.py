@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.arming_info import ArmingInfo
+from bosch-alarm-map.models.arming_info import ArmingInfo
 
 class TestArmingInfo(unittest.TestCase):
     """ArmingInfo unit test stubs"""
@@ -40,11 +40,11 @@ class TestArmingInfo(unittest.TestCase):
                 ready_to_arm = True,
                 ready_to_force_arm = True,
                 ready_to_disarm = True,
-                why_not_ready_to_arm = openapi_client.models.arming_info_why_not_ready_to_arm.armingInfo_whyNotReadyToArm(
+                why_not_ready_to_arm = bosch-alarm-map.models.arming_info_why_not_ready_to_arm.armingInfo_whyNotReadyToArm(
                     bypassable_faulted_devices = [
                         ''
                         ], ),
-                why_not_ready_to_force_arm = openapi_client.models.arming_info_why_not_ready_to_force_arm.armingInfo_whyNotReadyToForceArm(
+                why_not_ready_to_force_arm = bosch-alarm-map.models.arming_info_why_not_ready_to_force_arm.armingInfo_whyNotReadyToForceArm(
                     non_bypassable_faulted_devices = [
                         ''
                         ], 
@@ -66,7 +66,7 @@ class TestArmingInfo(unittest.TestCase):
                         ], 
                     pending_incidents_in_area = True, 
                     area_in_walktest = True, ),
-                why_not_ready_to_disarm = openapi_client.models.arming_info_why_not_ready_to_disarm.armingInfo_whyNotReadyToDisarm(
+                why_not_ready_to_disarm = bosch-alarm-map.models.arming_info_why_not_ready_to_disarm.armingInfo_whyNotReadyToDisarm(
                     related_areas_not_ready_to_disarm = [
                         ''
                         ], 

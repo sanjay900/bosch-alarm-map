@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.groundfault_list import GroundfaultList
+from bosch-alarm-map.models.groundfault_list import GroundfaultList
 
 class TestGroundfaultList(unittest.TestCase):
     """GroundfaultList unit test stubs"""

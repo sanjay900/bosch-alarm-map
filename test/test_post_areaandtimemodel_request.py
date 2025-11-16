@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.post_areaandtimemodel_request import PostAreaandtimemodelRequest
+from bosch-alarm-map.models.post_areaandtimemodel_request import PostAreaandtimemodelRequest
 
 class TestPostAreaandtimemodelRequest(unittest.TestCase):
     """PostAreaandtimemodelRequest unit test stubs"""

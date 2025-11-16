@@ -20,7 +20,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.panel_meminfo import PanelMeminfo
+from bosch-alarm-map.models.panel_meminfo import PanelMeminfo
 
 # TODO update the JSON string below
 json = "{}"

@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.user_model_list import UserModelList
+from bosch-alarm-map.models.user_model_list import UserModelList
 
 class TestUserModelList(unittest.TestCase):
     """UserModelList unit test stubs"""
@@ -38,7 +38,7 @@ class TestUserModelList(unittest.TestCase):
             return UserModelList(
                 user_model_sync_id = 3245,
                 list = [
-                    openapi_client.models.user_model_list_all_of_list_inner.UserModelList_allOf_list_inner()
+                    bosch-alarm-map.models.user_model_list_all_of_list_inner.UserModelList_allOf_list_inner()
                     ]
             )
         else:

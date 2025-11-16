@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.post_area_siid_request import PostAreaSIIDRequest
+from bosch-alarm-map.models.post_area_siid_request import PostAreaSIIDRequest
 
 # TODO update the JSON string below
 json = "{}"

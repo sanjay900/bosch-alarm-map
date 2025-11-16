@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.api.blocklock_siid_api import BlocklockSIIDApi
+from bosch-alarm-map.api.blocklock_siid_api import BlocklockSIIDApi
 
 
 class TestBlocklockSIIDApi(unittest.TestCase):

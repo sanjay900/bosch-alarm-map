@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.device_bypass_unbypass import DeviceBypassUnbypass
+from bosch-alarm-map.models.device_bypass_unbypass import DeviceBypassUnbypass
 
 class TestDeviceBypassUnbypass(unittest.TestCase):
     """DeviceBypassUnbypass unit test stubs"""

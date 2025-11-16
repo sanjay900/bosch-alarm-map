@@ -17,7 +17,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.blocklock import Blocklock
+from bosch-alarm-map.models.blocklock import Blocklock
 
 # TODO update the JSON string below
 json = "{}"

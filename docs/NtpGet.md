@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.ntp_get import NtpGet
+from bosch-alarm-map.models.ntp_get import NtpGet
 
 # TODO update the JSON string below
 json = "{}"

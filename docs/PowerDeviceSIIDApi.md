@@ -1,4 +1,4 @@
-# openapi_client.PowerDeviceSIIDApi
+# bosch-alarm-map.PowerDeviceSIIDApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -22,13 +22,13 @@ The resource structure will contain attributes of device and disable.
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -38,9 +38,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.PowerDeviceSIIDApi(api_client)
+    api_instance = bosch-alarm-map.PowerDeviceSIIDApi(api_client)
     power_device_siid = 'power_device_siid_example' # str | Unique powerDevice SIID. You can get all existing powerDevices IDs with the command GET /powerDevices
 
     try:

@@ -9,7 +9,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.mumusergroup_mixarray_all_of_user_ids import MumusergroupMixarrayAllOfUserIds
+from bosch-alarm-map.models.mumusergroup_mixarray_all_of_user_ids import MumusergroupMixarrayAllOfUserIds
 
 # TODO update the JSON string below
 json = "{}"

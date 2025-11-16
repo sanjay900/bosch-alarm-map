@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.supervised_ipc import SupervisedIPC
+from bosch-alarm-map.models.supervised_ipc import SupervisedIPC
 
 class TestSupervisedIPC(unittest.TestCase):
     """SupervisedIPC unit test stubs"""

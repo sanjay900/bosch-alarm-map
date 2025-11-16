@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.panel_last_restart_reason import PanelLastRestartReason
+from bosch-alarm-map.models.panel_last_restart_reason import PanelLastRestartReason
 
 class TestPanelLastRestartReason(unittest.TestCase):
     """PanelLastRestartReason unit test stubs"""

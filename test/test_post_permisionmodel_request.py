@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.post_permisionmodel_request import PostPermisionmodelRequest
+from bosch-alarm-map.models.post_permisionmodel_request import PostPermisionmodelRequest
 
 class TestPostPermisionmodelRequest(unittest.TestCase):
     """PostPermisionmodelRequest unit test stubs"""
@@ -38,7 +38,7 @@ class TestPostPermisionmodelRequest(unittest.TestCase):
             return PostPermisionmodelRequest(
                 cmd = 'CREATE',
                 permission_model_id = 'Installer Permission',
-                arm_category_permissions = openapi_client.models.permission_model_arm_category_permissions.PermissionModel_armCategoryPermissions(
+                arm_category_permissions = bosch-alarm-map.models.permission_model_arm_category_permissions.PermissionModel_armCategoryPermissions(
                     may_arm_area = True, 
                     may_arm_with_active_tamper = True, 
                     may_disarm_area = True, 
@@ -48,7 +48,7 @@ class TestPostPermisionmodelRequest(unittest.TestCase):
                     may_un_bypass_detector = True, 
                     may_un_bypassforciblybypassed_detectors_in_ar = True, 
                     may_switch_internal_program_on/off = True, ),
-                event_category_permissions = openapi_client.models.permission_model_event_category_permissions.PermissionModel_eventCategoryPermissions(
+                event_category_permissions = bosch-alarm-map.models.permission_model_event_category_permissions.PermissionModel_eventCategoryPermissions(
                     may_clear_internal_alarm = True, 
                     may_clear_external_alarm = True, 
                     may_clear_tamper = True, 
@@ -57,7 +57,7 @@ class TestPostPermisionmodelRequest(unittest.TestCase):
                     may_silence = True, 
                     may_clear_main_power_failure = True, 
                     may_clear_ats = True, ),
-                maintenance_category_permissions = openapi_client.models.permission_model_maintenance_category_permissions.PermissionModel_maintenanceCategoryPermissions(
+                maintenance_category_permissions = bosch-alarm-map.models.permission_model_maintenance_category_permissions.PermissionModel_maintenanceCategoryPermissions(
                     may_adjust_control_center_volume/backlight = True, 
                     may_change_output_state = True, 
                     may_set_date_time = True, 
@@ -66,16 +66,16 @@ class TestPostPermisionmodelRequest(unittest.TestCase):
                     may_walk_test_automatic_points = True, 
                     may_walk_test_points = True, 
                     may_change_network_setting = True, ),
-                operations_category_permissions = openapi_client.models.permission_model_operations_category_permissions.PermissionModel_operationsCategoryPermissions(
+                operations_category_permissions = bosch-alarm-map.models.permission_model_operations_category_permissions.PermissionModel_operationsCategoryPermissions(
                     may_disable_device = True, 
                     may_enable_device = True, 
                     may_turn_chime_on/off = True, 
                     may_change_schedule = True, 
                     may_edit_blocking_time = True, ),
-                remote_service_category_permissions = openapi_client.models.permission_model_remote_service_category_permissions.PermissionModel_remoteServiceCategoryPermissions(
+                remote_service_category_permissions = bosch-alarm-map.models.permission_model_remote_service_category_permissions.PermissionModel_remoteServiceCategoryPermissions(
                     may_authorize_manufacturer_user = True, 
                     may_authorize_rps_user = True, ),
-                status_category_permissions = openapi_client.models.permission_model_status_category_permissions.PermissionModel_statusCategoryPermissions(
+                status_category_permissions = bosch-alarm-map.models.permission_model_status_category_permissions.PermissionModel_statusCategoryPermissions(
                     may_view_area_status = True, 
                     may_view_device_status = True, 
                     may_view_duress_alarm = True, 
@@ -84,7 +84,7 @@ class TestPostPermisionmodelRequest(unittest.TestCase):
                     may_view_control_panel_history = True, 
                     may_print_control_panel_history = True, 
                     may_view_control_panel_version = True, ),
-                user_category_permissions = openapi_client.models.permission_model_user_category_permissions.PermissionModel_userCategoryPermissions(
+                user_category_permissions = bosch-alarm-map.models.permission_model_user_category_permissions.PermissionModel_userCategoryPermissions(
                     may_add_user = True, 
                     may_delete_user = True, 
                     may_change_user_passcode = True, )

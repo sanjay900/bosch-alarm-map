@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.internal_program import InternalProgram
+from bosch-alarm-map.models.internal_program import InternalProgram
 
 class TestInternalProgram(unittest.TestCase):
     """InternalProgram unit test stubs"""

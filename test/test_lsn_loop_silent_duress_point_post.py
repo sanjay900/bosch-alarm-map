@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.lsn_loop_silent_duress_point_post import LSNLoopSilentDuressPointPost
+from bosch-alarm-map.models.lsn_loop_silent_duress_point_post import LSNLoopSilentDuressPointPost
 
 class TestLSNLoopSilentDuressPointPost(unittest.TestCase):
     """LSNLoopSilentDuressPointPost unit test stubs"""

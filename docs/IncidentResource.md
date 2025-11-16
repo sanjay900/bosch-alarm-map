@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.incident_resource import IncidentResource
+from bosch-alarm-map.models.incident_resource import IncidentResource
 
 # TODO update the JSON string below
 json = "{}"

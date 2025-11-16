@@ -15,7 +15,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.groundfault import Groundfault
+from bosch-alarm-map.models.groundfault import Groundfault
 
 # TODO update the JSON string below
 json = "{}"

@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.area import Area
+from bosch-alarm-map.models.area import Area
 
 class TestArea(unittest.TestCase):
     """Area unit test stubs"""

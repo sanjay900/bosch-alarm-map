@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.get_accessmodel200_response import GetAccessmodel200Response
+from bosch-alarm-map.models.get_accessmodel200_response import GetAccessmodel200Response
 
 class TestGetAccessmodel200Response(unittest.TestCase):
     """GetAccessmodel200Response unit test stubs"""

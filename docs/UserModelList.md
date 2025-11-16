@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.user_model_list import UserModelList
+from bosch-alarm-map.models.user_model_list import UserModelList
 
 # TODO update the JSON string below
 json = "{}"

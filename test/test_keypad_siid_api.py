@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.api.keypad_siid_api import KeypadSIIDApi
+from bosch-alarm-map.api.keypad_siid_api import KeypadSIIDApi
 
 
 class TestKeypadSIIDApi(unittest.TestCase):

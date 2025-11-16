@@ -1,4 +1,4 @@
-# openapi_client.OutputSIIDApi
+# bosch-alarm-map.OutputSIIDApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -19,14 +19,14 @@ The resource type output extends the type device with additional output state in
 
 
 ```python
-import openapi_client
-from openapi_client.models.output import Output
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.output import Output
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -36,9 +36,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.OutputSIIDApi(api_client)
+    api_instance = bosch-alarm-map.OutputSIIDApi(api_client)
     output_siid = '/1.1.Output.3002.12' # str | Unique output SIID. You can get all existing outputs IDs with the command GET /outputs
 
     try:
@@ -99,14 +99,14 @@ attributes of device and disable.
 
 
 ```python
-import openapi_client
-from openapi_client.models.post_outputs_request import PostOutputsRequest
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.post_outputs_request import PostOutputsRequest
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -116,9 +116,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.OutputSIIDApi(api_client)
+    api_instance = bosch-alarm-map.OutputSIIDApi(api_client)
     output_siid = '/1.1.Output.3002.12' # str | 
     post_outputs_request = {"@cmd":"ENABLE"} # PostOutputsRequest | 
 

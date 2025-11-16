@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.smartkey_model_sync_id import SmartkeyModelSyncID
+from bosch-alarm-map.models.smartkey_model_sync_id import SmartkeyModelSyncID
 
 class TestSmartkeyModelSyncID(unittest.TestCase):
     """SmartkeyModelSyncID unit test stubs"""

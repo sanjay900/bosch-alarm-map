@@ -15,7 +15,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.statistics_db import StatisticsDb
+from bosch-alarm-map.models.statistics_db import StatisticsDb
 
 # TODO update the JSON string below
 json = "{}"

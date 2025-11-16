@@ -18,7 +18,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.statistics_oii_all_of_clients_inner import StatisticsOiiAllOfClientsInner
+from bosch-alarm-map.models.statistics_oii_all_of_clients_inner import StatisticsOiiAllOfClientsInner
 
 # TODO update the JSON string below
 json = "{}"

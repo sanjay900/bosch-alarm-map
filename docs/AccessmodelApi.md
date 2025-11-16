@@ -1,4 +1,4 @@
-# openapi_client.AccessmodelApi
+# bosch-alarm-map.AccessmodelApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -19,14 +19,14 @@ Get a model by ID
 
 
 ```python
-import openapi_client
-from openapi_client.models.get_accessmodel200_response import GetAccessmodel200Response
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.get_accessmodel200_response import GetAccessmodel200Response
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -36,9 +36,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AccessmodelApi(api_client)
+    api_instance = bosch-alarm-map.AccessmodelApi(api_client)
     access_model_id = 'Installer Profile' # str | Unique accessmodel name
 
     try:
@@ -115,15 +115,15 @@ The example *deleteAccessModel** shows how to delete an access model:
 
 
 ```python
-import openapi_client
-from openapi_client.models.access_model_sync_id import AccessModelSyncID
-from openapi_client.models.post_accessmodel_request import PostAccessmodelRequest
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.access_model_sync_id import AccessModelSyncID
+from bosch-alarm-map.models.post_accessmodel_request import PostAccessmodelRequest
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -133,9 +133,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AccessmodelApi(api_client)
+    api_instance = bosch-alarm-map.AccessmodelApi(api_client)
     post_accessmodel_request = {"@cmd":"CREATE","accessModelID":"Installer Profile","accessProfileLevel":1,"areaAndTimeModelList":["Installer Model","Owner/Facility Manager Model"],"accessModelSyncID":156} # PostAccessmodelRequest | 
 
     try:

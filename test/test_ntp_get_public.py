@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.ntp_get_public import NtpGetPublic
+from bosch-alarm-map.models.ntp_get_public import NtpGetPublic
 
 class TestNtpGetPublic(unittest.TestCase):
     """NtpGetPublic unit test stubs"""

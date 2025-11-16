@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.lsngw_configuration_delete_post import LSNGWConfigurationDeletePost
+from bosch-alarm-map.models.lsngw_configuration_delete_post import LSNGWConfigurationDeletePost
 
 # TODO update the JSON string below
 json = "{}"

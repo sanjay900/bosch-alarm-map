@@ -1,4 +1,4 @@
-# openapi_client.SmartkeymodelApi
+# bosch-alarm-map.SmartkeymodelApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -19,14 +19,14 @@ This function returns a list with all Smartkey models and their parameters on a 
 
 
 ```python
-import openapi_client
-from openapi_client.models.get_smartkeymodel200_response import GetSmartkeymodel200Response
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.get_smartkeymodel200_response import GetSmartkeymodel200Response
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -36,9 +36,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SmartkeymodelApi(api_client)
+    api_instance = bosch-alarm-map.SmartkeymodelApi(api_client)
     smartkey_model_id = 'SuperSmartKeyAccess' # str | Unique Smartkey model name
 
     try:
@@ -114,15 +114,15 @@ The example *deleteSmartkeyModel* shows an example how to delete a Smartkey mode
 
 
 ```python
-import openapi_client
-from openapi_client.models.post_smartkeymodel_request import PostSmartkeymodelRequest
-from openapi_client.models.smartkey_model_sync_id import SmartkeyModelSyncID
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.post_smartkeymodel_request import PostSmartkeymodelRequest
+from bosch-alarm-map.models.smartkey_model_sync_id import SmartkeyModelSyncID
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -132,9 +132,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SmartkeymodelApi(api_client)
+    api_instance = bosch-alarm-map.SmartkeymodelApi(api_client)
     post_smartkeymodel_request = {"@cmd":"CREATE","smartkeyModelID":"Basic SmartkeyProfile 1","areaScopeList":["Control Panel Area","Area 1"],"armAuthority":"CanArmAnyTime","disarmAuthority":"CanDisarm","timeModelUsedForDisarming":"6 Days (No Sundays)","smartkeyModelSyncID":156} # PostSmartkeymodelRequest | 
 
     try:

@@ -1,4 +1,4 @@
-# openapi_client.UsersApi
+# bosch-alarm-map.UsersApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -19,14 +19,14 @@ Get a list with all user configs from system
 
 
 ```python
-import openapi_client
-from openapi_client.models.users import Users
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.users import Users
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -36,9 +36,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.UsersApi(api_client)
+    api_instance = bosch-alarm-map.UsersApi(api_client)
 
     try:
         # Get a list with all user configs from system
@@ -94,14 +94,14 @@ also use this resource to activate or deactivate multiple users with a single re
 
 
 ```python
-import openapi_client
-from openapi_client.models.user_activate import UserActivate
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.user_activate import UserActivate
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -111,9 +111,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.UsersApi(api_client)
+    api_instance = bosch-alarm-map.UsersApi(api_client)
     user_activate = {"@cmd":"ACTIVATE"} # UserActivate | 
 
     try:

@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.lsn_std_intr53_configuration_any_of import LSNStdIntr53ConfigurationAnyOf
+from bosch-alarm-map.models.lsn_std_intr53_configuration_any_of import LSNStdIntr53ConfigurationAnyOf
 
 class TestLSNStdIntr53ConfigurationAnyOf(unittest.TestCase):
     """LSNStdIntr53ConfigurationAnyOf unit test stubs"""

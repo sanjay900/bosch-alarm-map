@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.fetch_events import FetchEvents
+from bosch-alarm-map.models.fetch_events import FetchEvents
 
 class TestFetchEvents(unittest.TestCase):
     """FetchEvents unit test stubs"""

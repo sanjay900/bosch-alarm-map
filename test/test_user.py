@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.user import User
+from bosch-alarm-map.models.user import User
 
 class TestUser(unittest.TestCase):
     """User unit test stubs"""

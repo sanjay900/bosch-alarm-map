@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.api.syncstatus_api import SyncstatusApi
+from bosch-alarm-map.api.syncstatus_api import SyncstatusApi
 
 
 class TestSyncstatusApi(unittest.TestCase):

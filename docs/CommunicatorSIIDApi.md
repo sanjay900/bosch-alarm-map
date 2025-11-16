@@ -1,4 +1,4 @@
-# openapi_client.CommunicatorSIIDApi
+# bosch-alarm-map.CommunicatorSIIDApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -22,14 +22,14 @@ The resource structure will contain attributes of device and disable.
 
 
 ```python
-import openapi_client
-from openapi_client.models.communicator import Communicator
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.communicator import Communicator
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -39,9 +39,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.CommunicatorSIIDApi(api_client)
+    api_instance = bosch-alarm-map.CommunicatorSIIDApi(api_client)
     communicator_siid = '/1.1.communicator.1.1' # str | Unique communicator SIID.
 
     try:

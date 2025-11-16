@@ -1,4 +1,4 @@
-# openapi_client.AreaSIIDApi
+# bosch-alarm-map.AreaSIIDApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -27,14 +27,14 @@ control over test modes and the chime mode. <br>
 
 
 ```python
-import openapi_client
-from openapi_client.models.area import Area
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.area import Area
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -44,9 +44,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AreaSIIDApi(api_client)
+    api_instance = bosch-alarm-map.AreaSIIDApi(api_client)
     area_siid = '/1.1.Area.2.2' # str | Unique area SIID. You can get all existing area SIIDs with the command GET /areas 
 
     try:
@@ -124,15 +124,15 @@ control over test modes and the chime mode. For the following area functions an 
 
 
 ```python
-import openapi_client
-from openapi_client.models.area_post_responses import AreaPostResponses
-from openapi_client.models.post_area_siid_request import PostAreaSIIDRequest
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.area_post_responses import AreaPostResponses
+from bosch-alarm-map.models.post_area_siid_request import PostAreaSIIDRequest
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -142,9 +142,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AreaSIIDApi(api_client)
+    api_instance = bosch-alarm-map.AreaSIIDApi(api_client)
     area_siid = '/1.1.Area.2.2' # str | Unique area SIID.
     post_area_siid_request = {"@cmd":"ARM","bypassOffNormalDevices":false,"exitDelay":"ZERO"} # PostAreaSIIDRequest | 
 

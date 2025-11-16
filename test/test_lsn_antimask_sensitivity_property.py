@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.lsn_antimask_sensitivity_property import LSNAntimaskSensitivityProperty
+from bosch-alarm-map.models.lsn_antimask_sensitivity_property import LSNAntimaskSensitivityProperty
 
 class TestLSNAntimaskSensitivityProperty(unittest.TestCase):
     """LSNAntimaskSensitivityProperty unit test stubs"""

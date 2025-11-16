@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.syncstatus_restart_counter import SyncstatusRestartCounter
+from bosch-alarm-map.models.syncstatus_restart_counter import SyncstatusRestartCounter
 
 class TestSyncstatusRestartCounter(unittest.TestCase):
     """SyncstatusRestartCounter unit test stubs"""

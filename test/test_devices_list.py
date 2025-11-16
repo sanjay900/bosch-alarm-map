@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.devices_list import DevicesList
+from bosch-alarm-map.models.devices_list import DevicesList
 
 class TestDevicesList(unittest.TestCase):
     """DevicesList unit test stubs"""
@@ -39,7 +39,7 @@ class TestDevicesList(unittest.TestCase):
                 type = ["IN.deviceList.1"],
                 var_self = '',
                 list = [
-                    openapi_client.models.device.device(
+                    bosch-alarm-map.models.device.device(
                         @type = [
                             'IN.dev.1'
                             ], 

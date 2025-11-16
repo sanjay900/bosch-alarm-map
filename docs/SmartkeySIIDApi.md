@@ -1,4 +1,4 @@
-# openapi_client.SmartkeySIIDApi
+# bosch-alarm-map.SmartkeySIIDApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -19,14 +19,14 @@ Get the Smartkey SIID. You can get a Smartkey's ID with the command GET /smartke
 
 
 ```python
-import openapi_client
-from openapi_client.models.smartkey import Smartkey
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.smartkey import Smartkey
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -36,9 +36,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SmartkeySIIDApi(api_client)
+    api_instance = bosch-alarm-map.SmartkeySIIDApi(api_client)
     smartkey_siid = '/1.1.ArmingDevice.3001.8' # str | 
 
     try:
@@ -96,14 +96,14 @@ The type Smartkey extends the armingDevice and lists the Smartkey. It adds addit
 
 
 ```python
-import openapi_client
-from openapi_client.models.post_batteries_request import PostBatteriesRequest
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.post_batteries_request import PostBatteriesRequest
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -113,9 +113,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SmartkeySIIDApi(api_client)
+    api_instance = bosch-alarm-map.SmartkeySIIDApi(api_client)
     smartkey_siid = '/1.1.ArmingDevice.3001.8' # str | 
     post_batteries_request = {"@cmd":"ENABLE"} # PostBatteriesRequest | 
 

@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.statistics_db_all_of_databases_path_to_database_handles import StatisticsDbAllOfDatabasesPathToDatabaseHandles
+from bosch-alarm-map.models.statistics_db_all_of_databases_path_to_database_handles import StatisticsDbAllOfDatabasesPathToDatabaseHandles
 
 # TODO update the JSON string below
 json = "{}"

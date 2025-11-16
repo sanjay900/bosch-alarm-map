@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.syncstatus_uptime import SyncstatusUptime
+from bosch-alarm-map.models.syncstatus_uptime import SyncstatusUptime
 
 class TestSyncstatusUptime(unittest.TestCase):
     """SyncstatusUptime unit test stubs"""

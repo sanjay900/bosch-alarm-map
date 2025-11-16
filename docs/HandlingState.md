@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.handling_state import HandlingState
+from bosch-alarm-map.models.handling_state import HandlingState
 
 # TODO update the JSON string below
 json = "{}"

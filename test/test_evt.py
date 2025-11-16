@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.evt import Evt
+from bosch-alarm-map.models.evt import Evt
 
 class TestEvt(unittest.TestCase):
     """Evt unit test stubs"""

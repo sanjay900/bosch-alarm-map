@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.output_list import OutputList
+from bosch-alarm-map.models.output_list import OutputList
 
 class TestOutputList(unittest.TestCase):
     """OutputList unit test stubs"""

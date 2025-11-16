@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.lsnnd200_configuration import LSNND200Configuration
+from bosch-alarm-map.models.lsnnd200_configuration import LSNND200Configuration
 
 class TestLSNND200Configuration(unittest.TestCase):
     """LSNND200Configuration unit test stubs"""

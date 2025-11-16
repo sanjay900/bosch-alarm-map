@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.get_supervised_conns_siid200_response import GetSupervisedConnsSIID200Response
+from bosch-alarm-map.models.get_supervised_conns_siid200_response import GetSupervisedConnsSIID200Response
 
 class TestGetSupervisedConnsSIID200Response(unittest.TestCase):
     """GetSupervisedConnsSIID200Response unit test stubs"""

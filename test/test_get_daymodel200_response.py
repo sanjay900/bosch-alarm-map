@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.get_daymodel200_response import GetDaymodel200Response
+from bosch-alarm-map.models.get_daymodel200_response import GetDaymodel200Response
 
 class TestGetDaymodel200Response(unittest.TestCase):
     """GetDaymodel200Response unit test stubs"""

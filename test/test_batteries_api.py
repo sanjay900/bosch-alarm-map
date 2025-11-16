@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.api.batteries_api import BatteriesApi
+from bosch-alarm-map.api.batteries_api import BatteriesApi
 
 
 class TestBatteriesApi(unittest.TestCase):

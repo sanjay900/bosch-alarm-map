@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.api.lsnaux_siid_api import LsnauxSIIDApi
+from bosch-alarm-map.api.lsnaux_siid_api import LsnauxSIIDApi
 
 
 class TestLsnauxSIIDApi(unittest.TestCase):

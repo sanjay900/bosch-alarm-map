@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.statistics_general import StatisticsGeneral
+from bosch-alarm-map.models.statistics_general import StatisticsGeneral
 
 class TestStatisticsGeneral(unittest.TestCase):
     """StatisticsGeneral unit test stubs"""

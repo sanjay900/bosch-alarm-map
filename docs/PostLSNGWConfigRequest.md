@@ -24,7 +24,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.post_lsngw_config_request import PostLSNGWConfigRequest
+from bosch-alarm-map.models.post_lsngw_config_request import PostLSNGWConfigRequest
 
 # TODO update the JSON string below
 json = "{}"

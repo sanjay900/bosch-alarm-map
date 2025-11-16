@@ -1,4 +1,4 @@
-# openapi_client.SyncstatusApi
+# bosch-alarm-map.SyncstatusApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -62,14 +62,14 @@ Furthermore the MAP panel database is then replaced. To switch back from the fai
 
 
 ```python
-import openapi_client
-from openapi_client.models.synchronization_ids import SynchronizationIDs
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.synchronization_ids import SynchronizationIDs
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -79,9 +79,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SyncstatusApi(api_client)
+    api_instance = bosch-alarm-map.SyncstatusApi(api_client)
 
     try:
         # Get all synchronization IDs

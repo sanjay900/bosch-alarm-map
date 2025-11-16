@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.api.desc_api import DescApi
+from bosch-alarm-map.api.desc_api import DescApi
 
 
 class TestDescApi(unittest.TestCase):

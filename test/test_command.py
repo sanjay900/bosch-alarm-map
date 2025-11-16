@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.command import Command
+from bosch-alarm-map.models.command import Command
 
 class TestCommand(unittest.TestCase):
     """Command unit test stubs"""

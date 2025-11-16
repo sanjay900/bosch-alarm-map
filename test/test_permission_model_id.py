@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.permission_model_id import PermissionModelID
+from bosch-alarm-map.models.permission_model_id import PermissionModelID
 
 class TestPermissionModelID(unittest.TestCase):
     """PermissionModelID unit test stubs"""

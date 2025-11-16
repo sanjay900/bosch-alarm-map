@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.api.blocklocks_api import BlocklocksApi
+from bosch-alarm-map.api.blocklocks_api import BlocklocksApi
 
 
 class TestBlocklocksApi(unittest.TestCase):

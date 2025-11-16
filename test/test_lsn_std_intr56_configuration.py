@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.lsn_std_intr56_configuration import LSNStdIntr56Configuration
+from bosch-alarm-map.models.lsn_std_intr56_configuration import LSNStdIntr56Configuration
 
 class TestLSNStdIntr56Configuration(unittest.TestCase):
     """LSNStdIntr56Configuration unit test stubs"""

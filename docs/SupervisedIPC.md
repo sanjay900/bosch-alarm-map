@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.supervised_ipc import SupervisedIPC
+from bosch-alarm-map.models.supervised_ipc import SupervisedIPC
 
 # TODO update the JSON string below
 json = "{}"

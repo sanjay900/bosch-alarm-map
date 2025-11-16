@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.devicefirmware_version import DevicefirmwareVersion
+from bosch-alarm-map.models.devicefirmware_version import DevicefirmwareVersion
 
 # TODO update the JSON string below
 json = "{}"

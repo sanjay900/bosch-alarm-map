@@ -1,4 +1,4 @@
-# openapi_client.DaymodelApi
+# bosch-alarm-map.DaymodelApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -19,14 +19,14 @@ Get a model by ID
 
 
 ```python
-import openapi_client
-from openapi_client.models.get_daymodel200_response import GetDaymodel200Response
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.get_daymodel200_response import GetDaymodel200Response
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -36,9 +36,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DaymodelApi(api_client)
+    api_instance = bosch-alarm-map.DaymodelApi(api_client)
     day_model_id = '24-Hour' # str | Unique name of a DayModel item. The name is used to identify the item on the MAP system
 
     try:
@@ -115,15 +115,15 @@ The example *deleteDayModel* shows how to delete a day model:
 
 
 ```python
-import openapi_client
-from openapi_client.models.day_model_sync_id import DayModelSyncID
-from openapi_client.models.post_day_model_request import PostDayModelRequest
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.day_model_sync_id import DayModelSyncID
+from bosch-alarm-map.models.post_day_model_request import PostDayModelRequest
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -133,9 +133,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DaymodelApi(api_client)
+    api_instance = bosch-alarm-map.DaymodelApi(api_client)
     post_day_model_request = {"@cmd":"CREATE","dayModelID":"Cleaning/ Service Time","interval":["06:00:00 - 08:00:00","16:00:00 - 20:00:00","00:00:00 - 00:00:00"],"dayModelSyncID":156} # PostDayModelRequest | 
 
     try:

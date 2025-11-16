@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.walktest_wt_inner import WalktestWtInner
+from bosch-alarm-map.models.walktest_wt_inner import WalktestWtInner
 
 # TODO update the JSON string below
 json = "{}"

@@ -1,4 +1,4 @@
-# openapi_client.LsnApi
+# bosch-alarm-map.LsnApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -19,13 +19,13 @@ This function is used to get current LSN configuration.
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -35,9 +35,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.LsnApi(api_client)
+    api_instance = bosch-alarm-map.LsnApi(api_client)
 
     try:
         # Get current LSN configuration
@@ -96,14 +96,14 @@ The Panel will reboot within 30 seconds after the request is processed.
 
 
 ```python
-import openapi_client
-from openapi_client.models.post_lsngw_config_request import PostLSNGWConfigRequest
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.post_lsngw_config_request import PostLSNGWConfigRequest
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -113,9 +113,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.LsnApi(api_client)
+    api_instance = bosch-alarm-map.LsnApi(api_client)
     post_lsngw_config_request = {"@cmd":"CREATE","connection":"internal","name":"[LSN GW 1]","area":"","serialNumber":"90292.60349616210","busMode":"Classic","aux":[{"name":"[AUX 1]","supportsDelayedReporting":true},{"name":"[AUX 2]","supportsDelayedReporting":true}],"loop":{"name":"[LSN GW 1: Loop]","devices":[{"type":"EMK36","name":"EMK36 LSN Device","pointType":"Intrusion (Non Bypassable)","area":"[Control Panel Area]"}]}} # PostLSNGWConfigRequest |  (optional)
 
     try:

@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.access_modelist_post import AccessModelistPost
+from bosch-alarm-map.models.access_modelist_post import AccessModelistPost
 
 class TestAccessModelistPost(unittest.TestCase):
     """AccessModelistPost unit test stubs"""

@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.device_activate_deactivate import DeviceActivateDeactivate
+from bosch-alarm-map.models.device_activate_deactivate import DeviceActivateDeactivate
 
 class TestDeviceActivateDeactivate(unittest.TestCase):
     """DeviceActivateDeactivate unit test stubs"""

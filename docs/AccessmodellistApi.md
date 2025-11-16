@@ -1,4 +1,4 @@
-# openapi_client.AccessmodellistApi
+# bosch-alarm-map.AccessmodellistApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -19,14 +19,14 @@ This function returns a list of all accessmodels saved in the MAP panel database
 
 
 ```python
-import openapi_client
-from openapi_client.models.access_model_list import AccessModelList
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.access_model_list import AccessModelList
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -36,9 +36,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AccessmodellistApi(api_client)
+    api_instance = bosch-alarm-map.AccessmodellistApi(api_client)
 
     try:
         # Get all access models of the MAP system
@@ -105,15 +105,15 @@ The client system takes the modifications from the body and can check for access
 
 
 ```python
-import openapi_client
-from openapi_client.models.access_model_list import AccessModelList
-from openapi_client.models.access_modelist_post import AccessModelistPost
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.access_model_list import AccessModelList
+from bosch-alarm-map.models.access_modelist_post import AccessModelistPost
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -123,9 +123,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.AccessmodellistApi(api_client)
+    api_instance = bosch-alarm-map.AccessmodellistApi(api_client)
     access_modelist_post = {"@cmd":"GETMODIFIEDLIST","accessModelSyncID":572} # AccessModelistPost |  (optional)
 
     try:

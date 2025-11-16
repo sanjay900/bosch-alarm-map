@@ -1,4 +1,4 @@
-# openapi_client.TimeApi
+# bosch-alarm-map.TimeApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -22,14 +22,14 @@ The time is given in precision of milliseconds.
 
 
 ```python
-import openapi_client
-from openapi_client.models.time_out import TimeOut
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.time_out import TimeOut
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -39,9 +39,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.TimeApi(api_client)
+    api_instance = bosch-alarm-map.TimeApi(api_client)
 
     try:
         # Get System Time
@@ -108,14 +108,14 @@ provided as described in get /time.
 
 
 ```python
-import openapi_client
-from openapi_client.models.time_in import TimeIn
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.time_in import TimeIn
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -125,9 +125,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.TimeApi(api_client)
+    api_instance = bosch-alarm-map.TimeApi(api_client)
     time_in = {"@cmd":"SETTIME","utcDateTime":"2021-07-20T16:11:42Z"} # TimeIn | 
 
     try:

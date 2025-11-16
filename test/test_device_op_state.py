@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.device_op_state import DeviceOpState
+from bosch-alarm-map.models.device_op_state import DeviceOpState
 
 class TestDeviceOpState(unittest.TestCase):
     """DeviceOpState unit test stubs"""

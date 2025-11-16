@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.smartkey_model import SmartkeyModel
+from bosch-alarm-map.models.smartkey_model import SmartkeyModel
 
 class TestSmartkeyModel(unittest.TestCase):
     """SmartkeyModel unit test stubs"""

@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.panel_cpu_usage import PanelCpuUsage
+from bosch-alarm-map.models.panel_cpu_usage import PanelCpuUsage
 
 class TestPanelCpuUsage(unittest.TestCase):
     """PanelCpuUsage unit test stubs"""
@@ -37,7 +37,7 @@ class TestPanelCpuUsage(unittest.TestCase):
         if include_optional:
             return PanelCpuUsage(
                 current = 1.2,
-                averages = openapi_client.models.panel_cpu_usage_averages.panel_cpuUsage_averages(
+                averages = bosch-alarm-map.models.panel_cpu_usage_averages.panel_cpuUsage_averages(
                     1min = 3.34, 
                     5min = 4.31, 
                     30min = 2.33, )

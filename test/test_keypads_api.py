@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.api.keypads_api import KeypadsApi
+from bosch-alarm-map.api.keypads_api import KeypadsApi
 
 
 class TestKeypadsApi(unittest.TestCase):

@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.permission_model_list import PermissionModelList
+from bosch-alarm-map.models.permission_model_list import PermissionModelList
 
 class TestPermissionModelList(unittest.TestCase):
     """PermissionModelList unit test stubs"""
@@ -38,7 +38,7 @@ class TestPermissionModelList(unittest.TestCase):
             return PermissionModelList(
                 permission_model_sync_id = 156,
                 list = [
-                    openapi_client.models.permission_model_list_all_of_list_inner.PermissionModelList_allOf_list_inner()
+                    bosch-alarm-map.models.permission_model_list_all_of_list_inner.PermissionModelList_allOf_list_inner()
                     ]
             )
         else:

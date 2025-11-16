@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.api.daymodel_api import DaymodelApi
+from bosch-alarm-map.api.daymodel_api import DaymodelApi
 
 
 class TestDaymodelApi(unittest.TestCase):

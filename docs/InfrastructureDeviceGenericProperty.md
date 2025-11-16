@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.infrastructure_device_generic_property import InfrastructureDeviceGenericProperty
+from bosch-alarm-map.models.infrastructure_device_generic_property import InfrastructureDeviceGenericProperty
 
 # TODO update the JSON string below
 json = "{}"

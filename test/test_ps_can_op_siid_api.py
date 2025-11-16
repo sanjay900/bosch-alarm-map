@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.api.ps_can_op_siid_api import PsCanOpSIIDApi
+from bosch-alarm-map.api.ps_can_op_siid_api import PsCanOpSIIDApi
 
 
 class TestPsCanOpSIIDApi(unittest.TestCase):

@@ -29,7 +29,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.user_model import UserModel
+from bosch-alarm-map.models.user_model import UserModel
 
 # TODO update the JSON string below
 json = "{}"

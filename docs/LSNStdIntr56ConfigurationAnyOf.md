@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.lsn_std_intr56_configuration_any_of import LSNStdIntr56ConfigurationAnyOf
+from bosch-alarm-map.models.lsn_std_intr56_configuration_any_of import LSNStdIntr56ConfigurationAnyOf
 
 # TODO update the JSON string below
 json = "{}"

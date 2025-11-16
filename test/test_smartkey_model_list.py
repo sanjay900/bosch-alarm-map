@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.smartkey_model_list import SmartkeyModelList
+from bosch-alarm-map.models.smartkey_model_list import SmartkeyModelList
 
 class TestSmartkeyModelList(unittest.TestCase):
     """SmartkeyModelList unit test stubs"""
@@ -38,7 +38,7 @@ class TestSmartkeyModelList(unittest.TestCase):
             return SmartkeyModelList(
                 smartkey_model_sync_id = 789,
                 list = [
-                    openapi_client.models.smartkey_model_list_all_of_list_inner.SmartkeyModelList_allOf_list_inner()
+                    bosch-alarm-map.models.smartkey_model_list_all_of_list_inner.SmartkeyModelList_allOf_list_inner()
                     ]
             )
         else:

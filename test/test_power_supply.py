@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.power_supply import PowerSupply
+from bosch-alarm-map.models.power_supply import PowerSupply
 
 class TestPowerSupply(unittest.TestCase):
     """PowerSupply unit test stubs"""

@@ -1,4 +1,4 @@
-# openapi_client.SupervisedConnsSIIDApi
+# bosch-alarm-map.SupervisedConnsSIIDApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -20,14 +20,14 @@ Unique supervised connection SIID of the interface to an other systems like BIS,
 
 
 ```python
-import openapi_client
-from openapi_client.models.get_supervised_conns_siid200_response import GetSupervisedConnsSIID200Response
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.get_supervised_conns_siid200_response import GetSupervisedConnsSIID200Response
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -37,9 +37,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SupervisedConnsSIIDApi(api_client)
+    api_instance = bosch-alarm-map.SupervisedConnsSIIDApi(api_client)
     supervised_conns_siid = '/1.1.System.7.1' # str | 
 
     try:
@@ -99,14 +99,14 @@ The activation is done via the RPS for MAP software. This resource type cannot b
 
 
 ```python
-import openapi_client
-from openapi_client.models.device_enable_disable import DeviceEnableDisable
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.device_enable_disable import DeviceEnableDisable
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -116,9 +116,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SupervisedConnsSIIDApi(api_client)
+    api_instance = bosch-alarm-map.SupervisedConnsSIIDApi(api_client)
     supervised_conns_siid = '/1.1.System.7.1' # str | 
     device_enable_disable = {"@cmd":"ENABLE"} # DeviceEnableDisable |  (optional)
 

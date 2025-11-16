@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.user_model import UserModel
+from bosch-alarm-map.models.user_model import UserModel
 
 class TestUserModel(unittest.TestCase):
     """UserModel unit test stubs"""

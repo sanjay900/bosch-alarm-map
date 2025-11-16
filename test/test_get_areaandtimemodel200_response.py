@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.get_areaandtimemodel200_response import GetAreaandtimemodel200Response
+from bosch-alarm-map.models.get_areaandtimemodel200_response import GetAreaandtimemodel200Response
 
 class TestGetAreaandtimemodel200Response(unittest.TestCase):
     """GetAreaandtimemodel200Response unit test stubs"""

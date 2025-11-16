@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.lsngw_loop_configuration import LSNGWLoopConfiguration
+from bosch-alarm-map.models.lsngw_loop_configuration import LSNGWLoopConfiguration
 
 # TODO update the JSON string below
 json = "{}"

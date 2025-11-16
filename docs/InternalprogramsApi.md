@@ -1,4 +1,4 @@
-# openapi_client.InternalprogramsApi
+# bosch-alarm-map.InternalprogramsApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -23,14 +23,14 @@ the incident will not indicate the internal program but the area that detected t
 
 
 ```python
-import openapi_client
-from openapi_client.models.internal_program_list import InternalProgramList
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.internal_program_list import InternalProgramList
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -40,9 +40,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.InternalprogramsApi(api_client)
+    api_instance = bosch-alarm-map.InternalprogramsApi(api_client)
 
     try:
         # List all internal programs configured. 
@@ -100,14 +100,14 @@ the incident will not indicate the internal program but the area that detected t
 
 
 ```python
-import openapi_client
-from openapi_client.models.device_activate_deactivate import DeviceActivateDeactivate
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.device_activate_deactivate import DeviceActivateDeactivate
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -117,9 +117,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.InternalprogramsApi(api_client)
+    api_instance = bosch-alarm-map.InternalprogramsApi(api_client)
     device_activate_deactivate = {"@cmd":"ACTIVATE"} # DeviceActivateDeactivate | 
 
     try:

@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.time_out import TimeOut
+from bosch-alarm-map.models.time_out import TimeOut
 
 # TODO update the JSON string below
 json = "{}"

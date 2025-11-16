@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.mumusergroup_mixarray import MumusergroupMixarray
+from bosch-alarm-map.models.mumusergroup_mixarray import MumusergroupMixarray
 
 class TestMumusergroupMixarray(unittest.TestCase):
     """MumusergroupMixarray unit test stubs"""

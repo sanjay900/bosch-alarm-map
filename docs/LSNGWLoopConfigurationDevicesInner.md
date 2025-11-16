@@ -29,7 +29,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.lsngw_loop_configuration_devices_inner import LSNGWLoopConfigurationDevicesInner
+from bosch-alarm-map.models.lsngw_loop_configuration_devices_inner import LSNGWLoopConfigurationDevicesInner
 
 # TODO update the JSON string below
 json = "{}"

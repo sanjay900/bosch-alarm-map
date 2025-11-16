@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.panel_oii_sessions import PanelOIISessions
+from bosch-alarm-map.models.panel_oii_sessions import PanelOIISessions
 
 class TestPanelOIISessions(unittest.TestCase):
     """PanelOIISessions unit test stubs"""

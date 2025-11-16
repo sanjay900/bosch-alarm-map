@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.api.time_api import TimeApi
+from bosch-alarm-map.api.time_api import TimeApi
 
 
 class TestTimeApi(unittest.TestCase):

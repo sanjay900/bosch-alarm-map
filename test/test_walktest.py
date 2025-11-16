@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.walktest import Walktest
+from bosch-alarm-map.models.walktest import Walktest
 
 class TestWalktest(unittest.TestCase):
     """Walktest unit test stubs"""
@@ -43,7 +43,7 @@ class TestWalktest(unittest.TestCase):
                 user = '123',
                 interface = '',
                 wt = [
-                    openapi_client.models.walktest_wt_inner.walktest_wt_inner(
+                    bosch-alarm-map.models.walktest_wt_inner.walktest_wt_inner(
                         area = '/1.1.Area.2.4', 
                         wt_status = 'PENDING', )
                     ]

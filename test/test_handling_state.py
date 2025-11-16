@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.handling_state import HandlingState
+from bosch-alarm-map.models.handling_state import HandlingState
 
 class TestHandlingState(unittest.TestCase):
     """HandlingState unit test stubs"""

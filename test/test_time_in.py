@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.time_in import TimeIn
+from bosch-alarm-map.models.time_in import TimeIn
 
 class TestTimeIn(unittest.TestCase):
     """TimeIn unit test stubs"""

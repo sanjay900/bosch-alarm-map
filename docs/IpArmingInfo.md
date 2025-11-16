@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.ip_arming_info import IpArmingInfo
+from bosch-alarm-map.models.ip_arming_info import IpArmingInfo
 
 # TODO update the JSON string below
 json = "{}"

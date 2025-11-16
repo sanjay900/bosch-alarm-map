@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.permission_modellist_post import PermissionModellistPost
+from bosch-alarm-map.models.permission_modellist_post import PermissionModellistPost
 
 class TestPermissionModellistPost(unittest.TestCase):
     """PermissionModellistPost unit test stubs"""

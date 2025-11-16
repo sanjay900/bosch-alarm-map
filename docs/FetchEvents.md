@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.fetch_events import FetchEvents
+from bosch-alarm-map.models.fetch_events import FetchEvents
 
 # TODO update the JSON string below
 json = "{}"

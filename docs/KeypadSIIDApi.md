@@ -1,4 +1,4 @@
-# openapi_client.KeypadSIIDApi
+# bosch-alarm-map.KeypadSIIDApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -26,14 +26,14 @@ not turned off but no user can log in. A logged in user will be logged out.
 
 
 ```python
-import openapi_client
-from openapi_client.models.keypad import Keypad
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.keypad import Keypad
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -43,9 +43,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.KeypadSIIDApi(api_client)
+    api_instance = bosch-alarm-map.KeypadSIIDApi(api_client)
     keypad_siid = '/1.1.SystemKeypad.12001.1' # str | Unique Keypad SIID. You can get all existing Keypads IDs with the command GET /keypads
 
     try:
@@ -110,15 +110,15 @@ not turned off but no user can log in. A logged in user will be logged out.
 
 
 ```python
-import openapi_client
-from openapi_client.models.devicefirmware_version import DevicefirmwareVersion
-from openapi_client.models.post_keypad_siid_request import PostKeypadSIIDRequest
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.devicefirmware_version import DevicefirmwareVersion
+from bosch-alarm-map.models.post_keypad_siid_request import PostKeypadSIIDRequest
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -128,9 +128,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.KeypadSIIDApi(api_client)
+    api_instance = bosch-alarm-map.KeypadSIIDApi(api_client)
     keypad_siid = '/1.1.SystemKeypad.12001.1' # str | 
     post_keypad_siid_request = {"@cmd":"ENABLE"} # PostKeypadSIIDRequest | 
 

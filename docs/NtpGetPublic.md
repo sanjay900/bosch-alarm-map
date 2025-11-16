@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.ntp_get_public import NtpGetPublic
+from bosch-alarm-map.models.ntp_get_public import NtpGetPublic
 
 # TODO update the JSON string below
 json = "{}"

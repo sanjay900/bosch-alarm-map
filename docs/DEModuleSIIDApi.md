@@ -1,4 +1,4 @@
-# openapi_client.DEModuleSIIDApi
+# bosch-alarm-map.DEModuleSIIDApi
 
 All URIs are relative to *https://169.254.10.10*
 
@@ -22,14 +22,14 @@ It cannot be bypassed or walktested.
 
 
 ```python
-import openapi_client
-from openapi_client.models.de_module import DEModule
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.de_module import DEModule
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -39,9 +39,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DEModuleSIIDApi(api_client)
+    api_instance = bosch-alarm-map.DEModuleSIIDApi(api_client)
     de_module_siid = '/1.1.Gateway.15001.1' # str | Unique DEModule SIID
 
     try:
@@ -100,15 +100,15 @@ Enable ore disable the DEModule over the REST-API interface. It is also possible
 
 
 ```python
-import openapi_client
-from openapi_client.models.devicefirmware_version import DevicefirmwareVersion
-from openapi_client.models.postlsn_gateway_siid_request import PostlsnGatewaySIIDRequest
-from openapi_client.rest import ApiException
+import bosch-alarm-map
+from bosch-alarm-map.models.devicefirmware_version import DevicefirmwareVersion
+from bosch-alarm-map.models.postlsn_gateway_siid_request import PostlsnGatewaySIIDRequest
+from bosch-alarm-map.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://169.254.10.10
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = bosch-alarm-map.Configuration(
     host = "https://169.254.10.10"
 )
 
@@ -118,9 +118,9 @@ configuration = openapi_client.Configuration(
 # satisfies your auth use case.
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with bosch-alarm-map.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.DEModuleSIIDApi(api_client)
+    api_instance = bosch-alarm-map.DEModuleSIIDApi(api_client)
     de_module_siid = '/1.1.Gateway.15001.1' # str | 
     postlsn_gateway_siid_request = {"@cmd":"ENABLE"} # PostlsnGatewaySIIDRequest | 
 

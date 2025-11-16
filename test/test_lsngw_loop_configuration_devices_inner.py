@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.lsngw_loop_configuration_devices_inner import LSNGWLoopConfigurationDevicesInner
+from bosch-alarm-map.models.lsngw_loop_configuration_devices_inner import LSNGWLoopConfigurationDevicesInner
 
 class TestLSNGWLoopConfigurationDevicesInner(unittest.TestCase):
     """LSNGWLoopConfigurationDevicesInner unit test stubs"""

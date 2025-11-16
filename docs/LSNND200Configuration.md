@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.lsnnd200_configuration import LSNND200Configuration
+from bosch-alarm-map.models.lsnnd200_configuration import LSNND200Configuration
 
 # TODO update the JSON string below
 json = "{}"

@@ -15,7 +15,7 @@
 
 import unittest
 
-from bosch_alarm_map.models.infrastructure import Infrastructure
+from bosch-alarm-map.models.infrastructure import Infrastructure
 
 class TestInfrastructure(unittest.TestCase):
     """Infrastructure unit test stubs"""
@@ -37,25 +37,25 @@ class TestInfrastructure(unittest.TestCase):
         if include_optional:
             return Infrastructure(
                 list = [
-                    openapi_client.models.infrastructure_device.InfrastructureDevice(
+                    bosch-alarm-map.models.infrastructure_device.InfrastructureDevice(
                         name = '[Control Center 1]', 
                         type = 'System Keypad', 
                         siid = '1.1.SystemKeypad.12001.001', 
-                        properties = openapi_client.models.infrastructure_device_properties.InfrastructureDevice_properties(
+                        properties = bosch-alarm-map.models.infrastructure_device_properties.InfrastructureDevice_properties(
                             generic = [
-                                openapi_client.models.infrastructure_device_generic_property.InfrastructureDeviceGenericProperty(
+                                bosch-alarm-map.models.infrastructure_device_generic_property.InfrastructureDeviceGenericProperty(
                                     name = 'Interface type', 
                                     value = 'Command', 
                                     second_value = 'TBL_3STATE_12K1', 
                                     third_value = '50000', )
                                 ], 
                             rps = [
-                                openapi_client.models.infrastructure_device_rps_property.InfrastructureDeviceRPSProperty(
+                                bosch-alarm-map.models.infrastructure_device_rps_property.InfrastructureDeviceRPSProperty(
                                     name = 'MaxIncorrectAttempts', 
                                     value = '10', )
                                 ], ), 
                         devices = [
-                            openapi_client.models.infrastructure_device.InfrastructureDevice(
+                            bosch-alarm-map.models.infrastructure_device.InfrastructureDevice(
                                 name = '[Control Center 1]', 
                                 siid = '1.1.SystemKeypad.12001.001', )
                             ], )
