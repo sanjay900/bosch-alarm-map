@@ -1,0 +1,10 @@
+[project]
+name = "bosch_alarm_map"
+version = "0.1.1"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiohttp>=3.13.2",
+    "pydantic (>=2.12.5,<3.0.0)",
+]
